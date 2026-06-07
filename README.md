@@ -33,13 +33,12 @@ jupyter notebook
 
 | Notebook | Dikerjakan oleh | Keterangan |
 |----------|-----------------|------------|
-| `notebooks/01_obtain.ipynb` | Nicholas (Data Engineer) | Selesai |
+| `notebooks/01_obtain.ipynb` | Nicholas (Data Engineer) | Preparation + Project Setup |
 | `notebooks/02_scrub.ipynb` | Ghazy (Preprocessing Lead) | Cleaning + integrasi data |
 | `notebooks/03_explore.ipynb` | Daffa + Aziz (Analyst + Viz) | Eksplorasi + visualisasi |
 | `notebooks/04_model.ipynb` | Daffa (Modeler) | Pemodelan dan evaluasi |
 | `notebooks/05_interpret.ipynb` | Adam (Doc Lead) | Insight dan rekomendasi |
 
-Urutan kerja: 01 -> 02 -> 03 -> 04 -> 05. Setiap notebook butuh output dari notebook sebelumnya.
 
 ---
 
