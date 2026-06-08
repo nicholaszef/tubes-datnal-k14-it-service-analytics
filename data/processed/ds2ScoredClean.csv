@@ -1,0 +1,748 @@
+id,no,project,reporter,type,priority,contributors,turn_no,assignee,started,ended,spent hours,steps,comments count,valid,Q1,Q2,Q3,Notes,compositeScore,performanceBinary
+1004298.0,346.0,C11gg0w13,.wy0w13yhr,Ticket,High,1.0,1,4ops,2022-01-02 11:12:51+00:00,2022-05-24 05:40:13+00:00,3402.456,2,49,True,5,5,5,This is an HD-Service,5.0,good
+1004357.0,155.0,C01gg1_3_,z8y1_3_ygi,Ticket,Medium,1.0,1,4lip,2022-01-05 05:27:14+00:00,2022-01-12 07:47:47+00:00,170.342,3,4,True,3,4,4,This is an HD-Service and looks like communication outside the ticket done is not reflected on the ticket,3.6666666666666665,needs_improvement
+1004361.0,14.0,C02hk0x93,0ny0x93yik,Ticket,Medium,3.0,1,4hghs,2022-01-05 06:50:56+00:00,2022-01-05 06:55:23+00:00,0.074,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4kgr,2022-01-05 06:55:23+00:00,2022-05-31 12:11:20+00:00,3509.266,2,21,True,1,1,1,No Follow up or update to client,1.0,needs_improvement
+,,,,,,,3,4lhl,2022-05-31 12:11:20+00:00,2023-01-02 06:27:09+00:00,5178.264,3,19,True,1,1,1,No Follow up or update to client,1.0,needs_improvement
+1004362.0,15.0,C02hk0x93,0ny0x23yoi,Ticket,Medium,6.0,1,4hghk,2022-01-05 07:37:19+00:00,2022-01-05 07:42:00+00:00,0.078,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4kgr,2022-01-05 07:42:00+00:00,2022-05-31 12:11:15+00:00,3508.488,2,18,True,1,1,1,No Follow up or update to client,1.0,needs_improvement
+,,,,,,,3,4lhl,2022-05-31 12:11:15+00:00,2022-11-08 14:04:35+00:00,3865.889,1,21,True,1,1,1,No Follow up or update to client,1.0,needs_improvement
+,,,,,,,4,0ny0x23yoi,2022-11-08 14:04:35+00:00,2022-11-29 11:31:21+00:00,501.446,1,0,True,1,1,1,No Follow up or update to client,1.0,needs_improvement
+,,,,,,,5,4llr,2022-11-29 11:31:21+00:00,2022-11-29 11:36:56+00:00,0.093,1,0,True,1,1,1,No Follow up or update to client,1.0,needs_improvement
+,,,,,,,6,4hhgi,2022-11-29 11:36:56+00:00,2022-11-29 11:40:16+00:00,0.056,1,0,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,7,4llr,2022-11-29 11:40:16+00:00,2023-02-27 14:50:54+00:00,2163.177,3,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+1004364.0,2923.0,C01ggz-3,z8yz-3ygp,Ticket,Medium,2.0,1,4hghq,2022-01-05 08:06:25+00:00,2022-01-05 08:10:42+00:00,0.071,2,4,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4sii,2022-01-05 08:10:42+00:00,2022-01-06 06:47:11+00:00,22.608,2,2,True,2,2,3,This is not an issue they used helpdesk to share files,2.3333333333333335,needs_improvement
+1004366.0,2502.0,C06gg0.t,t.y0.tygp,Ticket,Medium,4.0,1,4hghk,2022-01-05 08:12:43+00:00,2022-01-05 08:14:05+00:00,0.023,2,2,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4hlg,2022-01-05 08:14:05+00:00,2022-01-05 08:20:08+00:00,0.101,1,0,True,1,1,1,ph_name create the ticket and she should mark it as a service,1.0,needs_improvement
+,,,,,,,3,4hghk,2022-01-05 08:20:08+00:00,2022-01-05 08:58:31+00:00,0.64,1,0,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,4,4hghq,2022-01-05 08:58:31+00:00,2022-01-05 08:59:18+00:00,0.013,1,0,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,5,4kpq,2022-01-05 08:59:18+00:00,2022-01-05 09:23:49+00:00,0.409,1,3,True,2,2,3,This is not an incident and duplicate for another ticket,2.3333333333333335,needs_improvement
+1004368.0,231.0,C12gg0.a,ady0.aygh,Ticket,High,2.0,1,4hghs,2022-01-05 09:00:41+00:00,2022-01-05 09:05:16+00:00,0.076,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4osr,2022-01-05 09:05:16+00:00,2022-06-12 06:19:59+00:00,3789.245,6,49,True,2,1,4,excellent update to customer but no useful information on the ticket and don’t see any effort to simulate the case in proper time,2.3333333333333335,needs_improvement
+1004427.0,2369.0,C13ggz0,bzyz0ygi,Ticket,High,1.0,1,4oio,2022-01-10 05:19:11+00:00,2022-04-13 06:24:10+00:00,2233.083,8,30,True,4,3,5,Only issue we are missing the linked ticket since the issue was in validation status but no dev ticket linked to this ticket,4.0,good
+1004437.0,2147.0,C06ggcz9,t.ycz9ygi,Deployment,Medium,2.0,1,4lih,2022-01-10 08:58:55+00:00,2022-01-10 09:00:26+00:00,0.025,1,2,True,0,0,0,This is not an issue this deployment ticket is a task ticket,0.0,needs_improvement
+,,,,,,,2,4hggg,2022-01-10 09:00:26+00:00,2023-01-29 07:15:28+00:00,9214.251,4,15,True,0,0,0,This is not an issue this deployment ticket is a task ticket,0.0,needs_improvement
+1004440.0,614.0,C02gg0x93,0ny0x93yii,Ticket,Medium,2.0,1,4hghq,2022-01-10 09:43:49+00:00,2022-01-10 09:46:14+00:00,0.04,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4kgh,2022-01-10 09:46:14+00:00,2022-11-26 20:55:40+00:00,7691.157,3,95,True,3,3,3,issue with this ticket is the delay of investigation and delay from customer to implement the provided solution,3.0,needs_improvement
+1004444.0,2925.0,C01ggz-3,z8yz-3ygp,Ticket,Medium,2.0,1,4hghq,2022-01-10 11:34:42+00:00,2022-01-10 11:37:47+00:00,0.051,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4sii,2022-01-10 11:37:47+00:00,2022-03-23 06:10:34+00:00,1722.546,10,48,True,4,3,5,issue with this ticket it took long time from the customer to be able to investigate,4.0,good
+1004446.0,18.0,C02hk0x93,0nynd01ygs,Ticket,Medium,2.0,1,4hghs,2022-01-10 12:40:50+00:00,2022-01-10 12:44:26+00:00,0.06,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4lhl,2022-01-10 12:44:26+00:00,2022-02-21 12:33:19+00:00,1007.815,3,18,True,4,4,5,only issue missing update for one week,4.333333333333333,good
+1004471.0,93.0,C02gg_3nwc,0ny_3nwcygo,Ticket,Medium,3.0,1,4khg,2022-01-11 12:28:28+00:00,2022-01-11 12:37:20+00:00,0.148,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4kgh,2022-01-11 12:37:20+00:00,2022-01-11 13:19:02+00:00,0.695,2,2,True,4,4,4,,4.0,good
+,,,,,,,3,4lhl,2022-01-11 13:19:02+00:00,2022-03-14 07:52:28+00:00,1482.557,2,14,True,3,3,3,need to have more attention to the ticket,3.0,needs_improvement
+1004476.0,13.0,C02hk_3nwc,0ny_3nwcygo,Ticket,High,2.0,1,4khg,2022-01-11 13:17:46+00:00,2022-01-11 13:26:40+00:00,0.148,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4kgh,2022-01-11 13:26:40+00:00,2022-01-11 13:36:40+00:00,0.167,1,1,True,4,4,4,duplicate ticket and closed without any work,4.0,good
+1004503.0,377.0,C14gr8114,d1y10dygi,Ticket,Medium,1.0,1,4kpk,2022-01-13 05:22:50+00:00,2022-03-10 03:46:07+00:00,1342.388,3,11,True,4,4,4,,4.0,good
+1004519.0,424.0,C12hgx18a,adyx18aygp,Ticket,High,2.0,1,4hghq,2022-01-13 13:47:04+00:00,2022-01-13 13:50:58+00:00,0.065,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4lpo,2022-01-13 13:50:58+00:00,2022-05-18 11:18:17+00:00,2997.455,2,23,True,1,1,1,"very bad management for the ticket, no simulation or proper follow up and many escalation from service desk team",1.0,needs_improvement
+1004526.0,347.0,C06ggctn0,t.yctn0ygp,Ticket,Medium,2.0,1,4hghk,2022-01-16 07:37:11+00:00,2022-01-16 08:17:45+00:00,0.676,1,4,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4lqi,2022-01-16 08:17:45+00:00,2022-05-09 11:57:20+00:00,2715.66,4,16,True,5,5,5,delay from customer side with proper follow up from our team,5.0,good
+1004530.0,5.0,C07hr_10u,u6y_10uygp,Ticket,High,1.0,1,4shl,2022-01-16 08:44:15+00:00,2022-01-23 06:57:59+00:00,166.229,2,18,True,5,5,5,,5.0,good
+1004571.0,961.0,C06hg2xcu,t.y2xcuyhi,Ticket,High,2.0,1,4lrs,2022-01-17 21:57:28+00:00,2022-01-17 22:11:01+00:00,0.226,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4pps,2022-01-17 22:11:01+00:00,2022-10-23 07:11:14+00:00,6681.004,3,10,True,3,3,3,Issue not updated accurate and status changed to validation after 1 month and resolution provided after 5 month the ticket pending deployment for 4 months,3.0,needs_improvement
+1004647.0,349.0,C06gsn039,t.yn039ygo,Ticket,Medium,2.0,1,4hghs,2022-01-23 11:58:19+00:00,2022-01-23 12:07:11+00:00,0.148,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4sil,2022-01-23 12:07:11+00:00,2022-01-25 10:12:22+00:00,46.086,1,8,True,4,4,4,no update on the ticket with work done,4.0,good
+1004667.0,24.0,C02gg0w_,0ny0w_ygi,Ticket,High,2.0,1,4hghk,2022-01-24 10:06:43+00:00,2022-01-24 10:09:55+00:00,0.053,3,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4kgh,2022-01-24 10:09:55+00:00,2022-03-22 05:39:10+00:00,1363.488,3,23,True,5,5,5,delay from ph_name side,5.0,good
+1004687.0,191.0,C07gg0c-0,u6y0c-0ygr,Ticket,Medium,1.0,1,4ihs,2022-01-25 06:03:46+00:00,2022-01-25 06:55:36+00:00,0.864,2,4,True,5,5,5,,5.0,good
+1004695.0,373.0,C12ggz_0,adyz_0ygq,Ticket,High,2.0,1,4kqo,2022-01-25 08:24:48+00:00,2022-01-25 08:33:53+00:00,0.151,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4lsk,2022-01-25 08:33:53+00:00,2022-01-25 12:22:33+00:00,3.811,3,4,True,5,5,5,,5.0,good
+1004761.0,352.0,C06gsn039,t.yn039ygo,Ticket,Highest,2.0,1,4kgi,2022-01-28 09:33:33+00:00,2022-01-28 09:38:06+00:00,0.076,1,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4pps,2022-01-28 09:38:06+00:00,2022-04-24 12:20:00+00:00,2066.698,3,51,True,2,2,2,investigation took so much time and no clear update on the ticket,2.0,needs_improvement
+1004770.0,367.0,C12ggzcz0u,adyzcz0uygr,Ticket,High,3.0,1,4kqo,2022-01-30 08:21:30+00:00,2022-01-30 08:22:31+00:00,0.017,2,2,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4hghk,2022-01-30 08:22:31+00:00,2022-01-30 08:23:54+00:00,0.023,1,2,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,3,4sii,2022-01-30 08:23:54+00:00,2022-01-30 09:25:12+00:00,1.022,2,3,True,5,5,5,,5.0,good
+1004778.0,33.0,C02hk0x93,0ny0x93yip,Ticket,High,2.0,1,4kqo,2022-01-30 10:10:00+00:00,2022-01-30 10:20:54+00:00,0.182,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4kgr,2022-01-30 10:20:54+00:00,2022-05-15 07:55:33+00:00,2517.578,3,18,True,4,4,4,minor delay from Fares to update the ticket once it is changed to validation,4.0,good
+1004798.0,368.0,C12ggzcz0u,adyzcz0uygq,Ticket,Highest,2.0,1,4hghq,2022-01-31 06:13:12+00:00,2022-01-31 06:18:22+00:00,0.086,2,4,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4sii,2022-01-31 06:18:22+00:00,2022-01-31 07:03:01+00:00,0.744,3,2,True,5,5,5,,5.0,good
+1004808.0,514.0,C06ggt2_0,t.yt2_0ygr,Ticket,High,1.0,1,4sli,2022-01-31 07:58:10+00:00,2022-06-27 06:55:59+00:00,3526.964,8,45,True,4,4,4,delay from customer side with proper follow up from our team,4.0,good
+1004836.0,2930.0,C01ggz-3,z8yz-3ygp,Ticket,Medium,2.0,1,4hghs,2022-02-01 06:50:47+00:00,2022-02-01 06:56:26+00:00,0.094,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4sii,2022-02-01 06:56:26+00:00,2022-02-01 13:36:52+00:00,6.674,2,2,True,5,5,5,this is a service request,5.0,good
+1004854.0,17.0,C07hru9n,u6yu9nygl,Ticket,Medium,1.0,1,4ioh,2022-02-02 05:44:18+00:00,2022-02-02 06:37:35+00:00,0.888,4,5,True,5,5,5,,5.0,good
+1004857.0,235.0,C12gg0.a,ady0.aygh,Ticket,Medium,2.0,1,4hghs,2022-02-02 07:48:08+00:00,2022-02-02 07:51:46+00:00,0.061,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4sii,2022-02-02 07:51:46+00:00,2022-02-07 15:25:46+00:00,127.567,4,5,True,5,5,5,,5.0,good
+1004859.0,370.0,C12ggzcz0u,adyzcz0uygh,Ticket,High,2.0,1,4hghs,2022-02-02 08:39:16+00:00,2022-02-02 08:42:43+00:00,0.058,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4lsk,2022-02-02 08:42:43+00:00,2022-12-26 08:29:20+00:00,7847.777,11,192,True,1,1,1,Wrong investigation which took long time without any result,1.0,needs_improvement
+1004868.0,3203.0,C06ggn039,t.yn039ygo,Ticket,Medium,3.0,1,4hghk,2022-02-02 11:44:19+00:00,2022-02-02 11:45:00+00:00,0.011,1,2,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4hghs,2022-02-02 11:45:00+00:00,2022-02-02 11:46:50+00:00,0.031,2,2,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,3,4ssh,2022-02-02 11:46:50+00:00,2022-03-03 06:09:17+00:00,690.374,2,8,True,5,5,5,this is a service request,5.0,good
+1004899.0,996.0,C06hg2xcu,t.y2xcuyhp,Ticket,High,2.0,1,4khg,2022-02-04 11:02:05+00:00,2022-02-04 11:05:34+00:00,0.058,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4pps,2022-02-04 11:05:34+00:00,2022-02-06 08:25:12+00:00,45.327,1,4,True,5,5,5,this is a service request,5.0,good
+1004926.0,1004.0,C06hg2xcu,t.y2xcuyho,Ticket,Highest,2.0,1,4hghk,2022-02-06 17:05:10+00:00,2022-02-06 17:11:34+00:00,0.107,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4pps,2022-02-06 17:11:34+00:00,2022-10-23 07:16:25+00:00,6206.081,3,10,True,3,3,3,no proper update on the ticket and took long time from dev to provide a fix,3.0,needs_improvement
+1004974.0,38.0,C02hk0x93,0ny0x93yhs,Ticket,Low,2.0,1,4kgr,2022-02-08 12:00:38+00:00,2022-05-31 12:10:40+00:00,2688.167,3,20,True,2,2,2,This is project related issue and not properly managed from the support team,2.0,needs_improvement
+,,,,,,,2,4lhl,2022-05-31 12:10:40+00:00,2023-01-02 07:04:08+00:00,5178.891,5,3,True,2,2,2,This is project related issue and not properly managed from the support team,2.0,needs_improvement
+1004975.0,39.0,C02hk0x93,0ny0x93yhs,Ticket,Low,2.0,1,4kgr,2022-02-08 12:09:42+00:00,2022-05-31 12:10:35+00:00,2688.015,2,17,True,2,2,2,This is project related issue and not properly managed from the support team,2.0,needs_improvement
+,,,,,,,2,4lhl,2022-05-31 12:10:35+00:00,2023-01-02 06:55:19+00:00,5178.746,5,3,True,2,2,2,This is project related issue and not properly managed from the support team,2.0,needs_improvement
+1004982.0,46.0,C02hk0x93,0ny0x93yhs,Ticket,Low,1.0,1,4lhl,2022-02-08 12:39:20+00:00,2023-01-02 07:00:49+00:00,7866.358,5,12,True,2,2,2,This is project related issue and not properly managed from the support team,2.0,needs_improvement
+1004985.0,344.0,C10grx1nv,xayx1nvygr,Ticket,Medium,2.0,1,4khg,2022-02-08 13:23:55+00:00,2022-02-08 13:27:00+00:00,0.051,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4skr,2022-02-08 13:27:00+00:00,2022-08-28 05:10:15+00:00,4815.721,4,17,True,4,4,4,,4.0,good
+1005010.0,4.0,C02hkz40,4hgog,Ticket,Medium,2.0,1,4kgr,2022-02-09 12:35:35+00:00,2022-02-09 12:43:25+00:00,0.131,1,3,True,1,1,1,bad management for ticket opened as internal task,1.0,needs_improvement
+,,,,,,,2,4lhl,2022-02-09 12:43:25+00:00,2022-08-29 13:52:06+00:00,4825.145,3,6,True,1,1,1,bad management for ticket opened as internal task,1.0,needs_improvement
+1005054.0,12.0,C02hkx0u,u6yx0uygs,Ticket,Medium,1.0,1,4shl,2022-02-13 07:12:49+00:00,2022-02-15 14:48:57+00:00,55.602,2,9,True,5,5,5,well managed,5.0,good
+1005061.0,2.0,C02hkz01,0nyz01ygl,Ticket,High,2.0,1,4hghk,2022-02-13 07:58:23+00:00,2022-02-13 08:02:01+00:00,0.061,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4llr,2022-02-13 08:02:01+00:00,2022-06-15 12:15:11+00:00,2932.219,3,27,True,5,5,5,well managed,5.0,good
+1005066.0,20.0,C02hk_3nwc,0ny_3nwcygp,Ticket,Medium,3.0,1,4hghk,2022-02-13 09:56:02+00:00,2022-02-13 09:58:52+00:00,0.047,2,4,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4kgr,2022-02-13 09:58:52+00:00,2022-02-14 08:26:30+00:00,22.461,2,8,True,4,4,4,Not an issue,4.0,good
+,,,,,,,3,4hlg,2022-02-14 08:26:30+00:00,2022-08-09 11:53:51+00:00,4227.456,2,1,True,4,4,4,Not an issue,4.0,good
+1005097.0,25.0,C02gg0w_,0ny0w_ygi,Ticket,Medium,2.0,1,4hghk,2022-02-14 10:43:19+00:00,2022-02-14 10:56:59+00:00,0.228,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4kgh,2022-02-14 10:56:59+00:00,2022-04-27 07:43:44+00:00,1724.779,3,52,True,4,4,4,Delay from ph_name team,4.0,good
+1005100.0,434.0,C12hgx18a,adyx18aygp,Ticket,High,2.0,1,4hghk,2022-02-14 12:34:56+00:00,2022-02-14 12:37:12+00:00,0.038,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4lpo,2022-02-14 12:37:12+00:00,2022-03-14 09:18:45+00:00,668.692,2,12,True,3,3,3,Delay in management and no proper follow up with customer,3.0,needs_improvement
+1005108.0,151.0,C02gg0_d0,0ny0_d0ygs,Ticket,High,3.0,1,4hghk,2022-02-15 06:26:51+00:00,2022-02-15 06:32:50+00:00,0.1,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4kgr,2022-02-15 06:32:50+00:00,2022-02-15 06:45:39+00:00,0.214,2,2,True,3,3,3,no work done,3.0,needs_improvement
+,,,,,,,3,4lhl,2022-02-15 06:45:39+00:00,2022-03-22 13:47:36+00:00,847.032,2,6,True,3,2,3,Service Desk user did his work perfectly same for other service desk users,2.6666666666666665,needs_improvement
+1005113.0,385.0,C12ggz_0,adyz_0ygp,Ticket,High,2.0,1,4hghk,2022-02-15 08:39:03+00:00,2022-02-15 08:44:08+00:00,0.085,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4lsk,2022-02-15 08:44:08+00:00,2022-02-23 06:47:50+00:00,190.062,8,8,True,2,2,2,This ticket more into inquiry but the ticket does not show any logic,2.0,needs_improvement
+1005127.0,18.0,C11gkz_0,.wyz_0ygq,Ticket,Highest,1.0,1,4qkr,2022-02-15 12:08:19+00:00,2022-02-17 07:56:18+00:00,43.8,3,4,True,5,5,5,Prompt response,5.0,good
+1005133.0,3421.0,C13ggb_0,bzyb_0ygo,Ticket,Medium,2.0,1,4oqq,2022-02-16 05:19:19+00:00,2022-02-16 06:23:24+00:00,1.068,1,2,True,5,5,5,This is HD-Service ticket opened by C13,5.0,good
+,,,,,,,2,4klq,2022-02-16 06:23:24+00:00,2022-02-23 06:17:35+00:00,167.903,2,2,True,5,5,5,This is HD-Service ticket opened by C13,5.0,good
+1005150.0,518.0,C06ggt2_0,t.yt2_0ygr,Ticket,High,2.0,1,4kgi,2022-02-16 11:21:49+00:00,2022-02-16 11:43:54+00:00,0.368,2,4,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4kgh,2022-02-16 11:43:54+00:00,2022-02-17 09:25:15+00:00,21.689,3,1,True,5,5,5,Prompt reponse,5.0,good
+1005215.0,17.0,C06hs__z0,t.y__z0ygq,Ticket,Medium,2.0,1,4kgq,2022-02-21 08:48:25+00:00,2022-02-21 09:03:07+00:00,0.245,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4qsk,2022-02-21 09:03:07+00:00,2022-05-29 12:40:10+00:00,2331.618,4,49,True,4,4,4,Two issues reported in same ticket and they both managed well,4.0,good
+1005228.0,1057.0,C06hg2xcu,t.y2xcuyhi,Ticket,High,2.0,1,4kgq,2022-02-21 14:32:03+00:00,2022-02-21 14:33:12+00:00,0.019,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4pps,2022-02-21 14:33:12+00:00,2022-10-23 07:20:44+00:00,5848.792,3,2,True,1,1,1,No update on the ticket and no information useful provided,1.0,needs_improvement
+1005265.0,19.0,C11gkz_0,.wyz_0ygq,Ticket,Blocker,1.0,1,4qkr,2022-02-23 11:42:12+00:00,2022-12-12 12:33:03+00:00,7008.848,8,22,True,4,4,3,Need more follow with the customer,3.6666666666666665,needs_improvement
+1005282.0,19.0,C07hru9n,u6yu9nygl,Ticket,Highest,1.0,1,4shl,2022-02-24 10:34:34+00:00,2022-08-11 08:15:44+00:00,4029.686,7,52,True,2,2,2,bad management for the ticket and no proper investigation,2.0,needs_improvement
+1005299.0,441.0,C12hgx18a,adyx18aygr,Ticket,High,2.0,1,4khg,2022-02-27 07:45:53+00:00,2022-02-27 07:49:41+00:00,0.063,2,4,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4lpo,2022-02-27 07:49:41+00:00,2022-03-07 07:39:30+00:00,191.83,2,7,True,5,5,5,,5.0,good
+1005313.0,1071.0,C06hg2xcu,t.y2xcuyhp,Ticket,High,2.0,1,4hghq,2022-02-27 11:57:06+00:00,2022-02-27 12:04:34+00:00,0.124,2,2,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4pps,2022-02-27 12:04:34+00:00,2022-10-23 07:12:19+00:00,5707.129,3,4,True,4,4,4,,4.0,good
+1005318.0,1074.0,C06hg2xcu,t.y2xcuyhi,Ticket,Medium,1.0,1,4pps,2022-02-27 12:20:12+00:00,2022-10-23 07:13:26+00:00,5706.887,4,4,True,1,1,1,No update on the ticket and no information useful provided,1.0,needs_improvement
+1005319.0,1075.0,C06hg2xcu,t.y2xcuyhp,Ticket,Medium,2.0,1,4hghq,2022-02-27 12:29:29+00:00,2022-02-27 12:31:55+00:00,0.041,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4pps,2022-02-27 12:31:55+00:00,2022-10-23 07:19:18+00:00,5706.79,3,10,True,1,1,1,No update on the ticket and no information useful provided,1.0,needs_improvement
+1005325.0,60.0,C12gia_0,4rkg,Ticket,Medium,1.0,1,,2022-02-27 14:09:03+00:00,2022-03-01 08:17:03+00:00,42.133,4,6,True,5,5,5,This is not a ticket this is a service for preventive maintenance,5.0,good
+1005331.0,1078.0,C06hg2xcu,t.y2xcuyho,HD Service,Medium,1.0,1,,2022-02-27 14:29:48+00:00,2022-03-16 08:06:21+00:00,401.609,3,3,True,5,5,5,This is not a ticket this is a service for preventive maintenance,5.0,good
+1005336.0,280.0,C06grn039,4qsk,Ticket,Medium,1.0,1,4sio,2022-02-27 14:40:43+00:00,2022-08-04 07:45:05+00:00,3785.073,1,4,True,5,5,5,This is not a ticket this is a service for preventive maintenance,5.0,good
+1005341.0,359.0,C06gsn039,4pps,Ticket,Medium,2.0,1,4pps,2022-02-27 14:50:25+00:00,2022-03-20 11:01:52+00:00,500.191,1,2,True,1,1,1,"This is not a ticket this is a service for preventive maintenance, no update on the ticket if the PM is done and no PM results attached to the ticket",1.0,needs_improvement
+,,,,,,,2,t.yn039ygo,2022-03-20 11:01:52+00:00,2022-04-18 10:30:40+00:00,695.48,1,2,True,5,5,5,This is not a ticket this is a service for preventive maintenance,5.0,good
+,,,,,,,3,4pps,2022-04-18 10:30:40+00:00,2022-04-18 10:30:46+00:00,0.002,1,0,True,1,1,1,"This is not a ticket this is a service for preventive maintenance, no update on the ticket if the PM is done and no PM results attached to the ticket",1.0,needs_improvement
+,,,,,,,4,t.yn039ygo,2022-04-18 10:30:46+00:00,2023-02-06 08:45:31+00:00,7054.246,2,2,True,5,5,5,This is not a ticket this is a service for preventive maintenance,5.0,good
+1005346.0,319.0,C13grb_0,bzyb_0ygo,Ticket,High,1.0,1,4pgp,2022-02-27 18:11:56+00:00,2022-03-02 12:16:46+00:00,66.081,3,3,True,5,5,5,,5.0,good
+1005351.0,337.0,C02ggnd01,0nynd01ygs,Ticket,Medium,2.0,1,4hghq,2022-02-28 06:38:11+00:00,2022-02-28 06:41:38+00:00,0.058,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4lhl,2022-02-28 06:41:38+00:00,2023-01-24 07:05:39+00:00,7920.4,3,85,True,1,1,1,very bad management for this ticket,1.0,needs_improvement
+1005354.0,51.0,C05gpc3,_byc3ygh,Ticket,Highest,1.0,1,4qsk,2022-02-28 06:48:54+00:00,2022-03-06 12:48:44+00:00,149.997,3,8,True,5,5,5,,5.0,good
+1005365.0,227.0,C06grt_9,t.yt_9ygo,Ticket,High,2.0,1,4hghq,2022-02-28 12:44:17+00:00,2022-02-28 12:48:41+00:00,0.073,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4sio,2022-02-28 12:48:41+00:00,2022-08-14 14:02:01+00:00,4009.222,2,25,True,3,3,3,"This is a service request for new CR, ticket not updated as should be",3.0,needs_improvement
+1005433.0,243.0,C12gg0.a,ady0.aygh,Ticket,High,3.0,1,4hghq,2022-03-03 09:55:56+00:00,2022-03-03 09:58:32+00:00,0.043,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4osr,2022-03-03 09:58:32+00:00,2022-06-09 06:20:45+00:00,2348.37,4,47,True,3,3,3,No proper update on the ticket to show the investigation and the provided fix,3.0,needs_improvement
+,,,,,,,3,4lsk,2022-06-09 06:20:45+00:00,2022-06-15 10:24:51+00:00,148.068,2,7,True,3,3,3,No proper update on the ticket to show the investigation and the provided fix,3.0,needs_improvement
+1005442.0,60.0,C06hsn039,t.yn039ygp,Ticket,Medium,1.0,1,4khi,2022-03-03 13:19:53+00:00,2022-04-21 12:07:42+00:00,1174.797,3,9,True,3,3,3,This is more into an inquiry but no proper follow up,3.0,needs_improvement
+1005454.0,34.0,C07hr6cz0,u6y6cz0ygk,Ticket,Medium,1.0,1,,2022-03-06 10:15:15+00:00,2022-06-09 07:06:37+00:00,2276.856,3,11,True,5,5,5,This is not a ticket this is a service for preventive maintenance,5.0,good
+1005462.0,400.0,C12ggzcz0u,adyzcz0uygh,Ticket,High,3.0,1,4hghk,2022-03-06 13:01:34+00:00,2022-03-06 13:06:23+00:00,0.08,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4sii,2022-03-06 13:06:23+00:00,2022-04-28 11:31:52+00:00,1270.425,4,55,True,3,3,3,No proper update on the ticket to show the investigation and the provided fix,3.0,needs_improvement
+,,,,,,,3,4osr,2022-04-28 11:31:52+00:00,2022-06-07 09:52:57+00:00,958.351,2,17,True,3,3,3,No proper update on the ticket to show the investigation and the provided fix,3.0,needs_improvement
+1005467.0,2222.0,C06gi1z0,t.y1z0ygi,Ticket,Medium,1.0,1,,2022-03-07 05:12:11+00:00,2022-03-07 06:45:30+00:00,1.555,2,3,True,5,5,5,,5.0,good
+1005472.0,52.0,C11hg0w13,.wy0w13ygq,HD Service,Medium,1.0,1,4ops,2022-03-07 06:15:01+00:00,2022-03-20 05:12:20+00:00,310.955,2,5,True,4,4,4,there is 7 days before ticket resolved without any update,4.0,good
+1005495.0,159.0,C01gg1_3_,z8y1_3_ygi,Ticket,Highest,3.0,1,4hghq,2022-03-08 13:11:52+00:00,2022-03-08 13:16:20+00:00,0.074,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4rqs,2022-03-08 13:16:20+00:00,2022-03-08 15:00:16+00:00,1.732,1,5,True,5,5,4,very good but need more follow up with customer,4.666666666666667,good
+,,,,,,,3,4lip,2022-03-08 15:00:16+00:00,2022-03-29 05:50:15+00:00,494.833,2,6,True,5,5,4,very good but need more follow up with customer,4.666666666666667,good
+1005500.0,10.0,C02hk00u,0ny00uygi,Ticket,Medium,4.0,1,4hgor,2022-03-09 06:35:51+00:00,2022-03-09 06:42:39+00:00,0.113,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4kgr,2022-03-09 06:42:39+00:00,2022-03-13 12:30:35+00:00,101.799,2,3,True,3,3,3,need close follow up with client,3.0,needs_improvement
+,,,,,,,3,4lhl,2022-03-13 12:30:35+00:00,2022-08-04 13:37:06+00:00,3457.109,1,28,True,3,3,3,need close follow up with client,3.0,needs_improvement
+,,,,,,,4,4llr,2022-08-04 13:37:06+00:00,2022-08-21 07:20:16+00:00,401.719,2,7,True,3,3,3,need close follow up with client,3.0,needs_improvement
+1005501.0,61.0,C06hsn039,t.yn039ygp,Ticket,Medium,2.0,1,4hgos,2022-03-09 06:40:18+00:00,2022-03-09 06:41:09+00:00,0.014,2,2,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4khi,2022-03-09 06:41:09+00:00,2022-09-15 07:42:57+00:00,4561.03,5,14,True,4,4,4,,4.0,good
+1005510.0,52.0,C05gpc3,_byc3ygh,Ticket,Highest,2.0,1,4hgos,2022-03-09 10:56:48+00:00,2022-03-09 10:59:31+00:00,0.045,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4pio,2022-03-09 10:59:31+00:00,2022-07-17 07:36:47+00:00,3116.621,3,17,True,1,1,1,No explain on ticket and no proper follow up,1.0,needs_improvement
+1005514.0,2548.0,C06gg10,4sks,Ticket,Medium,2.0,1,4sks,2022-03-09 12:50:40+00:00,2022-03-09 13:00:13+00:00,0.159,1,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,t.y10ygh,2022-03-09 13:00:13+00:00,2022-03-13 11:06:54+00:00,94.111,2,3,True,4,4,4,,4.0,good
+1005522.0,1111.0,C06hg2xcu,t.y2xcuyhp,Ticket,Highest,2.0,1,4hghq,2022-03-10 07:49:29+00:00,2022-03-10 07:50:13+00:00,0.012,2,2,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4pps,2022-03-10 07:50:13+00:00,2022-03-10 08:07:00+00:00,0.28,1,4,True,4,4,4,No investigation posted on the ticket,4.0,good
+1005534.0,326.0,C11gg0d.nz,.wy0d.nzyhs,Ticket,Medium,1.0,1,4ops,2022-03-10 10:36:58+00:00,2022-04-04 05:38:56+00:00,595.033,2,5,True,5,5,5,,5.0,good
+1005547.0,127.0,C11ggx0z2,.wyx0z2ygh,Ticket,High,1.0,1,4ops,2022-03-13 06:36:54+00:00,2022-03-16 10:36:08+00:00,75.987,2,6,True,5,5,5,,5.0,good
+1005549.0,345.0,C10grx1nv,xayx1nvygr,Ticket,Medium,2.0,1,4hgor,2022-03-13 07:29:26+00:00,2022-03-13 07:35:38+00:00,0.103,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4skr,2022-03-13 07:35:38+00:00,2022-04-25 04:16:04+00:00,1028.674,5,36,True,4,4,4,"v.g follow up and investigation on the ticket, but few places they missed follow up with Dev team",4.0,good
+1005561.0,1116.0,C06hg2xcu,t.y2xcuyhp,Ticket,High,2.0,1,4hghs,2022-03-13 10:35:05+00:00,2022-03-13 10:46:42+00:00,0.194,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4pps,2022-03-13 10:46:42+00:00,2022-06-13 07:36:31+00:00,2204.83,2,6,True,2,2,2,"Very bad update and follow up on the ticket, no investigation",2.0,needs_improvement
+1005614.0,445.0,C12hgx18a,adyx18aygr,Ticket,High,3.0,1,4hgor,2022-03-15 11:09:27+00:00,2022-03-15 11:13:14+00:00,0.063,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4lpo,2022-03-15 11:13:14+00:00,2022-03-15 11:15:26+00:00,0.037,1,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,3,4pps,2022-03-15 11:15:26+00:00,2022-03-15 21:23:01+00:00,10.126,1,0,True,3,3,3,,3.0,needs_improvement
+,,,,,,,4,4lpo,2022-03-15 21:23:01+00:00,2022-07-21 04:37:19+00:00,3055.238,6,27,True,2,2,2,No follow up on the ticket,2.0,needs_improvement
+1005633.0,200.0,C11gg.z0,.wyzc0uygr,Ticket,High,1.0,1,4ops,2022-03-16 08:33:31+00:00,2022-04-04 05:40:31+00:00,453.117,2,21,True,3,3,3,"No proper investigation shown in the ticket, and no update after connect with customer and issue is resolved",3.0,needs_improvement
+1005639.0,2552.0,C06gg10,t.y10ygh,Ticket,High,1.0,1,4sks,2022-03-16 09:51:27+00:00,2022-03-20 05:52:49+00:00,92.023,3,7,True,5,5,5,Issue from bank side,5.0,good
+1005687.0,448.0,C12hgx18a,adyx18aygr,Ticket,Blocker,2.0,1,4hgor,2022-03-21 07:53:14+00:00,2022-03-21 07:56:45+00:00,0.059,1,2,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4lpo,2022-03-21 07:56:45+00:00,2022-03-23 14:21:06+00:00,54.406,3,5,True,5,5,5,,5.0,good
+1005689.0,3210.0,C06ggn039,t.yn039ygo,Ticket,Medium,1.0,1,4kqk,2022-03-21 08:21:40+00:00,2022-03-28 07:13:48+00:00,166.869,2,4,True,5,5,5,,5.0,good
+1005715.0,2250.0,C13ggb__0,bzyb__0ygh,Ticket,Medium,1.0,1,4oio,2022-03-22 11:57:26+00:00,2022-06-02 06:21:45+00:00,1722.405,7,15,True,3,3,3,Looks like we have two updates and not clear each update fix what,3.0,needs_improvement
+1005729.0,239.0,C14gg8114,d1y10dygh,Ticket,High,1.0,1,4lkl,2022-03-23 11:06:40+00:00,2022-04-12 11:34:50+00:00,480.469,3,8,True,4,4,4,"Must do follow up outside helpdesk and update the ticket, not sure if the customer have issue in access our support portal",4.0,good
+1005731.0,385.0,C14gr8114,d1y10dygh,Ticket,Medium,1.0,1,4kpk,2022-03-23 11:30:29+00:00,2022-09-27 04:05:47+00:00,4504.588,3,25,True,2,2,2,No proper investigation or follow up on the ticket,2.0,needs_improvement
+1005756.0,67.0,C02hk0x93,0ny0x93yil,Ticket,High,3.0,1,4hgol,2022-03-27 05:46:31+00:00,2022-03-27 05:53:30+00:00,0.116,2,4,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4kgr,2022-03-27 05:53:30+00:00,2022-03-27 05:53:34+00:00,0.001,1,0,True,0,0,0,No work done he left the team,0.0,needs_improvement
+,,,,,,,3,4lhl,2022-03-27 05:53:34+00:00,2023-01-02 06:28:32+00:00,6744.583,4,15,True,3,3,3,Ticket is minor but took long time to be resolved and no proper update or follow up on the ticket,3.0,needs_improvement
+1005770.0,252.0,C12gg0.a,ady0.aygh,Ticket,Highest,2.0,1,4hgos,2022-03-27 09:28:12+00:00,2022-03-27 09:30:38+00:00,0.041,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4sii,2022-03-27 09:30:38+00:00,2022-03-27 09:52:13+00:00,0.36,2,3,True,5,5,5,,5.0,good
+1005778.0,107.0,C05gpx0_,_byx0_ygq,Ticket,Medium,3.0,1,4hgol,2022-03-27 11:52:39+00:00,2022-03-27 11:55:22+00:00,0.045,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4pio,2022-03-27 11:55:22+00:00,2022-03-28 08:47:27+00:00,20.868,1,2,True,3,3,3,No action on the ticket,3.0,needs_improvement
+,,,,,,,3,4qsk,2022-03-28 08:47:27+00:00,2023-01-23 12:01:55+00:00,7227.241,3,26,True,4,4,4,Mixed issues with CR but over all the ticket managed well,4.0,good
+1005786.0,75.0,C02hk0x93,0ny0x93yil,Ticket,High,4.0,1,4hgor,2022-03-28 05:36:44+00:00,2022-03-28 05:39:07+00:00,0.04,7,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4hgos,2022-03-28 05:39:07+00:00,2022-03-28 05:40:14+00:00,0.019,1,0,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,3,4hgor,2022-03-28 05:40:14+00:00,2022-03-28 05:42:41+00:00,0.041,1,0,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,4,4kgr,2022-03-28 05:42:41+00:00,2022-05-31 12:09:03+00:00,1542.439,1,10,True,2,2,2,No proper documentation and follow up on the ticket,2.0,needs_improvement
+,,,,,,,5,4lhl,2022-05-31 12:09:03+00:00,2023-01-02 06:06:46+00:00,5177.962,5,4,True,2,2,2,No proper documentation and follow up on the ticket,2.0,needs_improvement
+1005792.0,511.0,C10ggx1nv,xayx1nvygr,Ticket,High,2.0,1,4hgol,2022-03-28 06:59:31+00:00,2022-03-28 07:06:48+00:00,0.121,2,4,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4skr,2022-03-28 07:06:48+00:00,2022-05-24 04:20:49+00:00,1365.234,3,24,True,3,3,3,took time in investigation,3.0,needs_improvement
+1005794.0,561.0,C11gg02z9,.wy02z9yhg,Ticket,Medium,1.0,1,4ops,2022-03-28 07:21:04+00:00,2022-05-10 05:08:56+00:00,1029.798,2,19,True,5,5,5,,5.0,good
+1005816.0,453.0,C12hgx18a,adyx18aygr,Ticket,High,2.0,1,4hgos,2022-03-29 06:00:22+00:00,2022-03-29 06:05:00+00:00,0.077,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4lpo,2022-03-29 06:05:00+00:00,2022-07-24 06:56:15+00:00,2808.854,12,30,True,3,3,3,,3.0,needs_improvement
+1005845.0,417.0,C12ggzcz0u,adyzcz0uygq,Ticket,Low,2.0,1,4hgol,2022-03-30 11:45:55+00:00,2022-03-30 11:49:19+00:00,0.057,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4sii,2022-03-30 11:49:19+00:00,2022-04-04 10:59:41+00:00,119.173,5,8,True,3,3,3,,3.0,needs_improvement
+1005909.0,155.0,C06hgw8ad,t.yw8adyhg,Ticket,Medium,2.0,1,4hgol,2022-04-04 07:17:50+00:00,2022-04-04 07:20:00+00:00,0.036,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4sgr,2022-04-04 07:20:00+00:00,2022-04-16 23:42:34+00:00,304.376,3,5,True,5,3,5,few updates on ticket missing,4.333333333333333,good
+1005913.0,97.0,C13grz0b,bzyz0bygo,Ticket,Highest,1.0,1,4psk,2022-04-04 08:34:02+00:00,2022-04-06 11:29:19+00:00,50.921,3,6,True,5,5,5,,5.0,good
+1005940.0,11.0,C02hk00u,0ny00uygh,Ticket,Medium,4.0,1,4hgor,2022-04-05 11:42:27+00:00,2022-04-05 11:45:56+00:00,0.058,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4kgr,2022-04-05 11:45:56+00:00,2022-04-05 11:49:34+00:00,0.061,1,2,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,3,4kgh,2022-04-05 11:49:34+00:00,2022-07-25 09:31:45+00:00,2661.703,2,17,True,3,3,2,Poor follow up with C02  team,2.6666666666666665,needs_improvement
+,,,,,,,4,4lhl,2022-07-25 09:31:45+00:00,2022-08-29 14:03:17+00:00,844.526,2,7,True,3,3,2,Poor follow up with C02  team,2.6666666666666665,needs_improvement
+1005957.0,457.0,C12hgx18a,adyx18aygr,Ticket,Blocker,2.0,1,4hgol,2022-04-06 10:47:20+00:00,2022-04-06 10:51:28+00:00,0.069,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4lpo,2022-04-06 10:51:28+00:00,2022-07-21 04:38:34+00:00,2537.785,2,23,True,2,2,2,bad management,2.0,needs_improvement
+1005959.0,80.0,C02hk0x93,0ny0x93yip ,Ticket,High,2.0,1,4hgor,2022-04-06 11:10:45+00:00,2022-04-06 11:22:09+00:00,0.19,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4hgog,2022-04-06 11:22:09+00:00,2022-09-21 11:34:16+00:00,4032.202,2,27,True,4,3,4,Bad follow up with Dev to get accurate date for the fix,3.6666666666666665,needs_improvement
+1005960.0,81.0,C02hk0x93,0ny0x93yoh,Ticket,High,2.0,1,4hgol,2022-04-06 11:14:28+00:00,2022-04-06 11:22:38+00:00,0.136,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4llr,2022-04-06 11:22:38+00:00,2022-08-03 11:29:50+00:00,2856.12,5,34,True,2,2,2,bad management and not clear communication,2.0,needs_improvement
+1005967.0,296.0,C07ggx0u,u6yx0uygs,Ticket,Medium,1.0,1,,2022-04-06 12:03:01+00:00,2022-06-07 09:30:10+00:00,1485.452,1,3,True,3,3,3,PM ticket (HS-Service) take so much time to provide the report,3.0,needs_improvement
+1006015.0,242.0,C14gg8114,d1y10dygh,Ticket,Medium,1.0,1,4kpk,2022-04-11 03:54:35+00:00,2022-09-13 09:16:59+00:00,3725.373,6,21,True,3,3,3,Took so much time for investigation and no clear documentation on the ticket for the investigation steps,3.0,needs_improvement
+1006026.0,525.0,C06hgfz_x,t.yfz_xygs,Ticket,High,2.0,1,4hgos,2022-04-11 08:47:56+00:00,2022-04-11 08:50:00+00:00,0.034,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4sgg,2022-04-11 08:50:00+00:00,2022-07-17 23:53:27+00:00,2343.058,4,20,True,3,3,3,Took so much time form development and no clear documentation on the ticket for the investigation steps,3.0,needs_improvement
+1006029.0,156.0,C06gotz0,t.ytz0ygo,Ticket,High,3.0,1,4hghs,2022-04-11 09:09:14+00:00,2022-04-11 09:15:06+00:00,0.098,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,3cxogo,2022-04-11 09:15:06+00:00,2022-04-11 10:05:23+00:00,0.838,1,1,True,5,5,5,,5.0,good
+,,,,,,,3,4qsk,2022-04-11 10:05:23+00:00,2022-04-11 10:06:52+00:00,0.025,1,0,True,5,5,5,,5.0,good
+,,,,,,,4,3cxogo,2022-04-11 10:06:52+00:00,2022-04-11 10:11:33+00:00,0.078,1,0,True,5,5,5,,5.0,good
+,,,,,,,5,4qsk,2022-04-11 10:11:33+00:00,2022-04-11 10:17:56+00:00,0.106,1,1,True,5,5,5,,5.0,good
+,,,,,,,6,3cxogo,2022-04-11 10:17:56+00:00,2022-04-11 10:34:21+00:00,0.274,2,2,True,5,5,5,,5.0,good
+1006057.0,2622.0,C06ggt_9,t.yt_9ygh,Ticket,High,3.0,1,4khg,2022-04-12 08:57:03+00:00,2022-04-12 08:57:50+00:00,0.013,2,2,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4hghs,2022-04-12 08:57:50+00:00,2022-04-12 09:00:26+00:00,0.043,1,2,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,3,4khg,2022-04-12 09:00:26+00:00,2022-04-12 09:01:42+00:00,0.021,1,0,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,4,4slh,2022-04-12 09:01:42+00:00,2023-02-23 12:11:54+00:00,7611.17,7,2,True,5,5,5,,5.0,good
+1006058.0,88.0,C02hk0x93,0ny0x93yik,Ticket,High,4.0,1,4hgos,2022-04-12 08:58:07+00:00,2022-04-12 08:59:02+00:00,0.015,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4khg,2022-04-12 08:59:02+00:00,2022-04-12 09:02:45+00:00,0.062,1,2,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,3,4kgr,2022-04-12 09:02:45+00:00,2022-04-12 09:10:43+00:00,0.133,1,1,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,4,4hgog,2022-04-12 09:10:43+00:00,2023-02-19 14:31:28+00:00,7517.346,2,85,True,3,3,3,,3.0,needs_improvement
+1006061.0,319.0,C13grunzv,bzyunzvygi,Ticket,Blocker,1.0,1,4psk,2022-04-12 09:22:36+00:00,2022-04-19 09:54:23+00:00,168.53,3,7,True,5,5,5,,5.0,good
+1006063.0,3.0,C02hk0_0,0ny0x93yoh,Ticket,Medium,3.0,1,4hghs,2022-04-12 09:38:59+00:00,2022-04-12 09:39:49+00:00,0.014,2,2,True,5,5,5,wrong project ticket was closed,5.0,good
+,,,,,,,2,4kgi,2022-04-12 09:39:49+00:00,2022-04-12 09:42:55+00:00,0.052,1,2,True,5,5,5,wrong project ticket was closed,5.0,good
+,,,,,,,3,4llr,2022-04-12 09:42:55+00:00,2022-04-13 06:54:03+00:00,21.186,3,6,True,5,5,5,wrong project ticket was closed,5.0,good
+1006065.0,352.0,C10grx1nv,xayx1nvygr,Ticket,Medium,2.0,1,4skr,2022-04-12 09:56:38+00:00,2022-04-19 12:01:28+00:00,170.081,2,10,True,3,3,3,investigation took so much time from both SID and DEV,3.0,needs_improvement
+,,,,,,,2,4hgho,2022-04-19 12:01:28+00:00,2022-07-26 07:06:45+00:00,2347.088,3,34,True,3,3,3,investigation took so much time from both SID and DEV,3.0,needs_improvement
+,,,,,,,3,4hgho,2022-07-26 07:06:45+00:00,2022-12-04 09:15:43+00:00,3146.149,30,75,True,3,3,3,investigation took so much time from both SID and DEV,3.0,needs_improvement
+1006073.0,2469.0,C06gg__z0,t.y__z0ygq,Ticket,Highest,2.0,1,4hghs,2022-04-13 07:12:23+00:00,2022-04-13 07:15:09+00:00,0.046,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4sks,2022-04-13 07:15:09+00:00,2022-04-14 06:49:17+00:00,23.569,3,4,True,4,4,4,,4.0,good
+1006083.0,528.0,C06hgfz_x,t.yfz_xygs,Ticket,High,2.0,1,4hghs,2022-04-13 10:21:33+00:00,2022-04-13 10:25:53+00:00,0.072,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4sgg,2022-04-13 10:25:53+00:00,2022-05-18 12:07:10+00:00,841.688,5,10,True,3,3,3,No investigation shown in the ticket and delay in customer feedback,3.0,needs_improvement
+1006087.0,2461.0,C06gg1_3_,4kqp,Ticket,High,1.0,1,4kqp,2022-04-13 11:41:26+00:00,2022-04-13 11:53:04+00:00,0.194,2,3,True,4,4,4,,4.0,good
+1006097.0,102.0,C02ggu9n,0ny0x93yis,Ticket,High,2.0,1,4hgos,2022-04-14 07:09:29+00:00,2022-04-14 07:12:29+00:00,0.05,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4lhl,2022-04-14 07:12:29+00:00,2022-09-25 14:07:43+00:00,3942.921,3,24,True,1,1,1,issue is very clear but we have miscommunication and unclear direction to customer and bad follow up on the ticket,1.0,needs_improvement
+1006128.0,315.0,C08gg811,vey811ygi,Ticket,Highest,2.0,1,4hgor,2022-04-17 09:06:30+00:00,2022-04-17 09:21:47+00:00,0.255,2,4,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4slh,2022-04-17 09:21:47+00:00,2022-05-31 06:59:52+00:00,1053.635,2,6,True,4,4,4,,4.0,good
+1006139.0,531.0,C06hgfz_x,t.yfz_xygs,Ticket,High,2.0,1,4hghs,2022-04-17 12:48:33+00:00,2022-04-17 12:52:13+00:00,0.061,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4lls,2022-04-17 12:52:13+00:00,2022-07-18 11:57:32+00:00,2207.089,4,16,True,4,4,4,,4.0,good
+1006150.0,2694.0,C06ggtz0,t.ytz0ygk,Ticket,Medium,2.0,1,4hghq,2022-04-18 07:19:43+00:00,2022-04-18 07:48:05+00:00,0.473,2,5,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4lhl,2022-04-18 07:48:05+00:00,2022-06-19 13:43:54+00:00,1493.93,3,7,True,1,1,1,,1.0,needs_improvement
+1006218.0,39.0,C02ggx00,0nyx00ygp,Ticket,Medium,2.0,1,4hgor,2022-04-20 08:55:31+00:00,2022-04-20 09:00:31+00:00,0.083,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4lhl,2022-04-20 09:00:31+00:00,2022-04-27 12:06:27+00:00,171.099,2,10,True,3,3,3,,3.0,needs_improvement
+1006237.0,438.0,C12ggzcz0u,adyzcz0uygr,Ticket,Medium,3.0,1,4hgos,2022-04-21 08:40:33+00:00,2022-04-21 08:48:34+00:00,0.134,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4osr,2022-04-21 08:48:34+00:00,2022-04-26 06:29:23+00:00,117.68,2,5,True,3,3,3,,3.0,needs_improvement
+,,,,,,,3,4sii,2022-04-26 06:29:23+00:00,2022-04-28 07:05:06+00:00,48.595,2,1,True,4,3,4,,3.6666666666666665,needs_improvement
+1006253.0,538.0,C06hgfz_x,t.yfz_xygs,Ticket,Medium,2.0,1,4hghk,2022-04-23 12:06:05+00:00,2022-04-23 12:11:05+00:00,0.083,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4lls,2022-04-23 12:11:05+00:00,2022-04-23 12:32:07+00:00,0.351,1,2,True,5,5,5,,5.0,good
+1006256.0,75.0,C11grzvznv,.wyzvznvyhh,Ticket,Highest,1.0,1,4ops,2022-04-24 06:44:35+00:00,2022-04-24 11:01:24+00:00,4.28,2,5,True,4,4,5,,4.333333333333333,good
+1006259.0,3434.0,C13ggb_0,bzyb_0ygo,Ticket,Medium,1.0,1,4oqq,2022-04-24 07:11:16+00:00,2022-07-28 08:44:08+00:00,2281.548,3,25,True,5,5,5,,5.0,good
+1006279.0,472.0,C12hgx18a,adyx18aygs,HD Service,High,2.0,1,4hghk,2022-04-25 08:21:31+00:00,2022-04-25 08:24:33+00:00,0.051,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4lpo,2022-04-25 08:24:33+00:00,2022-10-03 07:08:30+00:00,3862.732,13,42,True,5,5,5,,5.0,good
+1006288.0,95.0,C02hk0x93,0ny0x23yoi,Ticket,High,3.0,1,4hghk,2022-04-25 10:54:31+00:00,2022-04-25 10:57:08+00:00,0.044,2,2,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4hghs,2022-04-25 10:57:08+00:00,2022-04-25 10:58:01+00:00,0.015,1,1,True,5,5,5,,5.0,good
+,,,,,,,3,4hgog,2022-04-25 10:58:01+00:00,2023-02-27 14:57:29+00:00,7395.991,6,39,True,2,2,2,"issue forwarded to dev without any investigation on the ticket, and bad follow up on the ticket",2.0,needs_improvement
+1006292.0,540.0,C06hgfz_x,t.yfz_xygs,Deployment,High,2.0,1,4khg,2022-04-25 13:11:26+00:00,2022-04-25 13:17:43+00:00,0.105,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4lls,2022-04-25 13:17:43+00:00,2022-04-26 08:34:10+00:00,19.274,1,4,True,5,5,5,,5.0,good
+1006331.0,65.0,C06hsn039,t.yn039ygp,Ticket,High,1.0,1,4khi,2022-04-28 06:49:11+00:00,2022-07-31 13:20:47+00:00,2262.527,5,6,True,3,3,5,,3.6666666666666665,needs_improvement
+1006514.0,78.0,C11grzvznv,.wyzvznvyhh,Ticket,High,1.0,1,4ops,2022-05-15 11:32:59+00:00,2022-05-16 06:20:59+00:00,18.8,3,4,True,5,5,5,,5.0,good
+1006522.0,266.0,C12gg0.a,ady0.aygh,Ticket,High,2.0,1,4hgos,2022-05-16 05:14:54+00:00,2022-05-16 05:17:24+00:00,0.042,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4lsk,2022-05-16 05:17:24+00:00,2022-05-16 07:24:08+00:00,2.112,2,6,True,5,5,5,,5.0,good
+1006523.0,267.0,C12gg0.a,ady0.aygh,Ticket,High,2.0,1,4hgol,2022-05-16 06:36:41+00:00,2022-05-16 06:40:18+00:00,0.06,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4lsk,2022-05-16 06:40:18+00:00,2022-05-16 09:26:53+00:00,2.776,3,4,True,3,3,5,,3.6666666666666665,needs_improvement
+1006527.0,79.0,C11grzvznv,.wyzvznvyhh,Ticket,High,1.0,1,4ops,2022-05-16 08:12:08+00:00,2022-05-24 05:39:04+00:00,189.449,3,6,True,4,4,3,,3.6666666666666665,needs_improvement
+1006536.0,8.0,C02hkz40,0nyzn4ygp,Ticket,High,2.0,1,4hgol,2022-05-16 11:36:53+00:00,2022-05-16 11:41:37+00:00,0.079,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4lhl,2022-05-16 11:41:37+00:00,2022-06-12 12:31:24+00:00,648.83,3,22,True,3,3,3,,3.0,needs_improvement
+1006548.0,42.0,C07hrx0u,u6yx0uyhq,Ticket,Medium,1.0,1,4kqo,2022-05-17 06:29:06+00:00,2022-09-06 09:33:40+00:00,2691.076,4,17,True,3,3,3,,3.0,needs_improvement
+1006560.0,476.0,C12hgx18a,adyx18aygs,Ticket,Medium,2.0,1,4kgi,2022-05-17 09:12:26+00:00,2022-05-17 09:16:25+00:00,0.066,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4lpo,2022-05-17 09:16:25+00:00,2022-06-28 07:12:29+00:00,1005.934,2,10,True,2,2,2,,2.0,needs_improvement
+1006565.0,2788.0,C13ggbx0,bzybx0yhp,Ticket,High,1.0,1,4qqr,2022-05-17 09:34:09+00:00,2022-06-05 10:49:52+00:00,457.262,2,7,True,5,5,5,,5.0,good
+1006593.0,477.0,C12hgx18a,adyx18aygr,Ticket,Blocker,3.0,1,4hgos,2022-05-19 06:04:34+00:00,2022-05-19 06:05:29+00:00,0.015,1,2,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4hghs,2022-05-19 06:05:29+00:00,2022-05-19 06:06:47+00:00,0.022,2,1,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,3,4hgos,2022-05-19 06:06:47+00:00,2022-05-19 06:09:04+00:00,0.038,1,0,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,4,4lpo,2022-05-19 06:09:04+00:00,2022-07-03 14:28:31+00:00,1088.324,4,13,True,2,2,2,,2.0,needs_improvement
+1006597.0,343.0,C02ggnd01,0nynd01ygh,Ticket,Medium,3.0,1,4kgi,2022-05-19 07:48:56+00:00,2022-05-19 07:49:33+00:00,0.01,1,2,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4hgrl,2022-05-19 07:49:33+00:00,2022-05-19 07:52:17+00:00,0.046,2,2,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,3,4kgi,2022-05-19 07:52:17+00:00,2022-05-19 07:56:08+00:00,0.064,1,0,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,4,4lhl,2022-05-19 07:56:08+00:00,2022-06-06 05:36:58+00:00,429.681,3,4,True,4,4,4,,4.0,good
+1006608.0,554.0,C06hgfz_x,t.yfz_xygs,Ticket,Highest,2.0,1,4hghq,2022-05-19 15:17:04+00:00,2022-05-19 15:25:20+00:00,0.138,2,4,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4sgg,2022-05-19 15:25:20+00:00,2023-02-19 08:44:33+00:00,6617.32,16,82,True,2,2,2,,2.0,needs_improvement
+1006613.0,455.0,C12ggzcz0u,adyzcz0uygq,Ticket,Highest,4.0,1,4hgor,2022-05-22 05:36:05+00:00,2022-05-22 05:41:33+00:00,0.091,1,2,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4hgrl,2022-05-22 05:41:33+00:00,2022-05-22 05:43:35+00:00,0.034,2,0,True,1,1,1,"ph_name already manage the ticket, ph_name should check with his team before interact on this ticket",1.0,needs_improvement
+,,,,,,,3,4kgh,2022-05-22 05:43:35+00:00,2022-05-22 05:44:53+00:00,0.022,1,0,True,0,0,0,"Not sure why ph_name was engaged in this ticket, he might be managing the team on behalf of their lead",0.0,needs_improvement
+,,,,,,,4,4hgor,2022-05-22 05:44:53+00:00,2022-05-22 05:47:57+00:00,0.051,1,1,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,5,4lsk,2022-05-22 05:47:57+00:00,2022-05-24 12:43:26+00:00,54.925,3,4,True,4,4,5,No update on the ticket for what is done to resolve it,4.333333333333333,good
+1006627.0,212.0,C06go1z0,t.y1z0ygi,Ticket,Medium,1.0,1,3cxogo,2022-05-22 12:06:23+00:00,2022-05-22 12:16:17+00:00,0.165,5,4,True,5,5,5,Ticket opened on behalf of the customer after the issue resolved,5.0,good
+1006671.0,204.0,C10grn0v,xayn0vygh,Ticket,High,2.0,1,4hgor,2022-05-24 10:06:12+00:00,2022-05-24 10:07:17+00:00,0.018,1,2,True,3,3,5,Service Desk user did not add comment on the ticket as should be,3.6666666666666665,needs_improvement
+,,,,,,,2,4hgho,2022-05-24 10:07:17+00:00,2022-05-25 04:12:35+00:00,18.088,2,2,True,4,4,5,More investigation needed bust since the incident resolved the ticket is closed,4.333333333333333,good
+,,,,,,,3,4hgho,2022-05-25 04:12:35+00:00,2022-06-09 06:29:27+00:00,362.281,2,1,True,4,4,5,More investigation needed bust since the incident resolved the ticket is closed,4.333333333333333,good
+1006673.0,459.0,C12ggzcz0u,adyzcz0uygq,Ticket,Highest,2.0,1,4hgor,2022-05-24 10:29:26+00:00,2022-05-24 10:33:10+00:00,0.062,2,4,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4osr,2022-05-24 10:33:10+00:00,2022-06-06 12:00:55+00:00,313.462,2,30,True,3,3,3,"took so much time in communication and issue identified when connected, and no update on the ticket about the issue",3.0,needs_improvement
+1006683.0,214.0,C06go1z0,t.y1z0ygi,Ticket,High,2.0,1,4hghq,2022-05-25 06:18:50+00:00,2022-05-25 06:33:43+00:00,0.248,2,4,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,3cxogo,2022-05-25 06:33:43+00:00,2022-05-25 07:51:03+00:00,1.289,3,4,True,5,5,5,,5.0,good
+1006694.0,632.0,C02gg0x93,0ny0x93yho,Ticket,Low,4.0,1,4hgor,2022-05-25 10:43:44+00:00,2022-05-25 10:46:58+00:00,0.054,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4kgh,2022-05-25 10:46:58+00:00,2022-05-25 10:55:09+00:00,0.136,1,1,True,1,1,1,"ver bad management of the ticket, it took more than two months just to connect and do investigation",1.0,needs_improvement
+,,,,,,,3,4lhl,2022-05-25 10:55:09+00:00,2022-10-11 13:38:29+00:00,3338.722,2,18,True,1,1,1,"ver bad management of the ticket, it took more than two months just to connect and do investigation",1.0,needs_improvement
+,,,,,,,4,x8azvjn2,2022-10-11 13:38:29+00:00,2022-10-11 13:39:07+00:00,0.011,1,0,True,0,0,0,Not sure why ph_name from Service Desk assign this to ph_name the reassign it back to ph_name,0.0,needs_improvement
+,,,,,,,5,4lhl,2022-10-11 13:39:07+00:00,2022-10-24 08:04:10+00:00,306.418,1,2,True,1,1,1,"ver bad management of the ticket, it took more than two months just to connect and do investigation",1.0,needs_improvement
+1006715.0,268.0,C12gg0.a,ady0.aygh,Ticket,Highest,2.0,1,4hghk,2022-05-29 08:25:53+00:00,2022-05-29 08:28:28+00:00,0.043,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4lsk,2022-05-29 08:28:28+00:00,2022-06-16 06:44:36+00:00,430.269,5,20,True,5,5,5,,5.0,good
+1006717.0,569.0,C11gg02z9,.wy02z9yhg,Ticket,High,1.0,1,4ops,2022-05-29 08:59:16+00:00,2022-05-29 10:07:21+00:00,1.135,2,4,True,5,5,5,,5.0,good
+1006725.0,466.0,C12ggzcz0u,adyzcz0uygr,Ticket,Highest,2.0,1,4hgos,2022-05-29 12:07:25+00:00,2022-05-29 12:09:49+00:00,0.04,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4lsk,2022-05-29 12:09:49+00:00,2022-06-02 05:36:10+00:00,89.439,3,21,True,1,1,5,"excellent communication with customer but bad documentation on the ticket, still I don't know what was the issue and how it was resolved",2.3333333333333335,needs_improvement
+1006726.0,301.0,C07ggx0u,u6yx0uygs,Ticket,High,1.0,1,4shl,2022-05-29 12:14:22+00:00,2022-05-30 12:22:23+00:00,24.134,2,5,True,4,4,5,,4.333333333333333,good
+1006781.0,2476.0,C06gg__z0,t.y__z0ygq,Ticket,High,2.0,1,4khg,2022-05-31 12:11:24+00:00,2022-05-31 12:14:28+00:00,0.051,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4kpq,2022-05-31 12:14:28+00:00,2022-06-06 05:41:16+00:00,137.447,3,5,True,2,2,5,,3.0,needs_improvement
+1006784.0,557.0,C06hgfz_x,t.yfz_xygs,Ticket,High,4.0,1,4hghs,2022-05-31 14:59:27+00:00,2022-05-31 15:00:44+00:00,0.021,1,2,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4kgi,2022-05-31 15:00:44+00:00,2022-05-31 15:00:49+00:00,0.001,1,0,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,3,4hgos,2022-05-31 15:00:49+00:00,2022-05-31 15:03:18+00:00,0.041,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,4,4sgg,2022-05-31 15:03:18+00:00,2023-01-02 09:35:46+00:00,5178.541,13,55,True,1,1,1,"if there is less than 1 I will put it, the ticket is very poor managed",1.0,needs_improvement
+1006791.0,2464.0,C06gg1_3_,t.y1_3_ygo,HD Service,Medium,1.0,1,4qsh,2022-06-01 07:59:38+00:00,2022-06-28 06:52:39+00:00,646.884,3,6,True,3,3,3,"This is a service, ticket is duplicate and closed",3.0,needs_improvement
+1006809.0,2940.0,C01ggz-3,z8yz-3ygp,Ticket,High,3.0,1,4hgrl,2022-06-02 05:49:21+00:00,2022-06-02 05:49:57+00:00,0.01,2,2,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4hghk,2022-06-02 05:49:57+00:00,2022-06-02 06:06:20+00:00,0.273,1,1,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,3,4kll,2022-06-02 06:06:20+00:00,2022-12-09 12:48:03+00:00,4566.695,2,48,True,3,3,3,,3.0,needs_improvement
+1006839.0,413.0,C12ggz_0,adyz_0ygp,Ticket,High,2.0,1,4hghk,2022-06-05 05:25:53+00:00,2022-06-05 05:30:00+00:00,0.069,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4lsk,2022-06-05 05:30:00+00:00,2022-06-05 06:15:27+00:00,0.758,2,5,True,5,5,5,,5.0,good
+1006841.0,333.0,C01gg0xa,bzy0xaygl,Ticket,Medium,3.0,1,4hghk,2022-06-05 06:39:06+00:00,2022-06-05 06:42:56+00:00,0.064,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4lip,2022-06-05 06:42:56+00:00,2022-06-13 04:59:43+00:00,190.28,1,3,True,5,5,5,,5.0,good
+,,,,,,,3,4hgpl,2022-06-13 04:59:43+00:00,2022-06-21 03:26:05+00:00,190.439,2,5,True,5,5,5,,5.0,good
+1006849.0,472.0,C12ggzcz0u,adyzcz0uygq,Ticket,Highest,2.0,1,4hghk,2022-06-05 09:45:56+00:00,2022-06-05 09:48:28+00:00,0.042,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4lsk,2022-06-05 09:48:28+00:00,2022-12-18 13:43:49+00:00,4707.922,9,147,True,2,2,2,,2.0,needs_improvement
+1006856.0,7.0,C08ggz3_0,veyz3_0ygi,Ticket,Medium,2.0,1,4hghk,2022-06-05 14:06:36+00:00,2022-06-05 14:09:07+00:00,0.042,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4hpp,2022-06-05 14:09:07+00:00,2022-07-24 13:35:23+00:00,1175.438,3,19,True,4,4,5,,4.333333333333333,good
+1006870.0,29.0,C13gqb10,bzyb10ygk,Ticket,Medium,2.0,1,4pgp,2022-06-06 08:23:18+00:00,2022-06-16 08:05:54+00:00,239.71,2,5,True,4,4,4,,4.0,good
+,,,,,,,2,4qiq,2022-06-16 08:05:54+00:00,2022-07-17 14:57:19+00:00,750.857,1,3,True,4,4,4,,4.0,good
+,,,,,,,3,4pgp,2022-07-17 14:57:19+00:00,2022-08-24 11:57:03+00:00,908.996,3,6,True,4,4,4,,4.0,good
+1006872.0,483.0,C12hgx18a,adyx18aygr,Ticket,Blocker,2.0,1,4hgos,2022-06-06 09:44:22+00:00,2022-06-06 09:46:37+00:00,0.038,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4lpo,2022-06-06 09:46:37+00:00,2022-07-05 11:43:05+00:00,697.941,6,12,True,1,1,1,"No investigation shown, issue took so much time and reported to dev without any investigation then issue closed without any action",1.0,needs_improvement
+1006882.0,2629.0,C06ggt_9,t.yt_9ygh,Ticket,Highest,2.0,1,4hgrl,2022-06-07 08:47:51+00:00,2022-06-07 08:50:22+00:00,0.042,2,2,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4slh,2022-06-07 08:50:22+00:00,2022-07-21 13:15:51+00:00,1060.425,4,10,True,1,1,1,"No investigation shown, issue took so much time and reported to dev without any investigation then issue closed without any action",1.0,needs_improvement
+1006918.0,365.0,C06ggctn0,t.yctn0ygp,Ticket,Low,2.0,1,4hgrl,2022-06-09 08:15:27+00:00,2022-06-09 08:18:52+00:00,0.057,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4hgih,2022-06-09 08:18:52+00:00,2022-06-19 10:25:13+00:00,242.106,2,2,True,4,4,4,this is not an incident it just used to transfer files,4.0,good
+1006956.0,2631.0,C06ggt_9,t.yt_9ygo,Ticket,High,2.0,1,4hgol,2022-06-12 08:39:58+00:00,2022-06-12 08:42:43+00:00,0.046,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4slh,2022-06-12 08:42:43+00:00,2022-06-20 06:59:03+00:00,190.272,3,3,True,4,4,4,this is a request,4.0,good
+1006971.0,63.0,C07hr6cz0,u6y6cz0ygq,Ticket,Medium,3.0,1,4kgp,2022-06-13 06:06:50+00:00,2022-06-13 06:10:03+00:00,0.054,1,2,True,4,4,4,this is a pm ticket should be created as a service,4.0,good
+,,,,,,,2,4sih,2022-06-13 06:10:03+00:00,2022-06-14 10:23:43+00:00,28.228,1,0,True,4,4,4,this is a pm ticket should be created as a service,4.0,good
+,,,,,,,3,4shl,2022-06-14 10:23:43+00:00,2022-07-04 07:59:47+00:00,477.601,2,3,True,4,4,4,this is a pm ticket should be created as a service,4.0,good
+1007003.0,3453.0,C13ggb_0,bzyb_0ygo,Ticket,Medium,1.0,1,4ris,2022-06-14 07:56:58+00:00,2022-06-19 08:20:35+00:00,120.394,3,4,True,3,3,3,Issue resolved but no investigation shown on the ticket,3.0,needs_improvement
+1007010.0,486.0,C12hgx18a,adyx18aygs,Ticket,Medium,3.0,1,4hgos,2022-06-14 09:51:28+00:00,2022-06-14 09:52:02+00:00,0.009,2,2,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4hgrl,2022-06-14 09:52:02+00:00,2022-06-14 09:52:59+00:00,0.016,1,1,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,3,4hgos,2022-06-14 09:52:59+00:00,2022-06-14 09:53:12+00:00,0.004,1,0,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,4,4lpo,2022-06-14 09:53:12+00:00,2022-10-12 07:57:28+00:00,2878.071,8,28,True,4,4,4,,4.0,good
+1007026.0,636.0,C02gg0x93,0ny0x93yii,Ticket,Highest,2.0,1,4hgor,2022-06-15 04:37:32+00:00,2022-06-15 04:45:21+00:00,0.13,2,4,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4kgh,2022-06-15 04:45:21+00:00,2022-06-18 16:22:12+00:00,83.614,2,5,True,5,5,5,Fast response and resolve the issue,5.0,good
+1007104.0,387.0,C06gsn039,t.yn039ygo,Ticket,Medium,3.0,1,4hgor,2022-06-19 06:03:50+00:00,2022-06-19 06:07:44+00:00,0.065,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4sil,2022-06-19 06:07:44+00:00,2022-11-28 13:47:24+00:00,3895.661,2,72,True,1,1,1,bad management and took so much time to investigate,1.0,needs_improvement
+,,,,,,,3,4hgir,2022-11-28 13:47:24+00:00,2023-01-26 12:28:46+00:00,1414.689,2,19,True,1,1,1,bad management and took so much time to investigate,1.0,needs_improvement
+1007123.0,345.0,C02ggnd01,0nynd01ygs,Ticket,Medium,2.0,1,4hgor,2022-06-19 12:43:15+00:00,2022-06-19 12:50:28+00:00,0.12,2,4,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4kgh,2022-06-19 12:50:28+00:00,2022-10-11 15:47:29+00:00,2738.95,5,58,True,1,1,1,issue took so muct time to be investigated and bad delay from our team in follow up on the ticket,1.0,needs_improvement
+1007129.0,61.0,C11hg0w13,.wy0w13ygq,Ticket,Medium,2.0,1,4ops,2022-06-20 05:16:09+00:00,2022-06-23 04:06:44+00:00,70.843,2,5,True,4,4,4,,4.0,good
+,,,,,,,2,4qoh,2022-06-23 04:06:44+00:00,2022-06-30 05:07:29+00:00,169.012,1,1,True,4,4,4,,4.0,good
+1007137.0,2470.0,C06ggt_0,t.yt_0ygs,HD Service,High,3.0,1,4hgor,2022-06-20 08:12:34+00:00,2022-06-20 08:16:59+00:00,0.074,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4kgh,2022-06-20 08:16:59+00:00,2022-08-09 17:38:14+00:00,1209.354,2,8,True,2,2,1,,1.6666666666666667,needs_improvement
+,,,,,,,3,4lll,2022-08-09 17:38:14+00:00,2023-01-02 08:27:48+00:00,3494.826,2,17,True,2,2,1,,1.6666666666666667,needs_improvement
+1007142.0,126.0,C02hk0x93,0ny0x93yip ,Ticket,High,2.0,1,4hghk,2022-06-20 11:54:00+00:00,2022-06-20 11:55:56+00:00,0.032,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4hgog,2022-06-20 11:55:56+00:00,2023-01-26 09:37:21+00:00,5277.69,2,26,True,1,1,1,,1.0,needs_improvement
+1007200.0,128.0,C02hk0x93,0ny0x93yoh,Ticket,High,2.0,1,4hgor,2022-06-23 06:25:51+00:00,2022-06-23 06:32:24+00:00,0.109,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4llr,2022-06-23 06:32:24+00:00,2022-12-14 10:31:00+00:00,4179.977,4,37,True,1,1,1,,1.0,needs_improvement
+1007203.0,129.0,C02hk0x93,0ny0x93yoh,Ticket,High,3.0,1,4hgos,2022-06-23 07:18:22+00:00,2022-06-23 07:19:01+00:00,0.011,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4hgrl,2022-06-23 07:19:01+00:00,2022-06-23 07:19:23+00:00,0.006,1,1,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,3,4hgos,2022-06-23 07:19:23+00:00,2022-06-23 07:21:33+00:00,0.036,1,1,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,4,4hgog,2022-06-23 07:21:33+00:00,2023-02-19 14:22:36+00:00,5791.018,4,25,True,1,1,1,,1.0,needs_improvement
+1007210.0,491.0,C12hgx18a,adyx18aygr,Ticket,Blocker,2.0,1,4hgos,2022-06-23 09:39:56+00:00,2022-06-23 09:41:15+00:00,0.022,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4lpo,2022-06-23 09:41:15+00:00,2022-07-20 13:54:30+00:00,652.221,4,13,True,2,2,2,,2.0,needs_improvement
+1007212.0,492.0,C12hgx18a,adyx18aygo,Ticket,Blocker,3.0,1,4hgos,2022-06-23 09:48:58+00:00,2022-06-23 09:49:25+00:00,0.008,1,2,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4hgrl,2022-06-23 09:49:25+00:00,2022-06-23 09:49:49+00:00,0.007,2,1,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,3,4lpo,2022-06-23 09:49:49+00:00,2022-07-13 11:57:46+00:00,482.132,3,8,True,4,4,4,,4.0,good
+1007240.0,278.0,C12gg0.a,ady0.aygh,HD Service,Medium,3.0,1,4hghk,2022-06-26 12:49:35+00:00,2022-06-26 12:50:01+00:00,0.007,1,2,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4hgrl,2022-06-26 12:50:01+00:00,2022-06-26 12:51:30+00:00,0.025,2,2,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,3,4hghk,2022-06-26 12:51:30+00:00,2022-06-26 12:53:05+00:00,0.026,1,0,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,4,4osr,2022-06-26 12:53:05+00:00,2022-06-28 07:22:49+00:00,42.496,2,8,True,5,5,5,,5.0,good
+1007244.0,521.0,C10ggx1nv,xayx1nvygr,Ticket,Medium,2.0,1,4hgol,2022-06-27 03:52:12+00:00,2022-06-27 03:56:38+00:00,0.074,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4skr,2022-06-27 03:56:38+00:00,2022-08-31 04:44:24+00:00,1560.796,20,45,True,4,4,4,,4.0,good
+1007254.0,163.0,C02gg00u,0ny00uygi,Ticket,High,3.0,1,4hgos,2022-06-27 09:38:42+00:00,2022-06-27 09:39:15+00:00,0.009,1,2,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4khg,2022-06-27 09:39:15+00:00,2022-06-27 09:44:59+00:00,0.096,2,2,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,3,4lhl,2022-06-27 09:44:59+00:00,2023-01-11 08:52:23+00:00,4751.123,3,42,True,1,1,1,,1.0,needs_improvement
+1007255.0,72.0,C07hr6cz0,u6y6cz0ygq,Ticket,Highest,1.0,1,4kqo,2022-06-27 10:02:56+00:00,2022-06-27 10:48:27+00:00,0.759,3,6,True,5,5,5,,5.0,good
+1007260.0,494.0,C12hgx18a,adyx18aygr,Ticket,Blocker,2.0,1,4hghk,2022-06-27 12:13:11+00:00,2022-06-27 12:15:31+00:00,0.039,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4hghq,2022-06-27 12:15:31+00:00,2022-07-17 11:24:23+00:00,479.148,4,9,True,3,3,3,,3.0,needs_improvement
+1007261.0,523.0,C10ggx1nv,xayx1nvygo,Ticket,High,3.0,1,4hghk,2022-06-27 12:27:40+00:00,2022-06-27 12:29:58+00:00,0.038,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4khg,2022-06-27 12:29:58+00:00,2022-06-27 12:36:10+00:00,0.103,1,1,True,0,0,0,Not sure what was his involvment,0.0,needs_improvement
+,,,,,,,3,4hghk,2022-06-27 12:36:10+00:00,2022-06-27 12:38:44+00:00,0.043,1,0,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,4,4skr,2022-06-27 12:38:44+00:00,2022-09-04 04:29:01+00:00,1647.838,13,54,True,3,3,3,took so much time to investigate,3.0,needs_improvement
+1007271.0,2706.0,C06ggtz0,t.ytz0ygl,Ticket,Blocker,3.0,1,4hgrl,2022-06-28 05:16:05+00:00,2022-06-28 05:16:50+00:00,0.012,1,2,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4hghs,2022-06-28 05:16:50+00:00,2022-06-28 05:23:41+00:00,0.114,2,1,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,3,4sli,2022-06-28 05:23:41+00:00,2022-07-05 09:13:43+00:00,171.834,3,9,True,4,4,4,,4.0,good
+1007291.0,530.0,C10ggx1nv,xayx1nvygr,Ticket,Medium,2.0,1,4hgos,2022-06-29 06:10:02+00:00,2022-06-29 06:11:49+00:00,0.03,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4skr,2022-06-29 06:11:49+00:00,2022-12-13 07:01:24+00:00,4008.826,9,48,True,2,2,2,Took so much time to investigate the issue,2.0,needs_improvement
+1007295.0,368.0,C06ggctn0,t.yctn0ygp,Ticket,Medium,2.0,1,4hghk,2022-06-29 08:00:47+00:00,2022-06-29 08:02:51+00:00,0.034,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4lsp,2022-06-29 08:02:51+00:00,2022-12-14 07:33:13+00:00,4031.506,6,40,True,1,1,1,No proper update on the ticket and took so much time to investigate the issue,1.0,needs_improvement
+1007323.0,339.0,C01gg0xa,bzy0xaygl,Ticket,High,3.0,1,4hgos,2022-06-30 08:35:21+00:00,2022-06-30 08:39:05+00:00,0.062,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4hgpl,2022-06-30 08:39:05+00:00,2022-06-30 08:55:14+00:00,0.269,1,2,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,3,4kll,2022-06-30 08:55:14+00:00,2022-06-30 09:14:59+00:00,0.329,1,0,True,5,5,5,,5.0,good
+,,,,,,,4,4hgpl,2022-06-30 09:14:59+00:00,2022-07-12 05:52:17+00:00,284.622,3,5,True,5,5,5,,5.0,good
+1007329.0,422.0,C12ggz_0,adyz_0ygq,Ticket,Medium,2.0,1,4hgrl,2022-06-30 09:42:23+00:00,2022-06-30 09:46:01+00:00,0.061,2,4,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4lsk,2022-06-30 09:46:01+00:00,2022-06-30 10:01:10+00:00,0.252,2,2,True,4,4,4,,4.0,good
+1007343.0,2411.0,C06gg40,t.y40ygh,Ticket,Medium,3.0,1,4hgrl,2022-07-03 05:04:03+00:00,2022-07-03 05:06:26+00:00,0.04,3,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4kgh,2022-07-03 05:06:26+00:00,2022-07-03 09:31:46+00:00,4.422,3,2,True,4,4,4,,4.0,good
+,,,,,,,3,4hgok,2022-07-03 09:31:46+00:00,2022-10-17 08:16:59+00:00,2542.754,4,32,True,4,4,4,,4.0,good
+1007351.0,2291.0,C06gg0v.w,t.y0v.wygh,Ticket,High,4.0,1,4hghk,2022-07-03 07:20:40+00:00,2022-07-03 07:21:15+00:00,0.01,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4hgos,2022-07-03 07:21:15+00:00,2022-07-03 07:24:22+00:00,0.052,1,1,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,3,4kqp,2022-07-03 07:24:22+00:00,2022-07-03 07:47:57+00:00,0.393,1,2,True,4,4,4,This is a service request,4.0,good
+,,,,,,,4,4lsh,2022-07-03 07:47:57+00:00,2022-07-07 14:24:24+00:00,102.608,4,6,True,4,4,4,This is a service request,4.0,good
+1007369.0,1154.0,C06hg2xcu,t.y2xcuyhi,HD Service,Highest,3.0,1,4hghk,2022-07-03 13:22:32+00:00,2022-07-03 13:25:07+00:00,0.043,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4sgr,2022-07-03 13:25:07+00:00,2022-07-05 09:11:55+00:00,43.78,1,3,True,4,4,4,This is a service request,4.0,good
+,,,,,,,3,4pps,2022-07-05 09:11:55+00:00,2022-07-13 04:47:35+00:00,187.594,4,6,True,4,4,4,This is a service request,4.0,good
+1007379.0,23.0,C07hr0w,u6y0wygp,Ticket,Medium,1.0,1,4ihs,2022-07-04 07:07:20+00:00,2022-07-24 10:06:01+00:00,482.978,3,9,True,1,1,1,No update useful in the ticket and ticket closed without showning what happen,1.0,needs_improvement
+1007408.0,536.0,C10ggx1nv,xayx1nvygo,Ticket,Medium,3.0,1,4hgrl,2022-07-05 06:49:40+00:00,2022-07-05 06:58:31+00:00,0.148,2,4,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4skr,2022-07-05 06:58:31+00:00,2022-07-05 06:58:42+00:00,0.003,1,0,True,3,3,3,,3.0,needs_improvement
+,,,,,,,3,4z8d4aa.c3,2022-07-05 06:58:42+00:00,2022-07-11 09:29:24+00:00,146.512,1,2,True,0,0,0,Not sure why this was assigned,0.0,needs_improvement
+,,,,,,,4,4skr,2022-07-11 09:29:24+00:00,2022-07-31 05:36:15+00:00,476.114,5,20,True,3,3,3,,3.0,needs_improvement
+1007417.0,134.0,C02hk0x93,0ny0x93yik,Ticket,Highest,2.0,1,4hghk,2022-07-05 13:25:24+00:00,2022-07-05 13:36:02+00:00,0.177,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4hgog,2022-07-05 13:36:02+00:00,2022-12-17 23:14:59+00:00,3969.649,4,25,True,0,0,0,,0.0,needs_improvement
+1007420.0,538.0,C10ggx1nv,xayx1nvygr,Ticket,Medium,2.0,1,4hgor,2022-07-06 04:02:29+00:00,2022-07-06 04:05:40+00:00,0.053,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4skr,2022-07-06 04:05:40+00:00,2022-11-23 04:22:28+00:00,3360.28,15,41,True,3,3,3,,3.0,needs_improvement
+1007426.0,104.0,C02gg_3nwc,0ny_3nwcygo,Ticket,Medium,2.0,1,4hghs,2022-07-06 07:25:27+00:00,2022-07-06 07:33:12+00:00,0.129,2,4,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4lhl,2022-07-06 07:33:12+00:00,2022-08-29 14:16:37+00:00,1302.724,2,14,True,2,2,2,"same day request connection but not shown if we connect and solved the issue or not, ticket closed since two weeks no feedback from C02",2.0,needs_improvement
+1007438.0,1157.0,C06hg2xcu,t.y2xcuyhp,Ticket,Highest,2.0,1,4hgrl,2022-07-06 11:05:18+00:00,2022-07-06 11:07:19+00:00,0.034,2,2,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4pps,2022-07-06 11:07:19+00:00,2022-07-06 12:01:45+00:00,0.907,2,3,True,4,4,4,,4.0,good
+1007444.0,566.0,C06hgfz_x,t.yfz_xygs,Ticket,High,2.0,1,4hgrl,2022-07-06 14:04:00+00:00,2022-07-06 14:06:36+00:00,0.043,2,4,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4lls,2022-07-06 14:06:36+00:00,2022-09-14 06:08:23+00:00,1672.03,6,15,True,2,2,2,,2.0,needs_improvement
+1007473.0,349.0,C10grx1nv,xayx1nvygr,Ticket,Low,1.0,1,4skr,2022-07-10 11:21:32+00:00,2022-08-01 04:48:09+00:00,521.444,3,7,True,4,4,4,,4.0,good
+1007478.0,544.0,C10ggx1nv,xayx1nvygr,Ticket,Medium,1.0,1,4skr,2022-07-12 06:21:43+00:00,2022-11-15 04:14:34+00:00,3021.881,12,48,True,2,2,2,,2.0,needs_improvement
+1007481.0,229.0,C13ggb20,bzyb20ygo,Ticket,Medium,2.0,1,4ris,2022-07-13 04:58:16+00:00,2022-07-19 06:29:31+00:00,145.521,3,8,True,4,4,4,,4.0,good
+,,,,,,,2,4pgp,2022-07-19 06:29:31+00:00,2022-07-24 07:19:45+00:00,120.837,1,3,True,4,4,4,,4.0,good
+1007497.0,3221.0,C06ggn039,t.yn039ygo,Ticket,Highest,2.0,1,4hgrl,2022-07-13 11:28:28+00:00,2022-07-13 11:32:03+00:00,0.06,1,2,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4ssh,2022-07-13 11:32:03+00:00,2022-07-27 11:41:11+00:00,336.152,2,5,True,4,4,4,service request,4.0,good
+1007511.0,3222.0,C06ggn039,t.yn039ygo,Ticket,Medium,1.0,1,4hggg,2022-07-14 07:19:06+00:00,2022-10-23 09:06:47+00:00,2425.795,4,31,True,2,2,2,,2.0,needs_improvement
+1007543.0,505.0,C12hgx18a,adyx18aygr,Ticket,Blocker,3.0,1,4hghs,2022-07-17 06:24:45+00:00,2022-07-17 06:30:04+00:00,0.089,2,4,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4lpo,2022-07-17 06:30:04+00:00,2022-11-23 21:06:22+00:00,3110.605,7,52,True,3,3,3,"Took so much time, can be better if more coordination with Dev and ph_name team was done",3.0,needs_improvement
+,,,,,,,3,4hghq,2022-11-23 21:06:22+00:00,2022-12-12 13:44:50+00:00,448.641,6,18,True,3,3,3,"Took so much time, can be better if more coordination with Dev and ph_name team was done",3.0,needs_improvement
+1007557.0,640.0,C02gg0x93,0ny0x93yho,Ticket,Medium,2.0,1,4hghs,2022-07-17 11:29:09+00:00,2022-07-17 11:32:05+00:00,0.049,2,4,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4lhl,2022-07-17 11:32:05+00:00,2022-11-08 13:56:51+00:00,2738.413,3,15,True,3,3,3,Issue delayed from ph_name and no esclation or closure to the ticket done even the issue was delayed more than to 2 weeks,3.0,needs_improvement
+1007567.0,285.0,C12gg0.a,ady0.aygh,Ticket,Highest,2.0,1,4hghk,2022-07-18 05:52:10+00:00,2022-07-18 05:54:57+00:00,0.046,2,4,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4lsk,2022-07-18 05:54:57+00:00,2022-09-20 08:20:49+00:00,1538.431,5,45,True,3,3,3,delay from dev and customer should do both internal escalation and with Customer,3.0,needs_improvement
+1007574.0,1168.0,C06hg2xcu,t.y2xcuyhp,Ticket,Blocker,2.0,1,4hghk,2022-07-18 09:08:00+00:00,2022-07-18 09:13:47+00:00,0.096,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4pps,2022-07-18 09:13:47+00:00,2022-07-18 09:25:16+00:00,0.191,1,5,True,5,3,5,Excellent time to resolve the issue but no documentation on the ticket to know what was the issue and how it was resolved,4.333333333333333,good
+1007580.0,2491.0,C13ggd10,bzyd10ygh,Ticket,Medium,1.0,1,4pgp,2022-07-18 12:28:26+00:00,2022-08-07 08:38:07+00:00,476.161,5,5,True,5,5,5,,5.0,good
+1007611.0,3224.0,C06ggn039,t.yn039ygo,Ticket,Medium,1.0,1,4lsh,2022-07-20 07:43:35+00:00,2022-09-25 12:16:17+00:00,1612.545,8,19,True,5,4,5,Need to have more follow up with customer to have issue resolved,4.666666666666667,good
+1007620.0,549.0,C10ggx1nv,xayx1nvygr,Ticket,Medium,1.0,1,,2022-07-20 11:40:40+00:00,2022-11-06 05:32:08+00:00,2609.858,16,57,True,5,5,3,"took some time from dev to provide solution, need to escalate",4.333333333333333,good
+1007646.0,137.0,C02hk0x93,0ny0x93yoh,Deployment,Medium,2.0,1,4hgor,2022-07-21 13:05:10+00:00,2022-07-21 13:05:42+00:00,0.009,2,2,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4llr,2022-07-21 13:05:42+00:00,2023-01-17 14:27:42+00:00,4321.367,4,7,True,5,5,5,this is a task not issue,5.0,good
+1007666.0,206.0,C10grn0v,xayn0vygh,HD Service,Medium,1.0,1,4hgho,2022-07-22 23:54:25+00:00,2023-03-05 11:07:05+00:00,5411.211,5,15,True,5,5,5,This is PM service the ticket type should be HD-Service,5.0,good
+1007671.0,180.0,C06gi8zv0,4rkg,Ticket,Medium,1.0,1,,2022-07-23 00:06:21+00:00,2022-09-06 12:04:51+00:00,1091.975,2,7,True,5,5,5,This is PM service the ticket type should be HD-Service,5.0,good
+1007685.0,14.0,C06hst_9,t.yt_9ygp,Ticket,Medium,1.0,1,4lpl,2022-07-23 00:36:59+00:00,2022-09-01 07:59:19+00:00,967.372,2,5,True,5,5,5,This is PM service the ticket type should be HD-Service,5.0,good
+1007718.0,2.0,C11hg0w13_,.wy0w13yig,Ticket,Medium,1.0,1,4qkr,2022-07-25 09:43:59+00:00,2022-07-25 10:14:25+00:00,0.507,2,3,True,5,5,5,This is CR request,5.0,good
+1007737.0,410.0,C14gr8114,d1y10dygi,Ticket,Medium,1.0,1,,2022-07-26 10:05:58+00:00,2022-08-01 06:12:17+00:00,140.105,2,5,True,5,5,5,This should be HD-Service,5.0,good
+1007739.0,138.0,C02hk0x93,0nynd01ygs,Ticket,Medium,2.0,1,4hgos,2022-07-26 11:08:54+00:00,2022-07-26 11:10:50+00:00,0.032,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4llr,2022-07-26 11:10:50+00:00,2022-11-27 15:01:50+00:00,2979.85,9,74,True,1,1,1,"Ticket is part of project should change the type to project, ticket investigation took so much time, ticket contains more than one issue which should be one issue per ticket, poor follow up with client on post any update",1.0,needs_improvement
+1007771.0,13.0,C02hk00u,0ny00uygi,Ticket,High,2.0,1,4kgi,2022-07-28 10:40:13+00:00,2022-07-28 10:49:02+00:00,0.147,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4llr,2022-07-28 10:49:02+00:00,2022-11-02 13:25:18+00:00,2330.604,8,27,True,1,1,1,"Many issues in this ticket, long time for investigation, long time for follow up, twice posted to customer that ticket will be closed and it was not closed, still few points which are very important not answered from our side",1.0,needs_improvement
+1007794.0,6.0,C07igd31,4ggo,HD Service,Medium,5.0,1,4ggo,2022-07-31 09:12:29+00:00,2022-07-31 12:48:51+00:00,3.606,1,2,True,5,5,5,"This is an internal ticket regarding the deployment at Client, this ticket used to document discussion done via email",5.0,good
+,,,,,,,2,t.d2j4d8c,2022-07-31 12:48:51+00:00,2022-07-31 14:16:30+00:00,1.461,2,1,True,5,5,5,"This is an internal ticket regarding the deployment at Client, this ticket used to document discussion done via email",5.0,good
+,,,,,,,3,4kqo,2022-07-31 14:16:30+00:00,2022-07-31 14:46:41+00:00,0.503,1,2,True,5,5,5,"This is an internal ticket regarding the deployment at Client, this ticket used to document discussion done via email",5.0,good
+,,,,,,,4,4hghk,2022-07-31 14:46:41+00:00,2022-07-31 14:46:46+00:00,0.001,1,0,True,5,5,5,"This is an internal ticket regarding the deployment at Client, this ticket used to document discussion done via email",5.0,good
+,,,,,,,5,4hgos,2022-07-31 14:46:46+00:00,2022-10-24 09:11:28+00:00,2034.412,2,1,True,5,5,5,"This is an internal ticket regarding the deployment at Client, this ticket used to document discussion done via email",5.0,good
+1007811.0,46.0,C07hr0c-0,u6y0c-0ygk,Ticket,Medium,2.0,1,4shl,2022-08-01 07:28:54+00:00,2022-08-01 07:31:09+00:00,0.038,1,3,True,5,5,5,"This is a request ticket type should be changed, request managed fast",5.0,good
+,,,,,,,2,4kgp,2022-08-01 07:31:09+00:00,2022-08-01 09:31:37+00:00,2.008,3,2,True,5,5,5,"This is a request ticket type should be changed, request managed fast",5.0,good
+1007835.0,2.0,C07hru_0,u6yu_0yhg,Ticket,Medium,2.0,1,4ihs,2022-08-02 05:58:21+00:00,2022-08-02 07:06:41+00:00,1.139,2,4,True,5,5,5,Ticket managed fast,5.0,good
+,,,,,,,2,4lrp,2022-08-02 07:06:41+00:00,2022-08-28 07:15:15+00:00,624.143,2,1,True,5,4,5,ticket managed in fast way but he did not resolve it directly this is why it shows long time,4.666666666666667,good
+1007853.0,83.0,C11grzvznv,.wyzvznvyhr,Ticket,Medium,1.0,1,4ops,2022-08-02 13:58:43+00:00,2022-08-03 11:48:55+00:00,21.837,2,3,True,5,5,5,Ticket managed fast,5.0,good
+1007880.0,514.0,C12ggzcz0u,adyzcz0uygq,Ticket,Highest,2.0,1,4hgrl,2022-08-03 13:37:00+00:00,2022-08-03 13:38:56+00:00,0.032,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4lsk,2022-08-03 13:38:56+00:00,2023-01-09 07:00:59+00:00,3809.368,5,96,True,1,1,1,"No investigation shown on the ticket and issue forwarded to dev, customer asking for a date and we answered ASAP, We asked for database reports after 20 days from the ticket opened, ",1.0,needs_improvement
+1007887.0,413.0,C14gr8114,d1y10dygh,Ticket,Medium,1.0,1,,2022-08-04 05:51:51+00:00,2022-08-08 07:51:01+00:00,97.986,2,5,True,5,5,5,request solved very fast,5.0,good
+1007932.0,33.0,C02hkx0u,u6yx0uygs,Ticket,High,1.0,1,4sih,2022-08-07 12:31:32+00:00,2022-08-15 13:25:57+00:00,192.907,4,9,True,5,5,5,Service managed in very good way,5.0,good
+1007957.0,276.0,C07ggu9n,u6yu9nygp,Ticket,Medium,1.0,1,4ihs,2022-08-08 10:05:47+00:00,2022-08-11 05:05:24+00:00,66.994,2,6,True,5,5,5,Service managed in very good way,5.0,good
+1007975.0,527.0,C12hgx18a,adyx18aygk,Ticket,High,3.0,1,4khg,2022-08-09 10:09:52+00:00,2022-08-09 10:21:05+00:00,0.187,2,3,True,5,3,3,delay 14 min to have ticket assigned,3.6666666666666665,needs_improvement
+,,,,,,,2,4lpo,2022-08-09 10:21:05+00:00,2022-08-09 11:27:13+00:00,1.102,1,3,True,5,5,5,Ticket managed well and fast,5.0,good
+,,,,,,,3,4hghq,2022-08-09 11:27:13+00:00,2022-08-10 09:14:52+00:00,21.794,3,7,True,5,5,5,Ticket managed well and fast,5.0,good
+1007991.0,25.0,C07hrnd01,u6ynd01ygp,Ticket,High,1.0,1,4shl,2022-08-10 07:43:03+00:00,2022-08-10 10:28:25+00:00,2.756,2,6,True,5,5,5,Ticket managed well and fast,5.0,good
+1008003.0,516.0,C12ggzcz0u,adyzcz0uygq,Ticket,Highest,2.0,1,4hgrl,2022-08-11 05:19:30+00:00,2022-08-11 05:23:00+00:00,0.058,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4lsk,2022-08-11 05:23:00+00:00,2022-08-11 06:06:31+00:00,0.725,2,5,True,5,5,5,Ticket managed well and fast,5.0,good
+1008041.0,37.0,C07hru9n,u6yu9nyhi,Ticket,Medium,1.0,1,,2022-08-14 12:09:42+00:00,2022-08-30 14:34:41+00:00,386.416,3,5,True,5,5,5,"PM ticket, This should be HD-Service",5.0,good
+1008115.0,1224.0,C06hg2xcu,t.y2xcuyhp,Ticket,High,2.0,1,4hghk,2022-08-17 11:57:23+00:00,2022-08-17 11:58:41+00:00,0.022,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4pps,2022-08-17 11:58:41+00:00,2022-08-17 13:31:12+00:00,1.542,2,5,True,5,5,5,Ticket managed well and fast,5.0,good
+1008122.0,26.0,C07hrnd01,u6ynd01ygq,Deployment,Medium,1.0,1,4kgp,2022-08-18 05:41:58+00:00,2023-01-12 14:17:59+00:00,3536.6,5,35,True,5,5,5,This should be HD-Service,5.0,good
+1008131.0,1225.0,C06hg2xcu,t.y2xcuyhp,Ticket,High,1.0,1,4pps,2022-08-18 08:32:39+00:00,2022-08-18 10:24:00+00:00,1.856,3,6,True,5,5,5,,5.0,good
+1008137.0,2713.0,C06ggtz0,t.ytz0ygl,Ticket,Highest,2.0,1,4hghk,2022-08-18 10:21:06+00:00,2022-08-18 10:24:42+00:00,0.06,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4kgh,2022-08-18 10:24:42+00:00,2022-08-18 10:55:02+00:00,0.506,2,3,True,5,5,5,Ticket managed well and fast,5.0,good
+1008170.0,145.0,C02hk0x93,0ny0x93yoh,Ticket,Low,2.0,1,4hglq,2022-08-21 12:46:15+00:00,2022-08-21 12:49:55+00:00,0.061,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4hgog,2022-08-21 12:49:55+00:00,2023-03-09 06:47:35+00:00,4793.961,4,14,True,1,1,1,"Many issue with this ticket, looks like it is a project or CR, took more than 5 month without any update to customer, ticket resolved without explain what was done",1.0,needs_improvement
+1008189.0,294.0,C12gg0.a,ady0.aygh,Ticket,Highest,4.0,1,4hglq,2022-08-22 11:12:11+00:00,2022-08-22 11:12:38+00:00,0.008,1,2,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4hghk,2022-08-22 11:12:38+00:00,2022-08-22 11:12:50+00:00,0.003,2,2,True,5,5,5,Ticket managed well and fast,5.0,good
+,,,,,,,3,4khg,2022-08-22 11:12:50+00:00,2022-08-22 11:27:34+00:00,0.246,1,2,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,4,4hghk,2022-08-22 11:27:34+00:00,2022-08-22 11:27:40+00:00,0.002,1,0,True,5,5,5,Ticket managed well and fast,5.0,good
+,,,,,,,5,4lsk,2022-08-22 11:27:40+00:00,2022-08-22 14:55:05+00:00,3.457,2,4,True,5,5,5,Ticket managed well and fast,5.0,good
+1008228.0,30.0,C12hga_0,adya_0ygp,Ticket,Medium,3.0,1,4hgol,2022-08-24 06:54:42+00:00,2022-08-24 06:56:05+00:00,0.023,2,2,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4pps,2022-08-24 06:56:05+00:00,2022-08-24 07:20:27+00:00,0.406,1,2,True,4,4,4,Only issue with this ticket it is CR and the type should be service,4.0,good
+,,,,,,,3,4hgol,2022-08-24 07:20:27+00:00,2022-08-24 07:23:32+00:00,0.051,1,0,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,4,4pps,2022-08-24 07:23:32+00:00,2022-08-24 07:27:27+00:00,0.065,1,0,True,4,4,4,Only issue with this ticket it is CR and the type should be service,4.0,good
+,,,,,,,5,4lpo,2022-08-24 07:27:27+00:00,2022-10-18 13:10:17+00:00,1325.714,7,6,True,5,5,5,Ticket managed well and fast,5.0,good
+1008255.0,420.0,C14gr8114,d1y10dygh,Ticket,Medium,1.0,1,,2022-08-25 08:33:15+00:00,2022-08-26 11:00:13+00:00,26.449,2,5,True,5,5,5,only issue with this ticket is its type should be HD-service since it is a request to rest password,5.0,good
+1008307.0,548.0,C12hgx18a,adyx18aygk,Ticket,High,2.0,1,4hghk,2022-08-29 07:58:38+00:00,2022-08-29 08:00:37+00:00,0.033,2,4,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4lpo,2022-08-29 08:00:37+00:00,2022-09-15 09:08:55+00:00,409.138,7,6,True,5,5,5,Ticket managed well and fast,5.0,good
+1008309.0,530.0,C12ggzcz0u,adyzcz0uygq,Ticket,Highest,2.0,1,4hglq,2022-08-29 08:56:19+00:00,2022-08-29 09:00:11+00:00,0.064,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4lsk,2022-08-29 09:00:11+00:00,2022-08-29 10:03:12+00:00,1.05,2,3,True,5,5,5,Ticket managed well and fast,5.0,good
+1008322.0,54.0,C01hqd_0,z8yd_0ygh,Ticket,High,1.0,1,4lig,2022-08-29 12:08:30+00:00,2023-01-16 08:10:34+00:00,3356.034,5,43,True,3,3,3,many delays from dev to provide the fix,3.0,needs_improvement
+1008360.0,15.0,C02hk00u,0ny00uygh,Ticket,Medium,3.0,1,4hglq,2022-08-31 06:22:23+00:00,2022-08-31 06:24:55+00:00,0.042,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4kgh,2022-08-31 06:24:55+00:00,2022-08-31 06:29:46+00:00,0.081,1,1,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,3,4llr,2022-08-31 06:29:46+00:00,2022-12-14 11:05:41+00:00,2524.599,6,32,True,2,2,2,Many delays and communication outside the ticket is not reflected on the ticket,2.0,needs_improvement
+1008420.0,3478.0,C13ggb_0,bzyb_0ygo,Ticket,Medium,1.0,1,4qiq,2022-09-04 13:30:20+00:00,2022-09-18 09:53:51+00:00,332.392,2,8,True,5,5,5,ticket managed well and fasr,5.0,good
+1008440.0,348.0,C01gg0xa,bzy0xaygl,Ticket,High,3.0,1,4hgpl,2022-09-05 10:02:49+00:00,2022-09-05 10:04:03+00:00,0.021,1,2,True,5,5,5,ticket managed well and fasr,5.0,good
+,,,,,,,2,4hglq,2022-09-05 10:04:03+00:00,2022-09-05 10:08:29+00:00,0.074,2,1,True,5,5,5,ticket managed well and fasr,5.0,good
+,,,,,,,3,4z8d4aa.c3,2022-09-05 10:08:29+00:00,2022-09-05 10:09:30+00:00,0.017,1,1,True,5,5,5,ticket managed well and fasr,5.0,good
+,,,,,,,4,4hgpl,2022-09-05 10:09:30+00:00,2022-09-05 11:28:14+00:00,1.312,3,4,True,5,5,5,ticket managed well and fasr,5.0,good
+1008457.0,589.0,C06hgfz_x,t.yfz_xyhh,Ticket,High,2.0,1,4hhgo,2022-09-06 08:17:25+00:00,2022-09-06 08:19:16+00:00,0.031,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4sgg,2022-09-06 08:19:16+00:00,2022-11-23 14:06:33+00:00,1877.788,6,11,True,2,2,2,"Ticket high and took 2 months to be resolved, delay from our team to update the customer and have internal escalation to have this fixed earlier",2.0,needs_improvement
+1008458.0,34.0,C12hga_0,adya_0ygp,Ticket,Medium,1.0,1,4lpo,2022-09-06 08:21:21+00:00,2022-09-13 08:46:04+00:00,168.412,5,8,True,5,5,5,ticket managed well and fast,5.0,good
+1008489.0,3479.0,C13ggb_0,bzyb_0ygo,Ticket,Medium,2.0,1,4pgp,2022-09-07 04:50:14+00:00,2022-09-07 06:35:15+00:00,1.75,1,4,True,5,5,5,ticket managed well and fast,5.0,good
+,,,,,,,2,4qiq,2022-09-07 06:35:15+00:00,2022-09-18 09:48:51+00:00,267.227,3,2,True,5,5,5,ticket managed well and fast,5.0,good
+1008502.0,61.0,C07hrx0u,u6yx0uyhq,Ticket,Medium,1.0,1,4ioh,2022-09-07 07:58:13+00:00,2022-09-28 07:57:54+00:00,503.995,6,17,True,4,4,4,ticket managed well not sure why the DEV ticket was opened,4.0,good
+1008512.0,45.0,C12hhx18a,adyx18aygk,Ticket,Blocker,3.0,1,4hhgi,2022-09-07 11:33:36+00:00,2022-09-07 11:36:50+00:00,0.054,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4hghq,2022-09-07 11:36:50+00:00,2022-09-11 11:04:11+00:00,95.456,2,3,True,5,5,5,ticket managed well and fast,5.0,good
+,,,,,,,3,4lpo,2022-09-11 11:04:11+00:00,2022-09-13 07:55:04+00:00,44.848,4,3,True,5,5,5,ticket managed well and fast,5.0,good
+1008517.0,381.0,C06ggctn0,t.yctn0ygp,Ticket,Medium,2.0,1,4hhgo,2022-09-07 12:38:53+00:00,2022-09-07 12:41:36+00:00,0.045,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4lsp,2022-09-07 12:41:36+00:00,2022-09-11 11:13:09+00:00,94.526,3,2,True,4,4,4,"took 2 days to be resolved but no update on the ticket during these two days Wed, and Thu",4.0,good
+1008526.0,558.0,C12hgx18a,adyx18aygs,Deployment,Highest,1.0,1,4hghq,2022-09-07 23:10:52+00:00,2022-09-08 00:42:12+00:00,1.522,3,3,True,5,5,5,Deployment ticket,5.0,good
+1008550.0,80.0,C07hr6cz0,u6y6cz0ygk,Ticket,Medium,1.0,1,,2022-09-08 14:10:35+00:00,2022-09-19 14:58:14+00:00,264.794,3,4,True,5,5,5,PM visit HD-Service,5.0,good
+1008580.0,541.0,C12ggzcz0u,adyzcz0uygq,Ticket,Highest,2.0,1,4hhgi,2022-09-12 05:23:05+00:00,2022-09-12 05:36:01+00:00,0.216,2,6,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4lsk,2022-09-12 05:36:01+00:00,2022-09-12 06:06:35+00:00,0.509,2,2,True,5,5,5,Issue resolved quickly by the team,5.0,good
+1008592.0,16.0,C07ppu9n,u6yu9nyhi,Ticket,Medium,1.0,1,4sih,2022-09-12 08:35:41+00:00,2022-09-14 12:55:58+00:00,52.338,3,4,True,5,5,5,Request and managed quickly by the team,5.0,good
+1008595.0,239.0,C06hqzcz0,t.yzcz0yio,Ticket,Medium,2.0,1,4hhgi,2022-09-12 09:19:38+00:00,2022-09-12 09:22:11+00:00,0.042,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4lqg,2022-09-12 09:22:11+00:00,2023-02-27 12:16:14+00:00,4034.901,5,19,True,2,2,2,Ticket took long time to be resolved and poor follow up with customer and lack for update to customer,2.0,needs_improvement
+1008598.0,2359.0,C13ghbx0,bzybx0ygi,Ticket,Medium,1.0,1,4oio,2022-09-12 10:34:42+00:00,2022-10-26 07:36:50+00:00,1053.036,8,33,True,3,3,3,"this should be HD-Service, took long time to resolve and resolved after connection with customer",3.0,needs_improvement
+1008607.0,48.0,C12hhx18a,adyx18aygk,Ticket,High,2.0,1,4hghk,2022-09-12 12:56:19+00:00,2022-09-12 12:58:56+00:00,0.044,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4lpo,2022-09-12 12:58:56+00:00,2022-10-31 11:12:53+00:00,1174.232,10,55,True,5,5,5,ticket managed well and fast,5.0,good
+1008619.0,3235.0,C06ggn039,t.yn039ygo,Ticket,Medium,2.0,1,4ssh,2022-09-13 08:17:35+00:00,2022-09-21 13:13:39+00:00,196.934,3,6,True,2,2,2,No close follow up with the client and ticket should be closed by Oct 10 since more than 3 weeks no update from customer,2.0,needs_improvement
+,,,,,,,2,4lsh,2022-09-21 13:13:39+00:00,2022-11-21 06:30:58+00:00,1457.289,3,16,True,2,2,2,No close follow up with the client and ticket should be closed by Oct 10 since more than 3 weeks no update from customer,2.0,needs_improvement
+1008625.0,2319.0,C06gg8zv0,t.y8zv0ygq,Ticket,High,4.0,1,4hhgi,2022-09-13 09:37:38+00:00,2022-09-13 09:38:12+00:00,0.009,1,2,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4kgq,2022-09-13 09:38:12+00:00,2022-09-13 09:40:21+00:00,0.036,2,2,True,5,5,5,Issue resolved quickly by the team,5.0,good
+,,,,,,,3,4slh,2022-09-13 09:40:21+00:00,2022-09-13 11:34:17+00:00,1.899,1,1,True,5,5,5,Issue resolved quickly by the team,5.0,good
+,,,,,,,4,4lsp,2022-09-13 11:34:17+00:00,2022-09-13 13:50:22+00:00,2.268,2,1,True,5,5,5,Issue resolved quickly by the team,5.0,good
+1008656.0,152.0,C07ggz40,u6yz40ygh,HD Service,Highest,1.0,1,4ihs,2022-09-14 06:42:56+00:00,2022-09-16 08:32:08+00:00,49.82,4,7,True,5,5,4,"one hour delay in ticket assignement, other than that the issue quickly diagnostic and resolved",4.666666666666667,good
+1008662.0,8.0,C11gk0w13_,.wy0w13yig,Ticket,Medium,1.0,1,4qkr,2022-09-14 09:47:21+00:00,2022-10-30 09:47:59+00:00,1104.011,4,10,True,5,5,5,"This should be HD-Service, the request identified quickly and provide the configuration in the test in the same week ",5.0,good
+1008671.0,594.0,C06hgfz_x,t.yfz_xyhh,Ticket,High,2.0,1,4hglq,2022-09-14 17:13:22+00:00,2022-09-14 17:19:42+00:00,0.106,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4sgg,2022-09-14 17:19:42+00:00,2023-01-29 09:43:17+00:00,3280.393,14,28,True,1,1,1,Ticket is very bad management and not updated as should be such as what was the issue and how it was solved other than new release deployed???,1.0,needs_improvement
+1008678.0,2957.0,C01ggz-3,z8yz-3ygp,Ticket,High,2.0,1,4hgol,2022-09-15 06:59:19+00:00,2022-09-15 07:03:50+00:00,0.075,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4kll,2022-09-15 07:03:50+00:00,2022-10-27 05:42:14+00:00,1006.64,5,23,True,2,2,2,"It took around one month to know the buisness behined the service and finally found out the case is not correct and system is working as expected, ticket closed since client does not respond as agree or disagree with our analysis",2.0,needs_improvement
+,,,,,,,3,4kll,2022-10-27 05:42:14+00:00,2022-12-02 11:26:12+00:00,869.733,3,16,True,2,2,2,"It took around one month to know the buisness behined the service and finally found out the case is not correct and system is working as expected, ticket closed since client does not respond as agree or disagree with our analysis",2.0,needs_improvement
+1008712.0,152.0,C02hk0x93,0ny0x93yik,Ticket,Highest,2.0,1,4hglq,2022-09-18 09:35:26+00:00,2022-09-18 09:38:26+00:00,0.05,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4llr,2022-09-18 09:38:26+00:00,2022-12-14 14:31:47+00:00,2092.889,6,20,True,1,1,1,"Looks like missing or unclear requirements and it took 1 month to be discussed and agreed on with customer and it took 2 months to be fixed, ticket is not updated as it should be",1.0,needs_improvement
+1008767.0,570.0,C12hgx18a,adyx18aygk,Ticket,High,3.0,1,4hglq,2022-09-20 07:06:14+00:00,2022-09-20 07:11:15+00:00,0.084,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4lpo,2022-09-20 07:11:15+00:00,2022-09-20 11:19:20+00:00,4.135,2,7,True,2,2,3,Ticket took 3 days to be identified and resolved from database without any comment to explain,2.3333333333333335,needs_improvement
+,,,,,,,3,4hghq,2022-09-20 11:19:20+00:00,2022-09-28 11:09:11+00:00,191.831,2,16,True,0,0,0,Ticket took 3 days to be identified and resolved from database without any comment to explain,0.0,needs_improvement
+1008791.0,2322.0,C06gg10t,t.y10tygh,Ticket,Medium,2.0,1,4sks,2022-09-21 08:44:12+00:00,2022-10-15 19:14:37+00:00,586.507,4,2,True,1,1,1,Ticket is not customer reported ticket and it used to exchange files,1.0,needs_improvement
+,,,,,,,2,4osr,2022-10-15 19:14:37+00:00,2022-10-16 12:19:26+00:00,17.08,1,0,True,1,1,1,Ticket is not customer reported ticket and it used to exchange files,1.0,needs_improvement
+1008856.0,154.0,C02hk0x93,0ny0x23yoi,Ticket,Medium,2.0,1,4hhgo,2022-09-26 05:58:46+00:00,2022-09-26 06:02:11+00:00,0.057,1,4,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4llr,2022-09-26 06:02:11+00:00,2023-01-26 10:19:59+00:00,2932.297,3,35,True,2,2,2,This should be project type ticket since it is related to test or UAT and ticket used to report issues,2.0,needs_improvement
+1008884.0,1307.0,C06hg2xcu,t.y2xcuyhp,Ticket,High,1.0,1,4pps,2022-09-27 11:17:51+00:00,2022-09-29 09:46:26+00:00,46.476,3,6,True,1,1,1,Athough issue resolved quickly but no justification why the issue resolved by update database and no explaination what the issue is and why we update the database,1.0,needs_improvement
+1008912.0,603.0,C06hgfz_x,t.yfz_xygs,Ticket,High,3.0,1,4hhgi,2022-09-28 11:12:49+00:00,2022-09-28 11:14:21+00:00,0.026,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4sgg,2022-09-28 11:14:21+00:00,2023-01-19 09:21:07+00:00,2710.113,2,23,True,1,1,1,Ticket is badly managed and it took 1 month to report the issue is not related to us and 4 month to have ticket closed,1.0,needs_improvement
+,,,,,,,3,4lls,2023-01-19 09:21:07+00:00,2023-02-15 15:02:39+00:00,653.692,1,8,True,1,1,1,Ticket is badly managed and it took 1 month to report the issue is not related to us and 4 month to have ticket closed,1.0,needs_improvement
+1008940.0,581.0,C12hgx18a,adyx18aygo,Ticket,Highest,1.0,1,4hghq,2022-09-29 12:25:36+00:00,2022-09-29 14:14:00+00:00,1.807,4,5,True,5,5,5,Ticket managed in v.g way and fast,5.0,good
+1008968.0,63.0,C12hhx18a,4hgkk,Deployment,High,3.0,1,4hhgo,2022-10-02 07:00:20+00:00,2022-10-02 07:00:49+00:00,0.008,1,2,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4hgos,2022-10-02 07:00:49+00:00,2022-10-02 07:02:45+00:00,0.032,3,1,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,3,4lpo,2022-10-02 07:02:45+00:00,2022-10-06 09:46:50+00:00,98.735,5,20,True,5,5,5,This is a deployment HD-service,5.0,good
+1009017.0,351.0,C01gg0xa,bzy0xaygl,Ticket,Medium,3.0,1,4hglq,2022-10-03 15:36:06+00:00,2022-10-03 15:49:54+00:00,0.23,2,3,True,4,5,4,Service Desk User delay around 14 min to have ticket assigned,4.333333333333333,good
+,,,,,,,2,4hgqg,2022-10-03 15:49:54+00:00,2022-10-07 05:52:00+00:00,86.035,2,5,True,5,5,5,Solution provided within less than an hour and customer took two days to test and apply to production,5.0,good
+,,,,,,,3,4hgpl,2022-10-07 05:52:00+00:00,2022-10-07 05:55:57+00:00,0.066,2,1,True,5,5,5,SD,5.0,good
+1009024.0,606.0,C06hgfz_x,t.yfz_xygs,Ticket,High,2.0,1,4hhgi,2022-10-04 07:05:30+00:00,2022-10-04 07:10:12+00:00,0.078,2,4,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4lls,2022-10-04 07:10:12+00:00,2022-12-30 00:32:19+00:00,2081.369,7,23,True,4,4,4,This should be HD-Service since it is an inquiry about the system and managed very well,4.0,good
+1009028.0,2612.0,C06gg10,t.y10ygr,Ticket,Highest,2.0,1,4hhgo,2022-10-04 08:28:06+00:00,2022-10-04 08:31:57+00:00,0.064,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4sks,2022-10-04 08:31:57+00:00,2022-10-04 10:10:25+00:00,1.641,3,5,True,5,5,5,This should be HD-Service since it is a request to delete accounts and managed very well,5.0,good
+1009034.0,2644.0,C06ggt_9,t.yt_9ygo,Ticket,High,3.0,1,4hhgi,2022-10-04 09:24:23+00:00,2022-10-04 09:24:47+00:00,0.007,1,2,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4hhgo,2022-10-04 09:24:47+00:00,2022-10-04 09:26:49+00:00,0.034,2,2,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,3,4lsp,2022-10-04 09:26:49+00:00,2022-10-04 09:31:35+00:00,0.079,2,2,True,5,5,5,This is a showstopper issue and managed in excellent way,5.0,good
+1009052.0,5.0,C06grzt_0,t.yzt_0ygo,Ticket,Medium,4.0,1,4hhgi,2022-10-05 07:34:15+00:00,2022-10-05 07:34:42+00:00,0.008,1,2,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4hhgo,2022-10-05 07:34:42+00:00,2022-10-05 07:35:40+00:00,0.016,2,2,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,3,4hhgi,2022-10-05 07:35:40+00:00,2022-10-05 07:37:48+00:00,0.036,1,0,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,4,4sio,2022-10-05 07:37:48+00:00,2022-10-05 07:54:26+00:00,0.277,1,1,True,3,3,3,V.G management but lake clarity and documentation on how this was diagnostic,3.0,needs_improvement
+,,,,,,,5,4lpl,2022-10-05 07:54:26+00:00,2022-10-05 13:04:06+00:00,5.161,1,2,True,3,3,3,V.G management but lake clarity and documentation on how this was diagnostic,3.0,needs_improvement
+1009057.0,2613.0,C06gg10,t.y10ygr,Ticket,High,2.0,1,4hhgo,2022-10-05 08:17:06+00:00,2022-10-05 08:19:30+00:00,0.04,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4sks,2022-10-05 08:19:30+00:00,2022-10-06 07:31:04+00:00,23.193,2,3,True,4,4,5,"This is a request, ticket should be change to HD-Service, steps are not provided",4.333333333333333,good
+1009107.0,564.0,C12ggzcz0u,adyzcz0uygh,Ticket,High,2.0,1,4hhgo,2022-10-09 09:35:21+00:00,2022-10-09 09:37:14+00:00,0.031,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4lsk,2022-10-09 09:37:14+00:00,2022-10-10 08:24:21+00:00,22.785,3,12,True,5,5,5,Ticket managed in excellent way,5.0,good
+1009127.0,211.0,C07gg0c-0,u6y0c-0ygk,Ticket,Highest,1.0,1,4lrp,2022-10-10 08:41:48+00:00,2022-10-12 13:20:27+00:00,52.644,4,6,True,5,5,5,Ticket managed in excellent way,5.0,good
+1009136.0,317.0,C12gg0.a,ady0.aygh,Ticket,High,2.0,1,4hhgo,2022-10-10 10:51:17+00:00,2022-10-10 10:53:14+00:00,0.032,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4lsk,2022-10-10 10:53:14+00:00,2022-10-10 11:09:51+00:00,0.277,2,3,True,5,5,5,This is a service request and managed well,5.0,good
+1009149.0,566.0,C12ggzcz0u,adyzcz0uygr,Ticket,High,3.0,1,4hgol,2022-10-11 05:25:37+00:00,2022-10-11 05:26:58+00:00,0.022,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,1n81u.adh,2022-10-11 05:26:58+00:00,2022-10-11 05:34:57+00:00,0.133,2,2,True,5,5,5,,5.0,good
+,,,,,,,3,4osr,2022-10-11 05:34:57+00:00,2022-10-11 05:44:15+00:00,0.155,1,1,True,5,5,5,,5.0,good
+1009151.0,3244.0,C06ggn039,t.yn039ygo,Ticket,Medium,2.0,1,4hhgi,2022-10-11 05:48:09+00:00,2022-10-11 05:51:38+00:00,0.058,1,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4lsh,2022-10-11 05:51:38+00:00,2022-10-26 09:54:31+00:00,364.048,5,18,True,3,3,3,Not clear what the issue is and how it is resolved,3.0,needs_improvement
+1009164.0,610.0,C06hgfz_x,t.yfz_xygs,Ticket,Highest,2.0,1,4hhgi,2022-10-11 10:03:27+00:00,2022-10-11 10:06:02+00:00,0.043,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4lls,2022-10-11 10:06:02+00:00,2022-11-12 21:56:43+00:00,779.845,5,9,True,3,3,3,,3.0,needs_improvement
+1009172.0,1361.0,C06hg2xcu,t.y2xcuyho,Ticket,High,2.0,1,4hgos,2022-10-11 18:59:27+00:00,2022-10-11 19:05:41+00:00,0.104,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4pps,2022-10-11 19:05:41+00:00,2022-10-17 08:04:49+00:00,132.986,2,3,True,3,3,3,Issue required 10 min was handled in 2 days,3.0,needs_improvement
+1009193.0,1365.0,C06hg2xcu,t.y2xcuyho,Ticket,Highest,2.0,1,4hgos,2022-10-12 20:57:15+00:00,2022-10-12 20:58:25+00:00,0.019,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4pps,2022-10-12 20:58:25+00:00,2022-10-17 08:03:47+00:00,107.089,2,3,True,3,3,3,Issue required 10 min was handled in 2 days,3.0,needs_improvement
+1009221.0,431.0,C14gr8114,d1y10dygh,Ticket,Medium,1.0,1,,2022-10-14 08:30:33+00:00,2022-10-28 04:58:27+00:00,332.465,2,6,True,3,3,3,,3.0,needs_improvement
+1009224.0,1369.0,C06hg2xcu,t.y2xcuyhp,Ticket,High,2.0,1,4khg,2022-10-14 13:35:52+00:00,2022-10-14 13:40:20+00:00,0.074,2,3,True,5,5,5,,5.0,good
+,,,,,,,2,4pps,2022-10-14 13:40:20+00:00,2022-10-17 08:06:59+00:00,66.444,2,3,True,3,3,3,,3.0,needs_improvement
+1009230.0,2620.0,C06gg10,t.y10ygl,Ticket,Medium,3.0,1,4khg,2022-10-16 06:32:01+00:00,2022-10-16 06:33:13+00:00,0.02,1,2,True,5,5,5,,5.0,good
+,,,,,,,2,4hglq,2022-10-16 06:33:13+00:00,2022-10-16 06:35:23+00:00,0.036,2,2,True,5,5,5,,5.0,good
+,,,,,,,3,4khg,2022-10-16 06:35:23+00:00,2022-10-16 06:36:10+00:00,0.013,1,0,True,5,5,5,,5.0,good
+,,,,,,,4,4hgsg,2022-10-16 06:36:10+00:00,2022-10-18 07:50:14+00:00,49.234,7,5,True,3,3,3,,3.0,needs_improvement
+1009250.0,413.0,C01ggd_0,z8yd_0ygh,Ticket,Medium,1.0,1,4lig,2022-10-17 04:59:31+00:00,2022-10-28 08:37:11+00:00,267.628,3,5,True,4,4,4,Issue resolved quickly but no explain why?,4.0,good
+1009279.0,2.0,C13hgwzc,bzywzcygs,Ticket,High,1.0,1,4qil,2022-10-18 04:36:11+00:00,2022-10-30 08:02:24+00:00,291.437,3,3,True,5,5,5,"Not an issue, inqury",5.0,good
+1009314.0,332.0,C13grb_0,bzyb_0ygo,Ticket,Medium,1.0,1,4oqq,2022-10-19 11:32:06+00:00,2022-10-26 14:24:43+00:00,170.877,3,9,True,4,4,4,,4.0,good
+1009327.0,572.0,C10ggx1nv,xayx1nvygr,Ticket,Medium,3.0,1,4hghk,2022-10-20 07:35:21+00:00,2022-10-20 07:55:19+00:00,0.333,2,4,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4z8d4aa.c3,2022-10-20 07:55:19+00:00,2022-10-20 07:59:40+00:00,0.072,1,1,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,3,4hgho,2022-10-20 07:59:40+00:00,2022-11-17 05:39:33+00:00,669.665,2,7,True,1,1,1,Took more than 10 days withoue any updated on the ticket,1.0,needs_improvement
+,,,,,,,4,4hgho,2022-11-17 05:39:33+00:00,2023-01-23 11:57:11+00:00,1614.294,15,29,True,1,1,1,Issue reported to Dev after 10 days without any investigation documented in the ticket,1.0,needs_improvement
+1009328.0,10.0,C06grzt_0,t.yzt_0ygr,Ticket,Medium,2.0,1,4hglq,2022-10-20 07:48:57+00:00,2022-10-20 07:59:10+00:00,0.17,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4lpl,2022-10-20 07:59:10+00:00,2022-11-28 07:27:46+00:00,935.477,2,16,True,3,3,3,this is a HD-Service,3.0,needs_improvement
+1009361.0,88.0,C12hhx18a,adyx18aygk,Ticket,High,3.0,1,4hgol,2022-10-23 10:52:09+00:00,2022-10-23 10:53:09+00:00,0.017,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4khg,2022-10-23 10:53:09+00:00,2022-10-23 10:56:11+00:00,0.051,1,1,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,3,4lpo,2022-10-23 10:56:11+00:00,2022-10-24 07:05:37+00:00,20.157,3,5,True,5,5,5,issue resolved quickly,5.0,good
+1009366.0,1389.0,C06hg2xcu,t.y2xcuyhp,Ticket,Blocker,2.0,1,4hhgi,2022-10-23 14:28:22+00:00,2022-10-23 14:33:21+00:00,0.083,2,3,True,5,5,5,Service Desk user did his work perfectly same for other service desk users,5.0,good
+,,,,,,,2,4pps,2022-10-23 14:33:21+00:00,2023-01-04 09:22:15+00:00,1746.815,5,7,True,2,2,2,Long time between ticket update,2.0,needs_improvement
+1009371.0,52.0,C07igd31,4hgop,Ticket,Low,1.0,1,,2022-10-24 05:59:06+00:00,2022-10-24 06:03:36+00:00,0.075,1,3,True,0,0,0,,0.0,needs_improvement
+1009396.0,6.0,C12hhx18aj28av.ew8x3d,adyx18aygk,Deployment,High,2.0,1,4khg,2022-10-24 11:47:21+00:00,2022-10-24 11:50:16+00:00,0.049,2,3,True,0,0,0,,0.0,needs_improvement
+,,,,,,,2,4lpo,2022-10-24 11:50:16+00:00,2022-10-24 13:01:47+00:00,1.192,3,4,True,0,0,0,,0.0,needs_improvement
+1009410.0,7.0,C12hhx18aj28av.ew8x3d,4hgkk,Deployment,High,2.0,1,4hgkk,2022-10-25 06:29:34+00:00,2022-10-25 06:32:48+00:00,0.054,1,3,True,0,0,0,,0.0,needs_improvement
+,,,,,,,2,4lpo,2022-10-25 06:32:48+00:00,2022-10-25 07:17:09+00:00,0.739,3,1,True,0,0,0,,0.0,needs_improvement
+1009437.0,129.0,C13grz0,bzyz0ygh,Ticket,Medium,1.0,1,4psk,2022-10-26 05:28:51+00:00,2022-10-31 06:35:53+00:00,121.117,3,4,True,0,0,0,,0.0,needs_improvement
+1009447.0,2328.0,C06gg10t,t.y10tygh,Ticket,Medium,1.0,1,4osr,2022-10-26 09:56:20+00:00,2022-11-02 05:47:59+00:00,163.861,2,12,True,0,0,0,,0.0,needs_improvement
+1009455.0,92.0,C12hhx18a,adyx18aygo,Ticket,High,2.0,1,4hhgi,2022-10-26 12:53:02+00:00,2022-10-26 12:58:34+00:00,0.092,2,3,True,0,0,0,,0.0,needs_improvement
+,,,,,,,2,4lpo,2022-10-26 12:58:34+00:00,2022-11-21 09:40:23+00:00,620.697,6,22,True,0,0,0,,0.0,needs_improvement
+1009463.0,62.0,C05gpc3,_byc3ygh,Ticket,Highest,2.0,1,4hgol,2022-10-27 06:03:58+00:00,2022-10-27 06:08:43+00:00,0.079,2,3,True,0,0,0,,0.0,needs_improvement
+,,,,,,,2,4pio,2022-10-27 06:08:43+00:00,2022-11-02 12:29:39+00:00,150.349,2,4,True,0,0,0,,0.0,needs_improvement
+1009484.0,1409.0,C06hg2xcu,t.y2xcuyhp,Ticket,High,1.0,1,4pps,2022-10-27 13:28:42+00:00,2022-10-30 10:33:59+00:00,69.088,3,5,True,0,0,0,,0.0,needs_improvement
+1009486.0,2525.0,C06gg0.t,t.y0.tygp,Ticket,Highest,2.0,1,4hglq,2022-10-27 14:54:33+00:00,2022-10-27 15:00:05+00:00,0.092,2,3,True,0,0,0,,0.0,needs_improvement
+,,,,,,,2,4kpq,2022-10-27 15:00:05+00:00,2022-11-02 07:45:31+00:00,136.757,2,6,True,0,0,0,,0.0,needs_improvement
+1009500.0,386.0,C06ggctn0,t.yctn0ygp,Ticket,Highest,2.0,1,4hhgi,2022-10-30 06:02:09+00:00,2022-10-30 06:05:15+00:00,0.052,1,3,True,0,0,0,,0.0,needs_improvement
+,,,,,,,2,4hgih,2022-10-30 06:05:15+00:00,2022-10-30 08:08:36+00:00,2.056,4,3,True,0,0,0,,0.0,needs_improvement
+1009540.0,580.0,C12ggzcz0u,adyzcz0uygq,Ticket,Highest,2.0,1,4hhgi,2022-10-31 07:18:29+00:00,2022-10-31 07:21:43+00:00,0.054,2,3,True,0,0,0,,0.0,needs_improvement
+,,,,,,,2,4lsk,2022-10-31 07:21:43+00:00,2022-10-31 08:21:48+00:00,1.001,3,5,True,0,0,0,,0.0,needs_improvement
+1009543.0,3318.0,C06ggzcz0,t.yzcz0yih,Ticket,Medium,2.0,1,4hglq,2022-10-31 07:48:56+00:00,2022-10-31 07:53:07+00:00,0.07,2,3,True,0,0,0,,0.0,needs_improvement
+,,,,,,,2,4kpq,2022-10-31 07:53:07+00:00,2023-03-02 05:34:12+00:00,2925.685,6,47,True,0,0,0,,0.0,needs_improvement
+1009552.0,2413.0,C13ggwzc,bzywzcygq,Ticket,Medium,1.0,1,4oio,2022-10-31 11:20:04+00:00,2022-11-09 13:34:34+00:00,218.242,3,9,True,0,0,0,,0.0,needs_improvement
+1009569.0,1429.0,C06hg2xcu,t.y2xcuyhp,Ticket,High,2.0,1,4hhgi,2022-11-01 06:40:40+00:00,2022-11-01 06:42:03+00:00,0.023,2,3,True,0,0,0,,0.0,needs_improvement
+,,,,,,,2,4pps,2022-11-01 06:42:03+00:00,2022-11-02 09:15:22+00:00,26.555,2,3,True,0,0,0,,0.0,needs_improvement
+1009576.0,14.0,C02ggw0,u6ywd0ygo,Ticket,High,3.0,1,4hhgi,2022-11-01 08:36:31+00:00,2022-11-01 08:37:41+00:00,0.019,1,2,True,0,0,0,,0.0,needs_improvement
+,,,,,,,2,4hgos,2022-11-01 08:37:41+00:00,2022-11-01 08:40:52+00:00,0.053,2,1,True,0,0,0,,0.0,needs_improvement
+,,,,,,,3,4lhl,2022-11-01 08:40:52+00:00,2023-02-22 07:02:07+00:00,2710.354,2,47,True,0,0,0,,0.0,needs_improvement
+1009584.0,15.0,C01hqnd01,z8ynd01ygi,Deployment,Medium,1.0,1,,2022-11-01 12:20:35+00:00,2022-11-08 09:15:33+00:00,164.916,3,2,True,0,0,0,,0.0,needs_improvement
+1009593.0,579.0,C11gg02z9,.wy02z9ygi,Ticket,Medium,1.0,1,4qoh,2022-11-02 05:16:39+00:00,2022-11-24 11:14:30+00:00,533.964,3,8,True,0,0,0,,0.0,needs_improvement
+1009599.0,19.0,C14ggw10,d1yw10ygq,Ticket,Medium,1.0,1,,2022-11-02 06:56:54+00:00,2022-11-04 05:13:57+00:00,46.284,2,9,True,0,0,0,,0.0,needs_improvement
+1009601.0,252.0,C06hqzcz0,t.yzcz0yio,Ticket,High,3.0,1,4hglq,2022-11-02 08:27:50+00:00,2022-11-02 08:28:25+00:00,0.01,2,3,True,0,0,0,,0.0,needs_improvement
+,,,,,,,2,4hghk,2022-11-02 08:28:25+00:00,2022-11-02 08:29:57+00:00,0.026,1,1,True,0,0,0,,0.0,needs_improvement
+,,,,,,,3,4hglq,2022-11-02 08:29:57+00:00,2022-11-02 08:30:46+00:00,0.014,1,0,True,0,0,0,,0.0,needs_improvement
+,,,,,,,4,4prg,2022-11-02 08:30:46+00:00,2022-11-07 07:54:54+00:00,119.402,1,7,True,0,0,0,,0.0,needs_improvement
+1009618.0,253.0,C06hqzcz0,t.yzcz0yio,Ticket,Medium,5.0,1,4hgor,2022-11-02 15:16:02+00:00,2022-11-02 15:20:55+00:00,0.081,2,3,True,0,0,0,,0.0,needs_improvement
+,,,,,,,2,1.ca.cz38j18x3czvj.ad,2022-11-02 15:20:55+00:00,2022-11-02 15:21:35+00:00,0.011,1,0,True,0,0,0,,0.0,needs_improvement
+,,,,,,,3,1.ca.cz38azew8x3djd4aa.c3,2022-11-02 15:21:35+00:00,2022-11-03 08:24:31+00:00,17.049,1,9,True,0,0,0,,0.0,needs_improvement
+,,,,,,,4,4prg,2022-11-03 08:24:31+00:00,2022-11-03 08:24:56+00:00,0.007,1,0,True,0,0,0,,0.0,needs_improvement
+,,,,,,,5,4lqg,2022-11-03 08:24:56+00:00,2022-12-19 07:47:43+00:00,1103.38,3,12,True,0,0,0,,0.0,needs_improvement
+1009623.0,583.0,C12ggzcz0u,adyzcz0uygr,Ticket,High,2.0,1,4hghk,2022-11-03 06:21:09+00:00,2022-11-03 06:22:17+00:00,0.019,2,2,True,0,0,0,,0.0,needs_improvement
+,,,,,,,2,4lsk,2022-11-03 06:22:17+00:00,2022-11-03 06:27:02+00:00,0.079,2,3,True,0,0,0,,0.0,needs_improvement
+1009637.0,254.0,C06hqzcz0,t.yzcz0ygk,Ticket,Medium,3.0,1,4hghk,2022-11-03 12:53:09+00:00,2022-11-03 12:54:38+00:00,0.025,2,3,True,0,0,0,,0.0,needs_improvement
+,,,,,,,2,4hglq,2022-11-03 12:54:38+00:00,2022-11-03 12:56:18+00:00,0.028,1,0,True,0,0,0,,0.0,needs_improvement
+,,,,,,,3,4lqg,2022-11-03 12:56:18+00:00,2022-11-29 08:21:54+00:00,619.427,4,18,True,0,0,0,,0.0,needs_improvement
+1009647.0,1438.0,C06hg2xcu,t.y2xcuyho,Ticket,Blocker,2.0,1,4hgor,2022-11-05 18:26:01+00:00,2022-11-05 18:34:05+00:00,0.134,2,3,True,0,0,0,,0.0,needs_improvement
+,,,,,,,2,4pps,2022-11-05 18:34:05+00:00,2022-11-06 10:16:38+00:00,15.709,2,5,True,0,0,0,,0.0,needs_improvement
+1009661.0,101.0,C12hhx18a,adyx18aygo,Ticket,Highest,1.0,1,4lpo,2022-11-06 10:12:12+00:00,2022-12-19 11:44:51+00:00,1033.544,10,33,True,0,0,0,,0.0,needs_improvement
+1009691.0,620.0,C06hgfz_x,t.yfz_xyhh,Ticket,High,2.0,1,4hhgi,2022-11-07 08:53:22+00:00,2022-11-07 08:56:59+00:00,0.06,2,3,True,0,0,0,,0.0,needs_improvement
+,,,,,,,2,4lls,2022-11-07 08:56:59+00:00,2023-01-03 14:10:26+00:00,1373.224,7,8,True,0,0,0,,0.0,needs_improvement
+1009738.0,628.0,C12hgx18a,adyx18aygo,Ticket,Blocker,2.0,1,4hghq,2022-11-09 09:08:43+00:00,2022-11-09 09:09:39+00:00,0.016,1,2,True,0,0,0,,0.0,needs_improvement
+,,,,,,,2,4hhoo,2022-11-09 09:09:39+00:00,2022-11-09 09:10:22+00:00,0.012,2,2,True,0,0,0,,0.0,needs_improvement
+,,,,,,,3,4hghq,2022-11-09 09:10:22+00:00,2022-11-16 08:20:45+00:00,167.173,7,9,True,0,0,0,,0.0,needs_improvement
+1009744.0,1455.0,C06hg2xcu,t.y2xcuyhp,Ticket,High,2.0,1,4hhoo,2022-11-09 11:21:32+00:00,2022-11-09 11:22:26+00:00,0.015,2,2,True,0,0,0,,0.0,needs_improvement
+,,,,,,,2,4pps,2022-11-09 11:22:26+00:00,2022-11-10 08:08:51+00:00,20.774,2,5,True,0,0,0,,0.0,needs_improvement
+1009774.0,3504.0,C13ggb_0,bzyb_0ygo,Ticket,Medium,1.0,1,4oqq,2022-11-10 09:25:31+00:00,2022-11-17 07:43:53+00:00,166.306,2,7,True,0,0,0,,0.0,needs_improvement
+1009829.0,2329.0,C06gg8zv0,t.y8zv0ygh,Ticket,Medium,1.0,1,,2022-11-13 14:08:14+00:00,2022-11-15 07:47:24+00:00,41.653,2,3,True,0,0,0,,0.0,needs_improvement
+1009846.0,9.0,C12hhx18aj28av.ew8x3d,adyx18aygs,Deployment,Blocker,1.0,1,4lpo,2022-11-14 08:16:23+00:00,2022-12-19 08:12:32+00:00,839.936,12,65,True,0,0,0,,0.0,needs_improvement
+1009853.0,170.0,C06gotz0,t.ytz0ygl,Ticket,High,3.0,1,4hhoo,2022-11-14 11:05:10+00:00,2022-11-14 11:30:28+00:00,0.422,2,3,True,0,0,0,,0.0,needs_improvement
+,,,,,,,2,4sil,2022-11-14 11:30:28+00:00,2022-11-16 13:01:42+00:00,49.521,1,2,True,0,0,0,,0.0,needs_improvement
+,,,,,,,3,4hgir,2022-11-16 13:01:42+00:00,2022-11-20 10:07:21+00:00,93.094,5,3,True,0,0,0,,0.0,needs_improvement
+1009899.0,2330.0,C06gg8zv0,t.y8zv0ygq,Ticket,High,2.0,1,4hhoo,2022-11-15 12:24:24+00:00,2022-11-15 12:27:04+00:00,0.044,2,3,True,0,0,0,,0.0,needs_improvement
+,,,,,,,2,4lsp,2022-11-15 12:27:04+00:00,2022-11-16 11:15:24+00:00,22.806,2,2,True,0,0,0,,0.0,needs_improvement
+1009901.0,558.0,C06ggt2_0,t.yt2_0yhh,Ticket,Medium,1.0,1,4hglk,2022-11-15 12:33:26+00:00,2022-11-23 07:53:54+00:00,187.341,2,9,True,0,0,0,,0.0,needs_improvement
+1009951.0,635.0,C12hgx18a,adyx18aygo,Ticket,Blocker,4.0,1,4hgol,2022-11-17 10:41:51+00:00,2022-11-17 10:43:15+00:00,0.023,1,2,True,0,0,0,,0.0,needs_improvement
+,,,,,,,2,4hgor,2022-11-17 10:43:15+00:00,2022-11-17 10:44:23+00:00,0.019,2,1,True,0,0,0,,0.0,needs_improvement
+,,,,,,,3,4hgol,2022-11-17 10:44:23+00:00,2022-11-17 10:47:32+00:00,0.052,1,3,True,0,0,0,,0.0,needs_improvement
+,,,,,,,4,4lpo,2022-11-17 10:47:32+00:00,2022-11-21 08:59:06+00:00,94.193,1,3,True,0,0,0,,0.0,needs_improvement
+,,,,,,,5,4hghq,2022-11-21 08:59:06+00:00,2022-12-04 07:41:14+00:00,310.702,5,16,True,0,0,0,,0.0,needs_improvement
+1009968.0,357.0,C10grx1nv,xayx1nvygr,Ticket,Medium,4.0,1,4hgor,2022-11-18 08:13:18+00:00,2022-11-18 08:17:21+00:00,0.068,2,3,True,0,0,0,,0.0,needs_improvement
+,,,,,,,2,x8azvjn2,2022-11-18 08:17:21+00:00,2022-11-18 08:29:49+00:00,0.208,1,1,True,0,0,0,,0.0,needs_improvement
+,,,,,,,3,4kll,2022-11-18 08:29:49+00:00,2022-11-18 08:39:15+00:00,0.157,1,1,True,0,0,0,,0.0,needs_improvement
+,,,,,,,4,4hgho,2022-11-18 08:39:15+00:00,2022-12-11 06:08:14+00:00,549.483,7,13,True,0,0,0,,0.0,needs_improvement
+1010031.0,189.0,C06gizt_0,t.yzt_0ygh,Ticket,Medium,2.0,1,4hhop,2022-11-22 07:19:09+00:00,2022-11-22 07:22:53+00:00,0.062,2,3,True,0,0,0,,0.0,needs_improvement
+,,,,,,,2,4rkg,2022-11-22 07:22:53+00:00,2022-11-30 11:10:06+00:00,195.787,3,4,True,0,0,0,,0.0,needs_improvement
+1010047.0,38.0,C11gk.z0,.wy.z0ygq,Ticket,Blocker,1.0,1,4psr,2022-11-23 04:44:38+00:00,2022-12-12 11:23:41+00:00,462.651,4,24,True,0,0,0,,0.0,needs_improvement
+1010048.0,2654.0,C06ggt_9,t.yt_9ygo,Ticket,Medium,3.0,1,4hgos,2022-11-23 06:43:28+00:00,2022-11-23 06:44:06+00:00,0.011,2,3,True,0,0,0,,0.0,needs_improvement
+,,,,,,,2,4hhoo,2022-11-23 06:44:06+00:00,2022-11-23 06:44:21+00:00,0.004,1,0,True,0,0,0,,0.0,needs_improvement
+,,,,,,,3,4hgos,2022-11-23 06:44:21+00:00,2022-11-23 06:45:48+00:00,0.024,1,0,True,0,0,0,,0.0,needs_improvement
+,,,,,,,4,4kgi,2022-11-23 06:45:48+00:00,2022-11-24 08:11:54+00:00,25.435,3,5,True,0,0,0,,0.0,needs_improvement
+1010058.0,88.0,C07hr6cz0,u6y6cz0ygq,Ticket,Medium,2.0,1,4pqq,2022-11-23 11:28:15+00:00,2022-11-23 11:46:09+00:00,0.298,1,3,True,0,0,0,,0.0,needs_improvement
+,,,,,,,2,4kgp,2022-11-23 11:46:09+00:00,2023-02-04 15:22:07+00:00,1755.599,6,50,True,0,0,0,,0.0,needs_improvement
+1010085.0,49.0,C07hr0.0,u6y0.40ygs,Ticket,High,1.0,1,4pqq,2022-11-24 12:08:47+00:00,2022-12-05 14:43:26+00:00,266.578,2,6,True,0,0,0,,0.0,needs_improvement
+1010126.0,125.0,C12hhx18a,adyx18aygs,Ticket,Medium,2.0,1,4hhop,2022-11-28 07:55:27+00:00,2022-11-28 07:59:07+00:00,0.061,2,3,True,0,0,0,,0.0,needs_improvement
+,,,,,,,2,4lpo,2022-11-28 07:59:07+00:00,2023-01-04 12:41:51+00:00,892.712,5,13,True,0,0,0,,0.0,needs_improvement
+1010134.0,1516.0,C06hg2xcu,t.y2xcuyhp,Ticket,High,2.0,1,4hhgi,2022-11-28 10:25:38+00:00,2022-11-28 10:26:46+00:00,0.019,2,3,True,0,0,0,,0.0,needs_improvement
+,,,,,,,2,4pps,2022-11-28 10:26:46+00:00,2022-11-28 11:31:58+00:00,1.087,2,4,True,0,0,0,,0.0,needs_improvement
+1010151.0,127.0,C05gpx0_,_byx0_ygq,Ticket,Highest,2.0,1,4hhoo,2022-11-29 07:00:30+00:00,2022-11-29 07:08:06+00:00,0.127,2,3,True,0,0,0,,0.0,needs_improvement
+,,,,,,,2,4pio,2022-11-29 07:08:06+00:00,2023-01-24 12:40:39+00:00,1349.542,1,31,True,0,0,0,,0.0,needs_improvement
+1010158.0,90.0,C07ggx0z2,.wyx0z2ygr,Ticket,Medium,1.0,1,4kgp,2022-11-29 08:37:26+00:00,2022-12-12 13:59:35+00:00,317.369,4,9,True,0,0,0,,0.0,needs_improvement
+1010199.0,2863.0,C06gg1z0,t.y1z0ygi,Ticket,Highest,2.0,1,4hhoo,2022-11-30 13:33:16+00:00,2022-11-30 13:36:01+00:00,0.046,2,3,True,0,0,0,,0.0,needs_improvement
+,,,,,,,2,4slh,2022-11-30 13:36:01+00:00,2022-12-04 05:54:58+00:00,88.316,4,5,True,0,0,0,,0.0,needs_improvement
+1010254.0,1544.0,C06hg2xcu,t.y2xcuyho,Ticket,Blocker,2.0,1,4hhoo,2022-12-04 11:12:57+00:00,2022-12-04 11:15:21+00:00,0.04,2,3,True,0,0,0,,0.0,needs_improvement
+,,,,,,,2,4pps,2022-12-04 11:15:21+00:00,2022-12-05 09:37:50+00:00,22.375,2,2,True,0,0,0,,0.0,needs_improvement
+1010280.0,90.0,C07hr6cz0,u6y6cz0ygq,Ticket,Medium,1.0,1,4lrp,2022-12-05 05:41:05+00:00,2022-12-18 06:43:58+00:00,313.048,4,9,True,0,0,0,,0.0,needs_improvement
+1010303.0,34.0,C07hr0w,u6y0wygp,Ticket,Medium,1.0,1,,2022-12-05 13:14:21+00:00,2023-01-12 13:34:18+00:00,912.332,2,7,True,0,0,0,,0.0,needs_improvement
+1010324.0,49.0,C02gg0_0,0ny0_0ygs,Ticket,Medium,2.0,1,4hhop,2022-12-06 09:43:54+00:00,2022-12-06 09:46:46+00:00,0.048,2,3,True,0,0,0,,0.0,needs_improvement
+,,,,,,,2,4kgh,2022-12-06 09:46:46+00:00,2023-01-02 06:12:57+00:00,644.436,2,73,True,0,0,0,,0.0,needs_improvement
+1010325.0,2235.0,C06gi1z0,t.y1z0ygi,Ticket,High,2.0,1,4hgol,2022-12-06 10:34:25+00:00,2022-12-06 10:41:06+00:00,0.111,2,3,True,0,0,0,,0.0,needs_improvement
+,,,,,,,2,4rkg,2022-12-06 10:41:06+00:00,2022-12-07 08:33:43+00:00,21.877,3,4,True,0,0,0,,0.0,needs_improvement
+1010327.0,11.0,C07ihu9n,u6yu9nyhq,Ticket,Highest,2.0,1,4pqq,2022-12-06 11:23:56+00:00,2022-12-07 06:28:24+00:00,19.074,4,7,True,0,0,0,,0.0,needs_improvement
+,,,,,,,2,4sih,2022-12-07 06:28:24+00:00,2023-01-08 09:20:07+00:00,770.862,4,2,True,0,0,0,,0.0,needs_improvement
+1010360.0,2655.0,C06ggt_9,t.yt_9ygo,Ticket,High,3.0,1,4hhop,2022-12-07 11:37:08+00:00,2022-12-07 11:38:23+00:00,0.021,2,2,True,0,0,0,,0.0,needs_improvement
+,,,,,,,2,4hgol,2022-12-07 11:38:23+00:00,2022-12-07 11:39:41+00:00,0.022,1,2,True,0,0,0,,0.0,needs_improvement
+,,,,,,,3,4hhop,2022-12-07 11:39:41+00:00,2022-12-07 11:41:30+00:00,0.03,1,0,True,0,0,0,,0.0,needs_improvement
+,,,,,,,4,4kgi,2022-12-07 11:41:30+00:00,2022-12-08 08:23:43+00:00,20.704,3,4,True,0,0,0,,0.0,needs_improvement
+1010384.0,138.0,C12hhx18a,adyx18aygk,Ticket,High,2.0,1,4hhoo,2022-12-08 08:38:52+00:00,2022-12-08 08:40:52+00:00,0.033,2,3,True,0,0,0,,0.0,needs_improvement
+,,,,,,,2,4lpo,2022-12-08 08:40:52+00:00,2022-12-19 06:56:39+00:00,262.263,3,11,True,0,0,0,,0.0,needs_improvement
+1010387.0,2649.0,C06gg10,t.y10ygl,Ticket,Medium,2.0,1,4hhop,2022-12-08 08:58:36+00:00,2022-12-08 09:01:16+00:00,0.044,2,3,True,0,0,0,,0.0,needs_improvement
+,,,,,,,2,4sks,2022-12-08 09:01:16+00:00,2022-12-08 14:28:47+00:00,5.459,3,7,True,0,0,0,,0.0,needs_improvement
+1010401.0,189.0,C07ggz0u,u6yz0uygr,Ticket,Medium,1.0,1,,2022-12-08 15:27:56+00:00,2023-01-19 12:28:29+00:00,1005.009,3,9,True,0,0,0,,0.0,needs_improvement
+1010418.0,584.0,C11gg02z9,.wy02z9ygi,Ticket,High,2.0,1,4qoh,2022-12-11 06:07:04+00:00,2023-01-03 05:57:50+00:00,551.846,4,28,True,0,0,0,,0.0,needs_improvement
+,,,,,,,2,4ops,2023-01-03 05:57:50+00:00,2023-01-10 11:59:45+00:00,174.032,1,1,True,0,0,0,,0.0,needs_improvement
+1010423.0,2573.0,C06ggtu0,t.ytu0ygh,Ticket,High,2.0,1,4hghk,2022-12-11 07:28:03+00:00,2022-12-11 07:28:41+00:00,0.011,2,2,True,0,0,0,,0.0,needs_improvement
+,,,,,,,2,4lsp,2022-12-11 07:28:41+00:00,2022-12-11 07:38:06+00:00,0.157,2,1,True,0,0,0,,0.0,needs_improvement
+1010426.0,2867.0,C06gg1z0,t.y1z0ygh,Ticket,Medium,1.0,1,4slh,2022-12-11 07:48:14+00:00,2022-12-11 11:25:14+00:00,3.617,3,4,True,0,0,0,,0.0,needs_improvement
+1010506.0,577.0,C10ggx1nv,xayx1nvygr,Ticket,Medium,4.0,1,4hgor,2022-12-13 12:14:14+00:00,2022-12-13 12:16:31+00:00,0.038,2,3,True,0,0,0,,0.0,needs_improvement
+,,,,,,,2,x8azvjn2,2022-12-13 12:16:31+00:00,2022-12-13 12:19:38+00:00,0.052,1,1,True,0,0,0,,0.0,needs_improvement
+,,,,,,,3,4skr,2022-12-13 12:19:38+00:00,2022-12-19 05:59:50+00:00,137.67,1,3,True,0,0,0,,0.0,needs_improvement
+,,,,,,,4,4hgqr,2022-12-19 05:59:50+00:00,2023-01-23 12:35:54+00:00,846.601,11,17,True,0,0,0,,0.0,needs_improvement
+1010516.0,3252.0,C06ggn039,t.yn039ygo,Ticket,High,3.0,1,4hgor,2022-12-14 06:24:30+00:00,2022-12-14 06:25:07+00:00,0.01,1,2,True,0,0,0,,0.0,needs_improvement
+,,,,,,,2,4hghk,2022-12-14 06:25:07+00:00,2022-12-14 06:25:16+00:00,0.002,2,0,True,0,0,0,,0.0,needs_improvement
+,,,,,,,3,4hgor,2022-12-14 06:25:16+00:00,2022-12-14 06:26:56+00:00,0.028,1,1,True,0,0,0,,0.0,needs_improvement
+,,,,,,,4,4lsh,2022-12-14 06:26:56+00:00,2023-02-27 08:50:04+00:00,1802.386,6,23,True,0,0,0,,0.0,needs_improvement
+1010541.0,658.0,C12hgx18a,adyx18aygo,Ticket,Highest,2.0,1,4hhoo,2022-12-14 13:51:42+00:00,2022-12-14 14:00:21+00:00,0.144,2,3,True,0,0,0,,0.0,needs_improvement
+,,,,,,,2,4hghq,2022-12-14 14:00:21+00:00,2022-12-27 07:25:05+00:00,305.412,4,21,True,0,0,0,,0.0,needs_improvement
+1010548.0,28.0,C01hqnd01,z8ynd01ygi,Ticket,Medium,2.0,1,4hgor,2022-12-15 05:38:45+00:00,2022-12-15 05:46:19+00:00,0.126,2,3,True,0,0,0,,0.0,needs_improvement
+,,,,,,,2,4lqg,2022-12-15 05:46:19+00:00,2023-01-08 07:49:17+00:00,578.049,5,7,True,0,0,0,,0.0,needs_improvement
+1010562.0,148.0,C12hhx18a,adyx18aygo,Ticket,Blocker,3.0,1,4hghk,2022-12-15 12:35:43+00:00,2022-12-15 12:36:58+00:00,0.021,2,3,True,0,0,0,,0.0,needs_improvement
+,,,,,,,2,4hghq,2022-12-15 12:36:58+00:00,2022-12-18 07:57:02+00:00,67.334,1,2,True,0,0,0,,0.0,needs_improvement
+,,,,,,,3,4lpo,2022-12-18 07:57:02+00:00,2022-12-18 14:05:24+00:00,6.139,4,5,True,0,0,0,,0.0,needs_improvement
+1010572.0,1608.0,C06hg2xcu,t.y2xcuyho,Ticket,High,2.0,1,4khg,2022-12-17 13:50:28+00:00,2022-12-17 13:53:02+00:00,0.043,2,3,True,0,0,0,,0.0,needs_improvement
+,,,,,,,2,4pps,2022-12-17 13:53:02+00:00,2022-12-19 08:07:41+00:00,42.244,2,2,True,0,0,0,,0.0,needs_improvement
+1010597.0,1615.0,C06hg2xcu,t.y2xcuyhp,Ticket,High,3.0,1,4hhoo,2022-12-18 12:55:10+00:00,2022-12-18 12:55:45+00:00,0.01,2,2,True,0,0,0,,0.0,needs_improvement
+,,,,,,,2,4hglq,2022-12-18 12:55:45+00:00,2022-12-18 12:56:35+00:00,0.014,1,1,True,0,0,0,,0.0,needs_improvement
+,,,,,,,3,4pps,2022-12-18 12:56:35+00:00,2022-12-19 08:13:40+00:00,19.285,2,4,True,0,0,0,,0.0,needs_improvement
+1010765.0,185.0,C07gg6cz0,u6y6cz0ygp,Ticket,Medium,1.0,1,4ioh,2022-12-28 05:23:35+00:00,2023-01-02 13:54:46+00:00,128.52,3,7,True,0,0,0,,0.0,needs_improvement
