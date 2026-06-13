@@ -33,11 +33,11 @@ jupyter notebook
 
 | Notebook | Dikerjakan oleh | Keterangan |
 |----------|-----------------|------------|
-| `notebooks/01_obtain.ipynb` | Nicholas (Data Engineer) | Preparation + Project Setup |
-| `notebooks/02_scrub.ipynb` | Ghazy (Preprocessing Lead) | Cleaning + integrasi data |
-| `notebooks/03_explore.ipynb` | Daffa + Aziz (Analyst + Viz) | Eksplorasi + visualisasi |
-| `notebooks/04_model.ipynb` | Daffa (Modeler) | Pemodelan dan evaluasi |
-| `notebooks/05_interpret.ipynb` | Adam (Doc Lead) | Insight dan rekomendasi |
+| `notebooks/01_obtain.ipynb` | Nicholas (Data Engineer) | Preparation dan Project Setup |
+| `notebooks/02_scrub.ipynb` | Ghazy (Preprocessing Lead) | Cleaning dan integrasi data |
+| `notebooks/03_explore.ipynb` | Daffa dan Aziz (Data Analyst dan Visualization / Dashboard Developer) | Eksplorasi dan visualisasi |
+| `notebooks/04_model.ipynb` | Daffa (Data Analyst) | Pemodelan dan evaluasi |
+| `notebooks/05_interpret.ipynb` | Aziz (Visualization / Dashboard Developer) | Visualisasi hasil model, insight, dan rekomendasi |
 
 
 ---
