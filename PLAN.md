@@ -8,7 +8,7 @@
 
 ---
 
-## Status Keseluruhan (per 13 Juni 2026)
+## Status Keseluruhan (per 13 Juni 2026 — update terakhir)
 
 | Fase OSEMN | PIC | Status |
 |---|---|---|
@@ -63,9 +63,9 @@
 - [x] Viz D: kecepatan resolusi per issue_type DS2
 - [x] Interpretasi markdown tajam untuk Viz A, B, C, D di `03_explore.ipynb`
 - [x] Rekomendasi slide di sel penutup `03_explore.ipynb`
-- [ ] **PENDING:** Jalankan `03_explore.ipynb` (Kernel > Restart & Run All) untuk generate output dan figures
-- [ ] **PENDING:** Isi tabel temuan No. 7-10 di `03_explore.ipynb` dengan hasil aktual setelah notebook dijalankan
-- [ ] **PENDING:** `git add` + `git commit` + `git push` (dilakukan Aziz sendiri)
+- [x] Figures Viz A–D di-generate langsung ke `reports/figures/` (viz_A, viz_B, viz_C, viz_D)
+- [x] Tabel temuan No. 7–10 diisi dengan nilai aktual dari data (di `PREPROCESSING_EXPLORE_PLAN.md` dan `scrub_explore_summary.md`)
+- [x] `git add` + `git commit` + `git push` (dilakukan Aziz sendiri)
 
 ---
 
