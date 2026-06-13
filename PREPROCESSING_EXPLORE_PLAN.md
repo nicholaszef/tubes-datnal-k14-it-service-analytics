@@ -337,7 +337,7 @@ Lihat detail di Fase 4 di atas.
 
 > Konteks: Ghazy sudah memenuhi minimum 3 visualisasi. Aziz melanjutkan dengan visualisasi yang memperkuat interpretasi dan meningkatkan nilai rubrik E-Explore ke skor maksimal.
 > File kerja: `notebooks/03_explore.ipynb` - lanjutkan setelah sel terakhir Ghazy
-> Output: simpan semua gambar ke `reports/figures/` dengan prefix `aziz_`
+> Output: simpan semua gambar ke `reports/figures/` dengan prefix `viz_`
 
 ### Viz A - Distribusi Durasi Resolusi DS1 [SELESAI] (Aziz)
 
@@ -353,7 +353,7 @@ axes[0].axvline(median_val, color='orange', linestyle='--', linewidth=1.5, label
 pri_order = ['high', 'medium', 'low', 'unassigned']
 valid_order = [p for p in pri_order if p in df1['priorityLabel'].unique()]
 sns.boxplot(data=df1, x='priorityLabel', y='resolutionDurationDays', order=valid_order, ax=axes[1], palette='Set2', flierprops={'marker': 'o', 'markersize': 2, 'alpha': 0.3})
-plt.savefig(FIGURES_DIR + 'aziz_viz_A_durasi_resolusi_ds1.png', dpi=120, bbox_inches='tight')
+plt.savefig(FIGURES_DIR + 'viz_A_durasi_resolusi_ds1.png', dpi=120, bbox_inches='tight')
 ```
 
 **Interpretasi (di notebook sebagai markdown cell):**
@@ -375,7 +375,7 @@ ds1_avg = ds1_avg[ds1_avg['count'] >= 100].sort_values('avg_days', ascending=Tru
 overall_mean = df1['resolutionDurationDays'].mean()
 colors_b = ['#d62728' if v > overall_mean*1.1 else '#ff7f0e' if v > overall_mean else '#2ca02c' for v in ds1_avg['avg_days']]
 bars = ax.barh(ds1_avg['FiledAgainst'], ds1_avg['avg_days'], color=colors_b, edgecolor='white')
-plt.savefig(FIGURES_DIR + 'aziz_viz_B_avg_durasi_per_kategori.png', dpi=120, bbox_inches='tight')
+plt.savefig(FIGURES_DIR + 'viz_B_avg_durasi_per_kategori.png', dpi=120, bbox_inches='tight')
 ```
 
 **Interpretasi (di notebook sebagai markdown cell):**
@@ -396,7 +396,7 @@ ct = ct.reindex(sev_order)
 fig, axes = plt.subplots(1, 2, figsize=(16, 5))
 sns.heatmap(ct, annot=True, fmt='.1f', cmap='YlOrRd', ax=axes[0], linewidths=0.5)
 sev_avg = df1.groupby('severityLabel')['satisfactionLevel'].agg(['mean','sem','count']).reindex(sev_order)
-plt.savefig(FIGURES_DIR + 'aziz_viz_C_satisfaction_vs_severity.png', dpi=120, bbox_inches='tight')
+plt.savefig(FIGURES_DIR + 'viz_C_satisfaction_vs_severity.png', dpi=120, bbox_inches='tight')
 ```
 
 **Interpretasi (di notebook sebagai markdown cell):**
@@ -419,7 +419,7 @@ ct2 = pd.crosstab(ds2_filtered['issue_type'], ds2_filtered['resolutionSpeedCateg
 ct2 = ct2.reindex(columns=['fast','medium','slow'], fill_value=0)
 ct2 = ct2.sort_values('slow', ascending=True)
 ct2.plot(kind='barh', stacked=True, ax=ax, color=['#2ecc71','#f39c12','#e74c3c'])
-plt.savefig(FIGURES_DIR + 'aziz_viz_D_speed_per_type_ds2.png', dpi=120, bbox_inches='tight')
+plt.savefig(FIGURES_DIR + 'viz_D_speed_per_type_ds2.png', dpi=120, bbox_inches='tight')
 ```
 
 **Interpretasi (di notebook sebagai markdown cell):**
@@ -444,6 +444,8 @@ plt.savefig(FIGURES_DIR + 'aziz_viz_D_speed_per_type_ds2.png', dpi=120, bbox_inc
 | Viz C (Aziz) | Satisfaction vs Severity Heatmap DS1 | PA-3 - Severity vs kepuasan pengguna | Hubungan antarvariabel |
 | Viz D (Aziz) | Kecepatan Resolusi per Issue Type DS2 | PA-5 - Performa terbaik vs terburuk | Perbandingan kategori |
 
+> Catatan: file visualisasi Aziz menggunakan prefix `viz_` (tanpa nama pribadi) agar konsisten dengan konvensi penamaan Ghazy.
+
 ---
 
 ## Laporan Sementara E-Explore (untuk Adam/Documentation Lead)
@@ -461,14 +463,14 @@ Format markdown untuk Bab 4 laporan dan slide presentasi.
 | 5 | Korelasi kuat: totalTimeHours <-> resolutionDurationHours | `8E_viz4_heatmap_korelasi_ds2.png` | Kedua kolom hampir redundan -> pertimbangkan salah satu untuk model |
 | 6 | isComplex berkorelasi dengan wfe_reopened | `8E_viz4_heatmap_korelasi_ds2.png` | Flag isComplex valid sebagai proxy kompleksitas |
 
-### Tabel Temuan Eksploratif - Ditambahkan Aziz [isi setelah Viz A-D dijalankan]
+### Tabel Temuan Eksploratif - Ditambahkan Aziz [SELESAI]
 
 | No | Temuan | Visualisasi | Makna |
 |---|---|---|---|
-| 7 | [isi dari Viz A - distribusi durasi resolusi per priority] | `aziz_viz_A_durasi_resolusi_ds1.png` | [interpretasi] |
-| 8 | [isi dari Viz B - rata-rata durasi per kategori IT] | `aziz_viz_B_avg_durasi_per_kategori.png` | [interpretasi] |
-| 9 | [isi dari Viz C - satisfaction vs severity] | `aziz_viz_C_satisfaction_vs_severity.png` | [interpretasi] |
-| 10 | [isi dari Viz D - kecepatan resolusi per tipe DS2] | `aziz_viz_D_speed_per_type_ds2.png` | [interpretasi] |
+| 7 | DS1 distribusi `resolutionDurationDays` right-skewed (mean=6.80, median=5.00, skew=1.31); priority "low" paling lambat (median 6 hari), priority "high" tercepat (median 5 hari) | `viz_A_durasi_resolusi_ds1.png` | Mayoritas tiket diselesaikan cepat, tapi ekor panjang kanan menunjukkan ada tiket yang berkepanjangan; priority "low" paradoks lebih lambat dari "unassigned" -> perlu review SLA per priority (PA-1, PA-4) |
+| 8 | Kategori "hardware" paling lambat (avg 16.94 hari, 2.49x rata-rata keseluruhan); "systems" kedua (avg 9.51 hari); "access/login" tercepat (avg 0.27 hari); dua kategori merah (hardware, systems) mencakup 50.01% volume tiket DS1 | `viz_B_avg_durasi_per_kategori.png` | Hardware dan systems adalah bottleneck utama SLA di DS1 — dua kategori paling lambat sekaligus volume tinggi; access/login sangat cepat kemungkinan karena prosedur reset password yang standar (PA-2) |
+| 9 | Rata-rata `satisfactionLevel` per severity: critical=1.60, major=1.61, minor=1.33, normal=1.47, unclassified=1.40; "minor" menghasilkan satisfaction paling rendah, bukan "critical" seperti yang diperkirakan | `viz_C_satisfaction_vs_severity.png` | Hubungan severity-satisfaction tidak linear — "minor" lebih mengecewakan pengguna daripada "critical", kemungkinan karena ekspektasi penyelesaian cepat pada insiden kecil tidak terpenuhi; "critical" mungkin ditangani lebih cepat sehingga satisfaction lebih tinggi (PA-3) |
+| 10 | DS2 tipe "subtask" paling lambat (slow 90.7%, fast hanya 1.3%); "epic" kedua paling lambat (slow 63.8%); "assistance" dan "vacation" tercepat (0% slow); "deployment" dan "service" performa baik (slow <3%) | `viz_D_speed_per_type_ds2.png` | Subtask dan epic adalah tipe dengan performa resolusi terburuk — strukturnya bergantung pada tiket induk sehingga resolusinya terlambat; tipe operasional (deployment, service, hd service) menunjukkan performa terbaik dan bisa dijadikan benchmark (PA-5) |
 
 ---
 
@@ -532,4 +534,4 @@ Dokumentasikan di akhir `03_explore.ipynb`:
 - [x] Viz D dibuat + interpretasi markdown tajam: kecepatan resolusi per tipe DS2 (Aziz)
 - [x] Interpretasi markdown 8B, 8C, 8D, 8E ditambahkan setelah code cell masing-masing (Aziz)
 - [x] Rekomendasi slide diisi di bagian Handoff ke Modeler (Aziz) - di 03_explore.ipynb sel terakhir
-- [ ] Tabel temuan eksploratif No. 7-10 diisi setelah Viz dijalankan dan hasil aktual diketahui (Aziz - PENDING run notebook)
+- [x] Tabel temuan eksploratif No. 7-10 diisi dengan nilai aktual dari data (Aziz - SELESAI)
