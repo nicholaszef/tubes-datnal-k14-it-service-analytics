@@ -5,13 +5,13 @@
 
 ---
 
-## Status Pengerjaan (per 13 Juni 2026)
+## Status Pengerjaan (per 14 Juni 2026)
 
 | Fase | Pengerjaan | Status |
 |------|-----------|--------|
 | S - Scrub | Ghazy | [SELESAI] output di `data/processed/` |
 | E - Explore (Statistik + Viz dasar) | Ghazy | [SELESAI] 5 visualisasi di `reports/figures/` |
-| E - Explore (Viz lanjutan + Interpretasi) | **Aziz** | [SELESAI] 4 visualisasi + interpretasi markdown di `03_explore.ipynb` |
+| E - Explore (Viz lanjutan + Interpretasi) | **Aziz** | [SELESAI] 5 visualisasi (Viz 5–9) + interpretasi markdown di `03_explore.ipynb` |
 | M - Model | Daffa | [BELUM DIMULAI] |
 | N - iNterpret | Aziz + Daffa + Adam | [MENUNGGU Model selesai] |
 
@@ -24,7 +24,7 @@
 | O - Obtain | Nicholas (Data Engineer) | Raw dataset di `data/raw/` |
 | S - Scrub | Ghazy | [SELESAI] Clean dataset, preprocessing notebook, fitur baru |
 | E - Explore (awal) | Ghazy | [SELESAI] Statistik deskriptif, 5 visualisasi dasar, temuan awal |
-| E - Explore (lanjutan) | Aziz | [SELESAI] 4 visualisasi tambahan + interpretasi markdown dikaitkan PA-1 s/d PA-5 |
+| E - Explore (lanjutan) | Aziz | [SELESAI] 5 visualisasi tambahan (Viz 5–9) + interpretasi markdown dikaitkan PA-1 s/d PA-5 |
 | M - Model | Daffa (Analyst/Modeler) | Model NLP, clustering, evaluasi |
 | N - iNterpret | Aziz + Daffa + Adam | Visualisasi hasil model, insight, rekomendasi, laporan |
 
@@ -303,24 +303,24 @@ Lihat detail di Fase 4 di atas.
 - DS1 Severity: "normal" dominan 90.9% -> class imbalance signifikan
 - DS1 Priority: lebih merata -> lebih cocok sebagai target klasifikasi
 - DS2 priority: "unknown" masih dominan 50.9% -> kualitas data rendah
-- Visualisasi tersimpan: `reports/figures/8B_viz1_distribusi_severity_priority.png`
+- Visualisasi tersimpan: `reports/figures/viz1_distribusi_severity_priority.png`
 
 ### 8C. Tren Waktu [SELESAI] (Ghazy - DS2 saja, DS1 tidak punya timestamp)
 - Volume tiket DS2 per bulan bervariasi -> ada peak period
 - Avg `resolutionDurationHours` berkorelasi dengan volume -> kapasitas tim terbatas
-- Visualisasi tersimpan: `reports/figures/8C_viz2_tren_waktu_ds2.png`
+- Visualisasi tersimpan: `reports/figures/viz2_tren_waktu_ds2.png`
 
 ### 8D. Perbandingan Kategori [SELESAI] (Ghazy)
 - Cross-tab `issue_type` x `priorityNormalized`: deployment 41.1% high, ticket 12.7% high
 - Cross-tab `priorityNormalized` x `isResolved`: semua priority resolved >96%
 - SLA violated per issue_type: beberapa kategori >50% violated
-- Visualisasi tersimpan: `reports/figures/8D_viz3_sla_violated_per_type.png`
+- Visualisasi tersimpan: `reports/figures/viz3_sla_violated_per_type.png`
 
 ### 8E. Hubungan Antarvariabel [SELESAI] (Ghazy)
 - Spearman heatmap DS2 & DS1 sudah dibuat
 - Korelasi kuat: `totalTimeHours` <-> `resolutionDurationHours` (hampir sempurna)
 - Korelasi `isComplex` <-> `wfe_reopened` -> validasi flag
-- Visualisasi tersimpan: `reports/figures/8E_viz4_heatmap_korelasi_ds2.png`, `8E_viz4b_heatmap_korelasi_ds1.png`
+- Visualisasi tersimpan: `reports/figures/viz4_heatmap_korelasi_ds2.png`, `viz4b_heatmap_korelasi_ds1.png`
 
 **Kesimpulan untuk Modeler (PA-1, PA-4):**
 | Temuan Korelasi | Implikasi untuk Model |
@@ -329,7 +329,7 @@ Lihat detail di Fase 4 di atas.
 | `isComplex` <-> `wfe_reopened` tinggi | Flag `isComplex` valid sebagai fitur model - tidak redundan |
 | `priorityVerified` = 53% (DS1) | Priority dan severity tidak selalu konsisten -> jangan gabungkan sebagai satu fitur |
 | `seniorityLevel` <-> `resolutionDurationDays` lemah | Seniority tidak cukup prediktif untuk dijadikan fitur utama model |
-| `satisfactionLevel` <-> `severityLevel` (DS1) | Perlu dieksplorasi lebih lanjut oleh Aziz di Viz C - potensi fitur penting |
+| `satisfactionLevel` <-> `severityLevel` (DS1) | Perlu dieksplorasi lebih lanjut oleh Aziz di Viz 7 - potensi fitur penting |
 
 ---
 
@@ -337,9 +337,9 @@ Lihat detail di Fase 4 di atas.
 
 > Konteks: Ghazy sudah memenuhi minimum 3 visualisasi. Aziz melanjutkan dengan visualisasi yang memperkuat interpretasi dan meningkatkan nilai rubrik E-Explore ke skor maksimal.
 > File kerja: `notebooks/03_explore.ipynb` - lanjutkan setelah sel terakhir Ghazy
-> Output: simpan semua gambar ke `reports/figures/` dengan prefix `viz_`
+> Output: simpan semua gambar ke `reports/figures/` dengan format sequential `viz5_`, `viz6_`, dst.
 
-### Viz A - Distribusi Durasi Resolusi DS1 [SELESAI] (Aziz)
+### Viz 5 - Distribusi Durasi Resolusi DS1 [SELESAI] (Aziz)
 
 **Tujuan:** Menunjukkan distribusi right-skewed dan perbandingan durasi antar priority label.
 
@@ -353,7 +353,7 @@ axes[0].axvline(median_val, color='orange', linestyle='--', linewidth=1.5, label
 pri_order = ['high', 'medium', 'low', 'unassigned']
 valid_order = [p for p in pri_order if p in df1['priorityLabel'].unique()]
 sns.boxplot(data=df1, x='priorityLabel', y='resolutionDurationDays', order=valid_order, ax=axes[1], palette='Set2', flierprops={'marker': 'o', 'markersize': 2, 'alpha': 0.3})
-plt.savefig(FIGURES_DIR + 'viz_A_durasi_resolusi_ds1.png', dpi=120, bbox_inches='tight')
+plt.savefig(FIGURES_DIR + 'viz5_durasi_resolusi_ds1.png', dpi=120, bbox_inches='tight')
 ```
 
 **Interpretasi (di notebook sebagai markdown cell):**
@@ -364,7 +364,7 @@ plt.savefig(FIGURES_DIR + 'viz_A_durasi_resolusi_ds1.png', dpi=120, bbox_inches=
 
 ---
 
-### Viz B - Rata-rata Durasi per Kategori `FiledAgainst` DS1 [SELESAI] (Aziz)
+### Viz 6 - Rata-rata Durasi per Kategori `FiledAgainst` DS1 [SELESAI] (Aziz)
 
 **Tujuan:** Identifikasi kategori IT yang paling lambat diselesaikan.
 
@@ -375,7 +375,7 @@ ds1_avg = ds1_avg[ds1_avg['count'] >= 100].sort_values('avg_days', ascending=Tru
 overall_mean = df1['resolutionDurationDays'].mean()
 colors_b = ['#d62728' if v > overall_mean*1.1 else '#ff7f0e' if v > overall_mean else '#2ca02c' for v in ds1_avg['avg_days']]
 bars = ax.barh(ds1_avg['FiledAgainst'], ds1_avg['avg_days'], color=colors_b, edgecolor='white')
-plt.savefig(FIGURES_DIR + 'viz_B_avg_durasi_per_kategori.png', dpi=120, bbox_inches='tight')
+plt.savefig(FIGURES_DIR + 'viz6_avg_durasi_per_kategori.png', dpi=120, bbox_inches='tight')
 ```
 
 **Interpretasi (di notebook sebagai markdown cell):**
@@ -385,7 +385,7 @@ plt.savefig(FIGURES_DIR + 'viz_B_avg_durasi_per_kategori.png', dpi=120, bbox_inc
 
 ---
 
-### Viz C - Satisfaction vs Severity DS1 [SELESAI] (Aziz)
+### Viz 7 - Satisfaction vs Severity DS1 [SELESAI] (Aziz)
 
 **Tujuan:** Hubungan severity tiket dengan kepuasan pengguna.
 
@@ -396,7 +396,7 @@ ct = ct.reindex(sev_order)
 fig, axes = plt.subplots(1, 2, figsize=(16, 5))
 sns.heatmap(ct, annot=True, fmt='.1f', cmap='YlOrRd', ax=axes[0], linewidths=0.5)
 sev_avg = df1.groupby('severityLabel')['satisfactionLevel'].agg(['mean','sem','count']).reindex(sev_order)
-plt.savefig(FIGURES_DIR + 'viz_C_satisfaction_vs_severity.png', dpi=120, bbox_inches='tight')
+plt.savefig(FIGURES_DIR + 'viz7_satisfaction_vs_severity.png', dpi=120, bbox_inches='tight')
 ```
 
 **Interpretasi (di notebook sebagai markdown cell):**
@@ -406,7 +406,7 @@ plt.savefig(FIGURES_DIR + 'viz_C_satisfaction_vs_severity.png', dpi=120, bbox_in
 
 ---
 
-### Viz D - Kecepatan Resolusi per Issue Type DS2 [SELESAI] (Aziz)
+### Viz 8 - Kecepatan Resolusi per Issue Type DS2 [SELESAI] (Aziz)
 
 **Tujuan:** Perbandingan kecepatan resolusi antar tipe tiket DS2.
 
@@ -419,7 +419,7 @@ ct2 = pd.crosstab(ds2_filtered['issue_type'], ds2_filtered['resolutionSpeedCateg
 ct2 = ct2.reindex(columns=['fast','medium','slow'], fill_value=0)
 ct2 = ct2.sort_values('slow', ascending=True)
 ct2.plot(kind='barh', stacked=True, ax=ax, color=['#2ecc71','#f39c12','#e74c3c'])
-plt.savefig(FIGURES_DIR + 'viz_D_speed_per_type_ds2.png', dpi=120, bbox_inches='tight')
+plt.savefig(FIGURES_DIR + 'viz8_speed_per_type_ds2.png', dpi=120, bbox_inches='tight')
 ```
 
 **Interpretasi (di notebook sebagai markdown cell):**
@@ -433,18 +433,19 @@ plt.savefig(FIGURES_DIR + 'viz_D_speed_per_type_ds2.png', dpi=120, bbox_inches='
 
 > Tabel ini memastikan setiap visualisasi punya justifikasi rubrik dan terhubung ke benang merah analitik kelompok.
 
-| Viz | Judul | Pertanyaan Analitik | Kriteria Rubrik |
-|---|---|---|---|
-| 8B (Ghazy) | Distribusi Severity & Priority DS1 | PA-4 - Konsistensi priority vs severity | Distribusi + class imbalance |
-| 8C (Ghazy) | Tren Waktu Volume & Durasi DS2 | PA-2 - Risiko SLA per periode | Tren waktu |
-| 8D (Ghazy) | SLA Violated per Issue Type DS2 | PA-2 - Kategori berisiko SLA | Perbandingan kategori |
-| 8E (Ghazy) | Heatmap Korelasi DS1 & DS2 | PA-1 - Faktor yang mempengaruhi durasi | Hubungan antarvariabel |
-| Viz A (Aziz) | Distribusi Durasi + Boxplot per Priority DS1 | PA-1 dan PA-4 | Distribusi + perbandingan kategori |
-| Viz B (Aziz) | Rata-rata Durasi per FiledAgainst DS1 | PA-2 - Kategori paling berisiko | Perbandingan kategori |
-| Viz C (Aziz) | Satisfaction vs Severity Heatmap DS1 | PA-3 - Severity vs kepuasan pengguna | Hubungan antarvariabel |
-| Viz D (Aziz) | Kecepatan Resolusi per Issue Type DS2 | PA-5 - Performa terbaik vs terburuk | Perbandingan kategori |
+| Viz | File | Judul | Pertanyaan Analitik | Kriteria Rubrik |
+|---|---|---|---|---|
+| Viz 1 (Ghazy) | `viz1_distribusi_severity_priority.png` | Distribusi Severity & Priority DS1 | PA-4 | Distribusi + class imbalance |
+| Viz 2 (Ghazy) | `viz2_tren_waktu_ds2.png` | Tren Waktu Volume & Durasi DS2 | PA-2 | Tren waktu |
+| Viz 3 (Ghazy) | `viz3_sla_violated_per_type.png` | SLA Violated per Issue Type DS2 | PA-2 | Perbandingan kategori |
+| Viz 4 (Ghazy) | `viz4_heatmap_korelasi_ds2.png` + `viz4b_heatmap_korelasi_ds1.png` | Heatmap Korelasi DS2 + DS1 | PA-1 | Hubungan antarvariabel |
+| Viz 5 (Aziz) | `viz5_durasi_resolusi_ds1.png` | Distribusi Durasi + Boxplot per Priority DS1 | PA-1, PA-4 | Distribusi + perbandingan kategori |
+| Viz 6 (Aziz) | `viz6_avg_durasi_per_kategori.png` | Rata-rata Durasi per FiledAgainst DS1 | PA-2 | Perbandingan kategori |
+| Viz 7 (Aziz) | `viz7_satisfaction_vs_severity.png` | Satisfaction vs Severity Heatmap DS1 | PA-3 | Hubungan antarvariabel |
+| Viz 8 (Aziz) | `viz8_speed_per_type_ds2.png` | Kecepatan Resolusi per Issue Type DS2 | PA-5 | Perbandingan kategori |
+| Viz 9 (Aziz) | `viz9_reopen_per_type_ds2.png` | Re-open Rate per Issue Type DS2 | PA-4 (eskalasi/re-open) | Perbandingan kategori |
 
-> Catatan: file visualisasi Aziz menggunakan prefix `viz_` (tanpa nama pribadi) agar konsisten dengan konvensi penamaan Ghazy.
+> Semua file PNG menggunakan format sequential `viz1_` s/d `viz9_` tersimpan di `reports/figures/`.
 
 ---
 
@@ -456,21 +457,22 @@ Format markdown untuk Bab 4 laporan dan slide presentasi.
 
 | No | Temuan | Visualisasi | Makna |
 |---|---|---|---|
-| 1 | DS1 Severity "normal" mendominasi 90.9% | `8B_viz1_distribusi_severity_priority.png` | Class imbalance signifikan -> tidak ideal sebagai target klasifikasi tunggal |
-| 2 | DS1 Priority lebih merata (high 36.5%) | `8B_viz1_distribusi_severity_priority.png` | Priority lebih cocok sebagai target klasifikasi |
-| 3 | DS2 volume tiket bervariasi per bulan, avgResHours berkorelasi | `8C_viz2_tren_waktu_ds2.png` | Peak period -> risiko backlog SLA, kapasitas tim insufficient |
-| 4 | Beberapa issue_type SLA violated >50% | `8D_viz3_sla_violated_per_type.png` | Kategori kritis butuh intervensi operasional |
-| 5 | Korelasi kuat: totalTimeHours <-> resolutionDurationHours | `8E_viz4_heatmap_korelasi_ds2.png` | Kedua kolom hampir redundan -> pertimbangkan salah satu untuk model |
-| 6 | isComplex berkorelasi dengan wfe_reopened | `8E_viz4_heatmap_korelasi_ds2.png` | Flag isComplex valid sebagai proxy kompleksitas |
+| 1 | DS1 Severity "normal" mendominasi 90.9% | `viz1_distribusi_severity_priority.png` | Class imbalance signifikan -> tidak ideal sebagai target klasifikasi tunggal |
+| 2 | DS1 Priority lebih merata (high 36.5%) | `viz1_distribusi_severity_priority.png` | Priority lebih cocok sebagai target klasifikasi |
+| 3 | DS2 volume tiket bervariasi per bulan, avgResHours berkorelasi | `viz2_tren_waktu_ds2.png` | Peak period -> risiko backlog SLA, kapasitas tim insufficient |
+| 4 | Beberapa issue_type SLA violated >50% | `viz3_sla_violated_per_type.png` | Kategori kritis butuh intervensi operasional |
+| 5 | Korelasi kuat: totalTimeHours <-> resolutionDurationHours | `viz4_heatmap_korelasi_ds2.png` | Kedua kolom hampir redundan -> pertimbangkan salah satu untuk model |
+| 6 | isComplex berkorelasi dengan wfe_reopened | `viz4_heatmap_korelasi_ds2.png` | Flag isComplex valid sebagai proxy kompleksitas |
 
 ### Tabel Temuan Eksploratif - Ditambahkan Aziz [SELESAI]
 
 | No | Temuan | Visualisasi | Makna |
 |---|---|---|---|
-| 7 | DS1 distribusi `resolutionDurationDays` right-skewed (mean=6.80, median=5.00, skew=1.31); priority "low" paling lambat (median 6 hari), priority "high" tercepat (median 5 hari) | `viz_A_durasi_resolusi_ds1.png` | Mayoritas tiket diselesaikan cepat, tapi ekor panjang kanan menunjukkan ada tiket yang berkepanjangan; priority "low" paradoks lebih lambat dari "unassigned" -> perlu review SLA per priority (PA-1, PA-4) |
-| 8 | Kategori "hardware" paling lambat (avg 16.94 hari, 2.49x rata-rata keseluruhan); "systems" kedua (avg 9.51 hari); "access/login" tercepat (avg 0.27 hari); dua kategori merah (hardware, systems) mencakup 50.01% volume tiket DS1 | `viz_B_avg_durasi_per_kategori.png` | Hardware dan systems adalah bottleneck utama SLA di DS1 — dua kategori paling lambat sekaligus volume tinggi; access/login sangat cepat kemungkinan karena prosedur reset password yang standar (PA-2) |
-| 9 | Rata-rata `satisfactionLevel` per severity: critical=1.60, major=1.61, minor=1.33, normal=1.47, unclassified=1.40; "minor" menghasilkan satisfaction paling rendah, bukan "critical" seperti yang diperkirakan | `viz_C_satisfaction_vs_severity.png` | Hubungan severity-satisfaction tidak linear — "minor" lebih mengecewakan pengguna daripada "critical", kemungkinan karena ekspektasi penyelesaian cepat pada insiden kecil tidak terpenuhi; "critical" mungkin ditangani lebih cepat sehingga satisfaction lebih tinggi (PA-3) |
-| 10 | DS2 tipe "subtask" paling lambat (slow 90.7%, fast hanya 1.3%); "epic" kedua paling lambat (slow 63.8%); "assistance" dan "vacation" tercepat (0% slow); "deployment" dan "service" performa baik (slow <3%) | `viz_D_speed_per_type_ds2.png` | Subtask dan epic adalah tipe dengan performa resolusi terburuk — strukturnya bergantung pada tiket induk sehingga resolusinya terlambat; tipe operasional (deployment, service, hd service) menunjukkan performa terbaik dan bisa dijadikan benchmark (PA-5) |
+| 7 | DS1 distribusi `resolutionDurationDays` right-skewed (mean=6.80, median=5.00, skew=1.31); priority "low" paling lambat (median 6 hari), priority "high" tercepat (median 5 hari) | `viz5_durasi_resolusi_ds1.png` | Mayoritas tiket diselesaikan cepat, tapi ekor panjang kanan menunjukkan ada tiket yang berkepanjangan; priority "low" paradoks lebih lambat dari "unassigned" -> perlu review SLA per priority (PA-1, PA-4) |
+| 8 | Kategori "hardware" paling lambat (avg 16.94 hari, 2.49x rata-rata keseluruhan); "systems" kedua (avg 9.51 hari); "access/login" tercepat (avg 0.27 hari); dua kategori merah (hardware, systems) mencakup 50.01% volume tiket DS1 | `viz6_avg_durasi_per_kategori.png` | Hardware dan systems adalah bottleneck utama SLA di DS1 — dua kategori paling lambat sekaligus volume tinggi; access/login sangat cepat kemungkinan karena prosedur reset password yang standar (PA-2) |
+| 9 | Rata-rata `satisfactionLevel` per severity: critical=1.60, major=1.61, minor=1.33, normal=1.47, unclassified=1.40; "minor" menghasilkan satisfaction paling rendah, bukan "critical" seperti yang diperkirakan | `viz7_satisfaction_vs_severity.png` | Hubungan severity-satisfaction tidak linear — "minor" lebih mengecewakan pengguna daripada "critical", kemungkinan karena ekspektasi penyelesaian cepat pada insiden kecil tidak terpenuhi; "critical" mungkin ditangani lebih cepat sehingga satisfaction lebih tinggi (PA-3) |
+| 10 | DS2 tipe "subtask" paling lambat (slow 90.7%, fast hanya 1.3%); "epic" kedua paling lambat (slow 63.8%); "assistance" dan "vacation" tercepat (0% slow); "deployment" dan "service" performa baik (slow <3%) | `viz8_speed_per_type_ds2.png` | Subtask dan epic adalah tipe dengan performa resolusi terburuk — strukturnya bergantung pada tiket induk sehingga resolusinya terlambat; tipe operasional (deployment, service, hd service) menunjukkan performa terbaik dan bisa dijadikan benchmark (PA-5) |
+| 11 | Kategori tertentu DS2 memiliki re-open rate jauh di atas rata-rata keseluruhan → indikator kegagalan resolusi pertama kali dan eskalasi sistemik | `viz9_reopen_per_type_ds2.png` | Kategori dengan re-open rate tinggi membutuhkan perbaikan SOP dan pelatihan agen; merupakan proxy kualitas resolusi yang tidak terlihat dari metrik durasi saja (PA-4) |
 
 ---
 
@@ -486,7 +488,7 @@ Dokumentasikan di akhir `03_explore.ipynb`:
 - [x] DS1 `priority` - `priorityVerified` = 53% -> ada inkonsistensi, pertimbangkan drop `priorityLevel`
 - [x] Scored sample: 747 baris (n=360 valid compositeScore) -> sangat kecil untuk supervised model
 - [x] `performanceBinary`: good ~= 0.4%, needs_improvement ~= 0.1%, NaN 99.5% -> tidak layak supervised
-- [x] Rekomendasi slide: Viz C (PA-3, impact tinggi), 8D (SLA actionable), Viz D (PA-5) sebagai top-3 wajib - detail di sel penutup 03_explore.ipynb
+- [x] Rekomendasi slide: Viz 7 (PA-3, impact tinggi), Viz 3 (SLA actionable), Viz 8 (PA-5) sebagai top-3 wajib - detail di sel penutup 03_explore.ipynb
 
 ---
 
@@ -525,13 +527,15 @@ Dokumentasikan di akhir `03_explore.ipynb`:
 - [x] Tren waktu - volume & durasi resolusi DS2 per bulan (Ghazy)
 - [x] Perbandingan kategori - SLA violated per issue_type, cross-tab priority x type (Ghazy)
 - [x] Hubungan antarvariabel - Spearman heatmap DS1 & DS2 + kesimpulan fitur (Ghazy)
-- [x] Min 3 visualisasi eksploratif - sudah ada 5 Ghazy + 4 Aziz = 9 total
+- [x] Min 3 visualisasi eksploratif - sudah ada 4 Ghazy (viz1–viz4) + 5 Aziz (viz5–viz9) = 9 total
 - [x] Pertanyaan analitik kelompok terdefinisi eksplisit - PA-1 s/d PA-5 (di atas)
 - [x] Setiap visualisasi dikaitkan ke pertanyaan analitik - lihat tabel pemetaan Viz -> PA
-- [x] Viz A dibuat + interpretasi markdown tajam: distribusi durasi per priority (Aziz)
-- [x] Viz B dibuat + interpretasi markdown tajam: avg durasi per kategori IT (Aziz)
-- [x] Viz C dibuat + interpretasi markdown tajam: satisfaction vs severity (Aziz)
-- [x] Viz D dibuat + interpretasi markdown tajam: kecepatan resolusi per tipe DS2 (Aziz)
-- [x] Interpretasi markdown 8B, 8C, 8D, 8E ditambahkan setelah code cell masing-masing (Aziz)
-- [x] Rekomendasi slide diisi di bagian Handoff ke Modeler (Aziz) - di 03_explore.ipynb sel terakhir
-- [x] Tabel temuan eksploratif No. 7-10 diisi dengan nilai aktual dari data (Aziz - SELESAI)
+- [x] Viz 5 dibuat + interpretasi markdown tajam: distribusi durasi per priority DS1 (Aziz)
+- [x] Viz 6 dibuat + interpretasi markdown tajam: avg durasi per kategori FiledAgainst DS1 (Aziz)
+- [x] Viz 7 dibuat + interpretasi markdown tajam: satisfaction vs severity heatmap DS1 (Aziz)
+- [x] Viz 8 dibuat + interpretasi markdown tajam: kecepatan resolusi per issue_type DS2 (Aziz)
+- [x] Viz 9 dibuat + interpretasi markdown tajam: re-open rate per issue_type DS2 (Aziz) - PA-4 eskalasi
+- [x] Interpretasi markdown viz1, viz2, viz3, viz4 ditambahkan setelah code cell masing-masing (Ghazy)
+- [x] Rekomendasi slide diisi di sel penutup 03_explore.ipynb (Aziz)
+- [x] Tabel temuan eksploratif No. 7-11 diisi dengan nilai aktual dari data (Aziz - SELESAI)
+- [x] Semua nama file PNG diubah ke format sequential viz1_ s/d viz9_ di `reports/figures/`

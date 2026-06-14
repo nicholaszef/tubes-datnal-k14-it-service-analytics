@@ -5,7 +5,7 @@
 > **PIC:** Ghazy Achmed Movlech Urbayani (18223093) — S-Scrub + E-Explore dasar  
 > **PIC:** M Azizdzaki Khrisnanurmuflih (18223128) — E-Explore lanjutan + Visualisasi tambahan  
 > **Status keseluruhan:** S-Scrub [SELESAI] | E-Explore [SELESAI] | M-Model [BELUM] | N-iNterpret [MENUNGGU]  
-> **Terakhir diperbarui:** 13 Juni 2026
+> **Terakhir diperbarui:** 14 Juni 2026
 
 ---
 
@@ -117,43 +117,48 @@
 ### Bagian Ghazy — Statistik + Visualisasi Dasar (5 visualisasi)
 
 - **Statistik Deskriptif DS1 & DS2** — mean/std/min/max variabel numerik utama; value counts kategorikal
-- **Viz 8B — Distribusi Severity & Priority** (PA-4)  
+- **Viz 1 — Distribusi Severity & Priority** (PA-4)  
   DS1 severity "normal" 90.9% → class imbalance; priority lebih merata → lebih cocok sebagai target model  
-  → `reports/figures/8B_viz1_distribusi_severity_priority.png`
+  → `reports/figures/viz1_distribusi_severity_priority.png`
 
-- **Viz 8C — Tren Waktu Volume & Durasi DS2** (PA-2)  
+- **Viz 2 — Tren Waktu Volume & Durasi DS2** (PA-2)  
   Volume tiket bervariasi per bulan; avg `resolutionDurationHours` berkorelasi dengan volume → kapasitas tim terbatas  
-  → `reports/figures/8C_viz2_tren_waktu_ds2.png`
+  → `reports/figures/viz2_tren_waktu_ds2.png`
 
-- **Viz 8D — % SLA Violated per Issue Type DS2** (PA-2)  
+- **Viz 3 — % SLA Violated per Issue Type DS2** (PA-2)  
   Beberapa kategori SLA violated >50% → kegagalan sistemik; kategori dengan volume tinggi paling berdampak  
-  → `reports/figures/8D_viz3_sla_violated_per_type.png`
+  → `reports/figures/viz3_sla_violated_per_type.png`
 
-- **Viz 8E — Spearman Heatmap DS2 + DS1** (PA-1)  
+- **Viz 4 — Spearman Heatmap DS2 + DS1** (PA-1)  
   `totalTimeHours` ↔ `resolutionDurationHours` hampir sempurna (r ≈ 1.0) → drop salah satu dari model  
   `isComplex` ↔ `wfe_reopened` tinggi → flag valid sebagai fitur  
-  → `reports/figures/8E_viz4_heatmap_korelasi_ds2.png`, `8E_viz4b_heatmap_korelasi_ds1.png`
+  → `reports/figures/viz4_heatmap_korelasi_ds2.png`, `viz4b_heatmap_korelasi_ds1.png`
 
-### Bagian Aziz — Visualisasi Lanjutan (4 visualisasi)
+### Bagian Aziz — Visualisasi Lanjutan (5 visualisasi)
 
-- **Viz A — Distribusi Durasi Resolusi + Boxplot per Priority DS1** (PA-1, PA-4)  
+- **Viz 5 — Distribusi Durasi Resolusi + Boxplot per Priority DS1** (PA-1, PA-4)  
   Distribusi right-skewed (mean=6.80, median=5.00, skew=1.31); priority "low" paradoks paling lambat (median 6 hari)  
-  → `reports/figures/viz_A_durasi_resolusi_ds1.png`
+  → `reports/figures/viz5_durasi_resolusi_ds1.png`
 
-- **Viz B — Rata-rata Durasi per Kategori FiledAgainst DS1** (PA-2)  
+- **Viz 6 — Rata-rata Durasi per Kategori FiledAgainst DS1** (PA-2)  
   "hardware" paling lambat (avg 16.94 hari, 2.49× rata-rata); "access/login" tercepat (avg 0.27 hari)  
   Hardware + systems mencakup 50% volume tiket DS1 → bottleneck SLA utama  
-  → `reports/figures/viz_B_avg_durasi_per_kategori.png`
+  → `reports/figures/viz6_avg_durasi_per_kategori.png`
 
-- **Viz C — Satisfaction vs Severity Heatmap DS1** (PA-3)  
+- **Viz 7 — Satisfaction vs Severity Heatmap DS1** (PA-3)  
   Hubungan tidak linear: "minor" satisfaction paling rendah (avg 1.33), bukan "critical" (avg 1.60)  
   Kemungkinan: insiden kecil diharapkan cepat selesai, jika tidak → ekspektasi lebih terasa  
-  → `reports/figures/viz_C_satisfaction_vs_severity.png`
+  → `reports/figures/viz7_satisfaction_vs_severity.png`
 
-- **Viz D — Kecepatan Resolusi per Issue Type DS2** (PA-5)  
+- **Viz 8 — Kecepatan Resolusi per Issue Type DS2** (PA-5)  
   "subtask" paling lambat (90.7% slow, 1.3% fast) — bergantung tiket induk  
   "deployment" dan "service" performa terbaik (<3% slow) → benchmark best practice  
-  → `reports/figures/viz_D_speed_per_type_ds2.png`
+  → `reports/figures/viz8_speed_per_type_ds2.png`
+
+- **Viz 9 — Re-open Rate per Issue Type DS2** (PA-4)  
+  Menunjukkan kategori tiket yang paling sering di-reopen → indikator eskalasi dan kegagalan resolusi pertama kali  
+  Kategori dengan re-open rate tinggi = prioritas perbaikan SOP dan pelatihan agen  
+  → `reports/figures/viz9_reopen_per_type_ds2.png`
 
 ---
 
@@ -161,16 +166,17 @@
 
 | No | Temuan | Visualisasi | Pertanyaan Analitik |
 |----|--------|-------------|---------------------|
-| 1 | DS1 severity "normal" mendominasi 90.9% → class imbalance signifikan | `8B_viz1_distribusi_severity_priority.png` | PA-4 |
-| 2 | DS1 priority lebih merata (high 36.5%) → lebih cocok sebagai target klasifikasi | `8B_viz1_distribusi_severity_priority.png` | PA-4 |
-| 3 | DS2 volume tiket per bulan bervariasi; avg durasi berkorelasi dengan volume | `8C_viz2_tren_waktu_ds2.png` | PA-2 |
-| 4 | Beberapa issue_type DS2 SLA violated >50% → kegagalan sistemik | `8D_viz3_sla_violated_per_type.png` | PA-2 |
-| 5 | `totalTimeHours` ↔ `resolutionDurationHours` hampir sempurna (r ≈ 1.0) → redundan | `8E_viz4_heatmap_korelasi_ds2.png` | PA-1 |
-| 6 | `isComplex` berkorelasi dengan `wfe_reopened` → flag valid untuk model | `8E_viz4_heatmap_korelasi_ds2.png` | PA-1 |
-| 7 | DS1 distribusi durasi right-skewed (mean=6.80, median=5.00, skew=1.31); priority "low" paling lambat (median 6 hari) | `viz_A_durasi_resolusi_ds1.png` | PA-1, PA-4 |
-| 8 | "hardware" paling lambat (avg 16.94 hari, 2.49× rata-rata); "access/login" tercepat (avg 0.27 hari) | `viz_B_avg_durasi_per_kategori.png` | PA-2 |
-| 9 | Satisfaction–severity tidak linear: "minor" satisfaction paling rendah (avg 1.33), bukan "critical" (avg 1.60) | `viz_C_satisfaction_vs_severity.png` | PA-3 |
-| 10 | "subtask" paling lambat (90.7% slow); "deployment" dan "service" performa terbaik (<3% slow) | `viz_D_speed_per_type_ds2.png` | PA-5 |
+| 1 | DS1 severity "normal" mendominasi 90.9% → class imbalance signifikan | `viz1_distribusi_severity_priority.png` | PA-4 |
+| 2 | DS1 priority lebih merata (high 36.5%) → lebih cocok sebagai target klasifikasi | `viz1_distribusi_severity_priority.png` | PA-4 |
+| 3 | DS2 volume tiket per bulan bervariasi; avg durasi berkorelasi dengan volume | `viz2_tren_waktu_ds2.png` | PA-2 |
+| 4 | Beberapa issue_type DS2 SLA violated >50% → kegagalan sistemik | `viz3_sla_violated_per_type.png` | PA-2 |
+| 5 | `totalTimeHours` ↔ `resolutionDurationHours` hampir sempurna (r ≈ 1.0) → redundan | `viz4_heatmap_korelasi_ds2.png` | PA-1 |
+| 6 | `isComplex` berkorelasi dengan `wfe_reopened` → flag valid untuk model | `viz4_heatmap_korelasi_ds2.png` | PA-1 |
+| 7 | DS1 distribusi durasi right-skewed (mean=6.80, median=5.00, skew=1.31); priority "low" paling lambat (median 6 hari) | `viz5_durasi_resolusi_ds1.png` | PA-1, PA-4 |
+| 8 | "hardware" paling lambat (avg 16.94 hari, 2.49× rata-rata); "access/login" tercepat (avg 0.27 hari) | `viz6_avg_durasi_per_kategori.png` | PA-2 |
+| 9 | Satisfaction–severity tidak linear: "minor" satisfaction paling rendah (avg 1.33), bukan "critical" (avg 1.60) | `viz7_satisfaction_vs_severity.png` | PA-3 |
+| 10 | "subtask" paling lambat (90.7% slow); "deployment" dan "service" performa terbaik (<3% slow) | `viz8_speed_per_type_ds2.png` | PA-5 |
+| 11 | Kategori tertentu DS2 memiliki re-open rate jauh di atas rata-rata → kegagalan resolusi pertama kali & eskalasi sistemik | `viz9_reopen_per_type_ds2.png` | PA-4 |
 
 ---
 
@@ -186,6 +192,20 @@
 - DS2 priority 50.9% unknown → gunakan `priorityNormalized`
 
 ---
+
+**Ringkasan visualisasi (viz1–viz9):**
+
+| Viz | File | Pertanyaan Analitik |
+|-----|------|---------------------|
+| 1 | `viz1_distribusi_severity_priority.png` | PA-4 |
+| 2 | `viz2_tren_waktu_ds2.png` | PA-2 |
+| 3 | `viz3_sla_violated_per_type.png` | PA-2 |
+| 4 | `viz4_heatmap_korelasi_ds2.png` + `viz4b_heatmap_korelasi_ds1.png` | PA-1 |
+| 5 | `viz5_durasi_resolusi_ds1.png` | PA-1, PA-4 |
+| 6 | `viz6_avg_durasi_per_kategori.png` | PA-2 |
+| 7 | `viz7_satisfaction_vs_severity.png` | PA-3 |
+| 8 | `viz8_speed_per_type_ds2.png` | PA-5 |
+| 9 | `viz9_reopen_per_type_ds2.png` | PA-4 (eskalasi/re-open) |
 
 *Laporan detail interaktif tersedia di [notebooks/02_scrub.ipynb](../notebooks/02_scrub.ipynb) dan [notebooks/03_explore.ipynb](../notebooks/03_explore.ipynb).*  
 *Seluruh visualisasi tersimpan di [reports/figures/](figures/).*

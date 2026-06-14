@@ -8,7 +8,7 @@
 
 ---
 
-## Status Keseluruhan (per 13 Juni 2026 — update terakhir)
+## Status Keseluruhan (per 14 Juni 2026 — update terakhir)
 
 | Fase OSEMN | PIC | Status |
 |---|---|---|
@@ -49,21 +49,24 @@
 ### Bagian Ghazy (statistik + viz dasar)
 
 - [x] Statistik deskriptif variabel utama DS1 dan DS2
-- [x] Visualisasi distribusi severity dan priority (8B)
-- [x] Visualisasi tren waktu volume dan durasi DS2 (8C)
-- [x] Visualisasi perbandingan SLA violated per issue_type (8D)
-- [x] Visualisasi Spearman heatmap DS1 dan DS2 (8E)
-- [x] Interpretasi markdown untuk 8B, 8C, 8D, 8E di `03_explore.ipynb`
+- [x] Visualisasi distribusi severity dan priority → `viz1_distribusi_severity_priority.png`
+- [x] Visualisasi tren waktu volume dan durasi DS2 → `viz2_tren_waktu_ds2.png`
+- [x] Visualisasi perbandingan SLA violated per issue_type → `viz3_sla_violated_per_type.png`
+- [x] Visualisasi Spearman heatmap DS2 + DS1 → `viz4_heatmap_korelasi_ds2.png`, `viz4b_heatmap_korelasi_ds1.png`
+- [x] Interpretasi markdown untuk viz1–viz4 di `03_explore.ipynb`
 
 ### Bagian Aziz (viz lanjutan + interpretasi)
 
-- [x] Viz A: distribusi durasi resolusi + boxplot per priority DS1
-- [x] Viz B: rata-rata durasi resolusi per kategori `FiledAgainst` DS1
-- [x] Viz C: satisfaction vs severity heatmap DS1
-- [x] Viz D: kecepatan resolusi per issue_type DS2
-- [x] Interpretasi markdown tajam untuk Viz A, B, C, D di `03_explore.ipynb`
+- [x] Viz 5 (viz5): distribusi durasi resolusi + boxplot per priority DS1
+- [x] Viz 6 (viz6): rata-rata durasi resolusi per kategori `FiledAgainst` DS1
+- [x] Viz 7 (viz7): satisfaction vs severity heatmap DS1
+- [x] Viz 8 (viz8): kecepatan resolusi per issue_type DS2
+- [x] Viz 9 (viz9): re-open rate per issue_type DS2 (PA-4, eskalasi & kegagalan resolusi pertama)
+- [x] Interpretasi markdown tajam untuk semua Viz (5–9) di `03_explore.ipynb`
+- [x] Catatan limitasi tren satisfaction (DS1 tidak punya timestamp) di `03_explore.ipynb`
 - [x] Rekomendasi slide di sel penutup `03_explore.ipynb`
-- [x] Figures Viz A–D di-generate langsung ke `reports/figures/` (viz_A, viz_B, viz_C, viz_D)
+- [x] Figures viz5–viz9 di `reports/figures/` (format berurutan viz1_…viz9_)
+- [x] Semua nama file PNG diubah ke format berurutan (viz1_ s/d viz9_)
 - [x] Tabel temuan No. 7–10 diisi dengan nilai aktual dari data (di `PREPROCESSING_EXPLORE_PLAN.md` dan `scrub_explore_summary.md`)
 - [x] `git add` + `git commit` + `git push` (dilakukan Aziz sendiri)
 
