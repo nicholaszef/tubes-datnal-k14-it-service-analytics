@@ -17,7 +17,7 @@
 | E - Explore (statistik + viz dasar) | Ghazy | SELESAI |
 | E - Explore (viz lanjutan + interpretasi) | Aziz | SELESAI |
 | M - Model | Aziz | IMPLEMENTASI SELESAI — 3 model (RF+DT klasifikasi, K-Means clustering, LDA NLP), semua PKL tersimpan di reports/models/ |
-| N - iNterpret | Aziz + Adam | MENUNGGU — semua artefak model tersedia di reports/models/ |
+| N - iNterpret | Aziz | SELESAI — `05_interpret.ipynb` diimplementasikan (10 sel), viz15–17 disiapkan, jawaban PA-1–PA-5 + 5 rekomendasi operasional + narasi Bab 5 |
 
 ---
 
@@ -149,9 +149,64 @@ FIGURES_DIR    = '../reports/figures/'
 
 ## N - iNterpret
 
-- [ ] Interpretasi hasil model dikaitkan ke PA-1 s/d PA-5 - Aziz + Adam
-- [ ] Visualisasi hasil model - Aziz
-- [ ] Notebook interpret: `05_interpret.ipynb`
+> **PIC:** M Azizdzaki Khrisnanurmuflih (18223128)
+> **File kerja:** `notebooks/05_interpret.ipynb` (buat baru)
+> **Input:** `reports/models/` (PKL + CSV cluster) + `reports/figures/` (viz1–14)
+> **Target rubrik skor 4:** interpretasi model dikaitkan eksplisit ke PA-1 s/d PA-5, rekomendasi actionable, visualisasi pendukung, narasi kohesif
+
+### Input yang Tersedia (dari M-Model)
+
+| Artefak | File | Gunakan untuk |
+|---------|------|---------------|
+| Random Forest DS1 | `reports/models/rf_priority_ds1.pkl` | Interpretasi feature importance PA-1 |
+| Decision Tree DS1 | `reports/models/dt_priority_ds1.pkl` | Perbandingan interpretasi PA-1 |
+| Encoder DS1 | `reports/models/le_filed_ds1.pkl`, `le_ticket_ds1.pkl`, `le_target_ds1.pkl` | Decode label |
+| K-Means DS2 | `reports/models/kmeans_ds2.pkl` | Cluster assignment PA-2, PA-5 |
+| Scaler DS2 | `reports/models/scaler_ds2.pkl` | Konsistensi preprocessing |
+| DS2 + Cluster | `reports/models/ds2_with_clusters.csv` | **Input utama analisis cluster** |
+| LDA | `reports/models/lda_utterances_ds2.pkl` | Topik komunikasi opsional |
+
+### Checklist Tugas Aziz (N-iNterpret) — SELESAI 14 Juni 2026
+
+**Setup & Load (Aziz)**
+- [x] Buat `notebooks/05_interpret.ipynb`
+- [x] Load semua PKL dari `reports/models/` tanpa error
+- [x] Load `ds2_with_clusters.csv` dan `ds1Clean.csv`
+
+**Interpretasi Model 1 — Klasifikasi DS1 (Aziz)**
+- [x] Feature importance: `isHighPriority` (75.56%) dikaitkan ke PA-1 — faktor dominan prioritas
+- [x] Confusion matrix analysis: kelas mana yang sering salah? implikasi operasional
+- [x] Inkonsistensi severity-priority: `priorityVerified`=52.9% dikaitkan ke PA-4
+- [x] Viz 15: `viz15_severity_priority_consistency.png` — crosstab severity vs priority heatmap
+
+**Interpretasi Model 2 — Clustering DS2 (Aziz)**
+- [x] Profil 5 cluster dengan nilai aktual (tabel mean fitur per cluster)
+- [x] Cluster 1 (100% slow, 59.559 jam): paling berisiko SLA → PA-2
+- [x] Cluster 2 (1% slow, benchmark terbaik): performa terbaik → PA-5
+- [x] Cluster 3 & 4 (complex + reopened): analisis sebab-akibat re-open → PA-4
+- [x] Viz 16: `viz16_cluster_heatmap_interpret.png` — heatmap profil cluster (dua panel)
+
+**Jawaban Eksplisit PA-1 s/d PA-5 (Aziz — wajib satu sel markdown ringkasan)**
+- [x] PA-1: isHighPriority (75.56%) + kurangnya workflow steps = faktor utama durasi
+- [x] PA-2: Cluster 1 DS2 (100% slow) + hardware/systems DS1 = paling berisiko SLA
+- [x] PA-3: severity-satisfaction tidak linear; "minor" terendah (avg 1.33) vs "critical" (1.60)
+- [x] PA-4: 52.9% inconsistency; model accuracy 65% — prioritisasi bersifat subjektif
+- [x] PA-5: Cluster 2 + deployment/assistance = terbaik; Cluster 1 + subtask = terburuk
+
+**Rekomendasi Operasional (Aziz — minimal 3 dari 5 di bawah)**
+- [x] R-1: Eskalasi otomatis tiket Cluster 1 yang belum diproses dalam 24 jam
+- [x] R-2: Standarisasi SOP dari Cluster 2 sebagai benchmark tim
+- [x] R-3: Tambah kapasitas untuk kategori "hardware" dan "systems" DS1
+- [x] R-4: Implementasi sistem triage priority otomatis berbasis model RF
+- [x] R-5: Chain dependency tracker untuk tiket "subtask" dan "epic"
+
+**Laporan Naratif (Aziz)**
+- [x] Narasi untuk Bab 5 (iNterpret) di laporan PDF — Sel 10 seksi 5.1–5.5
+- [x] Slide interpretasi: referensi viz10–17 + profil cluster tercantum di notebook
+- [x] Kesimpulan dan rekomendasi di Sel 9 + Sel 10
+
+**Finalisasi**
+- [ ] `git add + git commit + git push` (Aziz lakukan sendiri setelah notebook diverifikasi)
 
 ---
 

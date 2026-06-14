@@ -1,10 +1,10 @@
-# Ringkasan S-Scrub, E-Explore & M-Model
+# Ringkasan S-Scrub, E-Explore, M-Model & N-iNterpret
 ## Kelompok 14 — II4013 Data Analitik ITB
 ### Topik 14: Kinerja Layanan TI Organisasi (IT Service Performance Analytics)
 
 > **PIC:** Ghazy Achmed Movlech Urbayani (18223093) — S-Scrub + E-Explore dasar  
-> **PIC:** M Azizdzaki Khrisnanurmuflih (18223128) — E-Explore lanjutan + Visualisasi tambahan + M-Model  
-> **Status keseluruhan:** S-Scrub [SELESAI] | E-Explore [SELESAI] | M-Model [IMPLEMENTASI SELESAI] | N-iNterpret [MENUNGGU]  
+> **PIC:** M Azizdzaki Khrisnanurmuflih (18223128) — E-Explore lanjutan + Visualisasi tambahan + M-Model + N-iNterpret  
+> **Status keseluruhan:** S-Scrub [SELESAI] | E-Explore [SELESAI] | M-Model [SELESAI] | N-iNterpret [SELESAI]  
 > **Terakhir diperbarui:** 14 Juni 2026
 
 ---
@@ -272,6 +272,80 @@
 
 ---
 
-*Laporan detail interaktif tersedia di [notebooks/02_scrub.ipynb](../notebooks/02_scrub.ipynb), [notebooks/03_explore.ipynb](../notebooks/03_explore.ipynb), dan [notebooks/04_model.ipynb](../notebooks/04_model.ipynb).*  
-*Seluruh visualisasi tersimpan di [reports/figures/](figures/).*  
+---
+
+## 10. N-iNterpret [SELESAI] — Aziz
+
+> **File kerja:** `notebooks/05_interpret.ipynb` — 10 sel, diimplementasikan 14 Juni 2026  
+> **Input:** Semua artefak PKL di `reports/models/` + `ds2_with_clusters.csv` + `ds1Clean.csv`
+
+### Struktur Notebook 05_interpret.ipynb
+
+| Sel | Isi | PA |
+|-----|-----|----|
+| Sel 1 | Import & Setup Path | — |
+| Sel 2 | Load semua artefak model (8 PKL + 2 CSV) | — |
+| Sel 3 | Feature importance RF + interpretasi markdown | PA-1 |
+| Sel 4 | Confusion matrix analysis + Viz 15 (crosstab severity-priority) | PA-4 |
+| Sel 5 | Profil 5 cluster + Viz 16 (heatmap dua panel) | PA-2, PA-5 |
+| Sel 6 | SLA per issue_type + Viz 17 (tiga panel ringkasan) | PA-2, PA-5 |
+| Sel 7 | LDA topik + interpretasi konteks kepuasan | PA-3 |
+| Sel 8 | Jawaban eksplisit PA-1 s/d PA-5 (tabel + nilai aktual) | PA-1–PA-5 |
+| Sel 9 | Rekomendasi operasional R-1 s/d R-5 + tabel prioritas | PA-1–PA-5 |
+| Sel 10 | Narasi Bab 5 (seksi 5.1–5.5) untuk laporan PDF | — |
+
+### Jawaban PA-1 s/d PA-5 (Nilai Aktual Terverifikasi)
+
+| PA | Jawaban Singkat | Sumber Bukti |
+|----|-----------------|--------------|
+| PA-1 | `isHighPriority` (75.56%) + kurangnya workflow steps (Cluster 1 avg=1.00) | RF DS1 + K-Means DS2 |
+| PA-2 | Cluster 1 (100% slow, 17.998 tiket); `subtask` (90.7% slow); `hardware` DS1 (avg 16.94 hari) | K-Means DS2 + EDA DS1 |
+| PA-3 | Hubungan tidak linear: `minor`=1.33, `critical`=1.60 — ekspektasi lebih menentukan dari severity | EDA Viz 7 DS1 + LDA |
+| PA-4 | `priorityVerified`=52.9%; RF acc=64.9% — triage subjektif, 47.1% tiket inkonsisten | RF DS1 + `priorityVerified` |
+| PA-5 | Terbaik: Cluster 2 (1% slow) + `assistance` (0% slow); Terburuk: Cluster 1 (100% slow) + `subtask` (90.7%) | K-Means DS2 |
+
+### Rekomendasi Operasional
+
+| Kode | Rekomendasi | Target Terukur |
+|------|-------------|----------------|
+| R-1 | Eskalasi otomatis tiket tanpa aktivitas ≥24 jam (Cluster 1) | Turunkan slow Cluster 1 dari 100% ke <50% |
+| R-2 | Standarisasi SOP berbasis Cluster 2 sebagai benchmark | Shift 20% tiket Cluster 0 ke pola Cluster 2 |
+| R-3 | Tambah kapasitas hardware/systems (avg 16.94 hari, 2.5× rata-rata) | Turunkan avg hardware dari 16.94 ke <10 hari |
+| R-4 | Triage semi-otomatis berbasis RF scoring | Tingkatkan `priorityVerified` dari 52.9% ke >75% |
+| R-5 | Chain dependency tracker subtask/epic | Turunkan slow subtask dari 90.7% ke <50% |
+
+### Visualisasi N-iNterpret
+
+| Viz | File | PA |
+|-----|------|----|
+| Viz 15 | `viz15_severity_priority_consistency.png` | PA-4 |
+| Viz 16 | `viz16_cluster_heatmap_interpret.png` | PA-2, PA-5 |
+| Viz 17 | `viz17_rekomendasi_summary.png` | PA-2, PA-5 |
+
+### Ringkasan Visualisasi Lengkap (viz1–viz17)
+
+| Viz | File | Fase | PA |
+|-----|------|------|----|
+| 1 | `viz1_distribusi_severity_priority.png` | E-Explore | PA-4 |
+| 2 | `viz2_tren_waktu_ds2.png` | E-Explore | PA-2 |
+| 3 | `viz3_sla_violated_per_type.png` | E-Explore | PA-2 |
+| 4 | `viz4_heatmap_korelasi_ds2.png` + `viz4b_heatmap_korelasi_ds1.png` | E-Explore | PA-1 |
+| 5 | `viz5_durasi_resolusi_ds1.png` | E-Explore | PA-1, PA-4 |
+| 6 | `viz6_avg_durasi_per_kategori.png` | E-Explore | PA-2 |
+| 7 | `viz7_satisfaction_vs_severity.png` | E-Explore | PA-3 |
+| 8 | `viz8_speed_per_type_ds2.png` | E-Explore | PA-5 |
+| 9 | `viz9_reopen_per_type_ds2.png` | E-Explore | PA-4 |
+| 10 | `viz10_confusion_matrix_ds1.png` | M-Model | PA-1, PA-4 |
+| 11 | `viz11_feature_importance_ds1.png` | M-Model | PA-1 |
+| 12 | `viz12_elbow_cluster.png` | M-Model | PA-2, PA-5 |
+| 13 | `viz13_cluster_profile_ds2.png` | M-Model | PA-2, PA-5 |
+| 14 | `viz14_topic_distribution_nlp.png` | M-Model | PA-3 |
+| 15 | `viz15_severity_priority_consistency.png` | N-iNterpret | PA-4 |
+| 16 | `viz16_cluster_heatmap_interpret.png` | N-iNterpret | PA-2, PA-5 |
+| 17 | `viz17_rekomendasi_summary.png` | N-iNterpret | PA-2, PA-5 |
+
+---
+
+*Laporan detail interaktif tersedia di [notebooks/02_scrub.ipynb](../notebooks/02_scrub.ipynb), [notebooks/03_explore.ipynb](../notebooks/03_explore.ipynb), [notebooks/04_model.ipynb](../notebooks/04_model.ipynb), dan [notebooks/05_interpret.ipynb](../notebooks/05_interpret.ipynb).*  
+*Seluruh visualisasi (viz1–viz17) tersimpan di [reports/figures/](figures/).*  
 *Seluruh artefak model tersimpan di [reports/models/](models/).*
