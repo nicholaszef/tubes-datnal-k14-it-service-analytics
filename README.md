@@ -24,6 +24,42 @@ Framework: OSEMN (Obtain, Scrub, Explore, Model, iNterpret)
 git clone https://github.com/[username]/tubes-datnal-k14-it-service-analytics.git
 cd tubes-datnal-k14-it-service-analytics
 pip install -r requirements.txt
+```
+
+---
+
+## Menjalankan Dashboard
+
+Dashboard interaktif dibangun menggunakan **Streamlit** dan menampilkan hasil analitik secara visual.
+
+```bash
+streamlit run dashboard/app.py
+```
+
+Dashboard akan terbuka otomatis di browser pada `http://localhost:8501`.
+
+### Halaman Dashboard
+
+| Halaman | Isi |
+|---------|-----|
+| **Overview** | Volume tiket per kategori, tren bulanan, distribusi prioritas |
+| **SLA Analysis** | Breach rate per kategori × prioritas, distribusi waktu resolusi, tiket terlama |
+| **Agent Performance** | Jumlah tiket per agen, waktu resolusi, SLA breach, leaderboard performa |
+| **Model Results** | Confusion matrix RF, feature importance, K-Means clustering, evaluasi model |
+
+### Filter Global (sidebar)
+
+- **Year From / Year To** — filter rentang tahun (2016–2020)
+- **Category** — Software, Hardware, Network, Access
+- **Priority** — High, Medium, Low
+
+Filter berlaku di semua halaman secara bersamaan.
+
+---
+
+## Menjalankan Notebook
+
+```bash
 jupyter notebook
 ```
 
@@ -39,6 +75,17 @@ jupyter notebook
 | `notebooks/04_model.ipynb` | Aziz (Visualization / Dashboard Developer) | Pemodelan dan evaluasi |
 | `notebooks/05_interpret.ipynb` | Aziz (Visualization / Dashboard Developer) | Visualisasi hasil model, insight, dan rekomendasi |
 
+---
+
+## Pertanyaan Analitik
+
+| Kode | Pertanyaan Analitik |
+|------|---------------------|
+| PA-1 | Faktor apa yang paling mempengaruhi durasi resolusi tiket IT? |
+| PA-2 | Kategori/tipe tiket mana yang paling berisiko melanggar SLA? |
+| PA-3 | Bagaimana keparahan insiden mempengaruhi kepuasan pengguna? |
+| PA-4 | Apakah prioritas tiket yang ditetapkan konsisten dengan keparahan aktual? |
+| PA-5 | Tipe tiket apa yang menunjukkan performa resolusi terbaik vs terburuk? |
 
 ---
 
@@ -46,6 +93,13 @@ jupyter notebook
 
 ```
 tubes-datnal-k14-it-service-analytics/
+├── dashboard/
+│   ├── app.py                           (entry point Streamlit)
+│   └── pages/
+│       ├── 01_overview.py
+│       ├── 02_sla_analysis.py
+│       ├── 03_agent_performance.py
+│       └── 04_model_results.py
 ├── data/
 │   ├── raw/
 │   │   ├── primary/
