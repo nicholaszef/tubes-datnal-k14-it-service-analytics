@@ -1,10 +1,10 @@
-# Ringkasan S-Scrub & E-Explore
+# Ringkasan S-Scrub, E-Explore & M-Model
 ## Kelompok 14 — II4013 Data Analitik ITB
 ### Topik 14: Kinerja Layanan TI Organisasi (IT Service Performance Analytics)
 
 > **PIC:** Ghazy Achmed Movlech Urbayani (18223093) — S-Scrub + E-Explore dasar  
-> **PIC:** M Azizdzaki Khrisnanurmuflih (18223128) — E-Explore lanjutan + Visualisasi tambahan  
-> **Status keseluruhan:** S-Scrub [SELESAI] | E-Explore [SELESAI] | M-Model [BELUM] | N-iNterpret [MENUNGGU]  
+> **PIC:** M Azizdzaki Khrisnanurmuflih (18223128) — E-Explore lanjutan + Visualisasi tambahan + M-Model  
+> **Status keseluruhan:** S-Scrub [SELESAI] | E-Explore [SELESAI] | M-Model [IMPLEMENTASI SELESAI] | N-iNterpret [MENUNGGU]  
 > **Terakhir diperbarui:** 14 Juni 2026
 
 ---
@@ -193,19 +193,85 @@
 
 ---
 
-**Ringkasan visualisasi (viz1–viz9):**
+**Ringkasan visualisasi (viz1–viz14):**
 
-| Viz | File | Pertanyaan Analitik |
-|-----|------|---------------------|
-| 1 | `viz1_distribusi_severity_priority.png` | PA-4 |
-| 2 | `viz2_tren_waktu_ds2.png` | PA-2 |
-| 3 | `viz3_sla_violated_per_type.png` | PA-2 |
-| 4 | `viz4_heatmap_korelasi_ds2.png` + `viz4b_heatmap_korelasi_ds1.png` | PA-1 |
-| 5 | `viz5_durasi_resolusi_ds1.png` | PA-1, PA-4 |
-| 6 | `viz6_avg_durasi_per_kategori.png` | PA-2 |
-| 7 | `viz7_satisfaction_vs_severity.png` | PA-3 |
-| 8 | `viz8_speed_per_type_ds2.png` | PA-5 |
-| 9 | `viz9_reopen_per_type_ds2.png` | PA-4 (eskalasi/re-open) |
+| Viz | File | Fase | Pertanyaan Analitik |
+|-----|------|------|---------------------|
+| 1 | `viz1_distribusi_severity_priority.png` | E-Explore | PA-4 |
+| 2 | `viz2_tren_waktu_ds2.png` | E-Explore | PA-2 |
+| 3 | `viz3_sla_violated_per_type.png` | E-Explore | PA-2 |
+| 4 | `viz4_heatmap_korelasi_ds2.png` + `viz4b_heatmap_korelasi_ds1.png` | E-Explore | PA-1 |
+| 5 | `viz5_durasi_resolusi_ds1.png` | E-Explore | PA-1, PA-4 |
+| 6 | `viz6_avg_durasi_per_kategori.png` | E-Explore | PA-2 |
+| 7 | `viz7_satisfaction_vs_severity.png` | E-Explore | PA-3 |
+| 8 | `viz8_speed_per_type_ds2.png` | E-Explore | PA-5 |
+| 9 | `viz9_reopen_per_type_ds2.png` | E-Explore | PA-4 (eskalasi/re-open) |
+| 10 | `viz10_confusion_matrix_ds1.png` | M-Model | PA-1, PA-4 |
+| 11 | `viz11_feature_importance_ds1.png` | M-Model | PA-1 |
+| 12 | `viz12_elbow_cluster.png` | M-Model | PA-2, PA-5 |
+| 13 | `viz13_cluster_profile_ds2.png` | M-Model | PA-2, PA-5 |
+| 14 | `viz14_topic_distribution_nlp.png` | M-Model (opsional) | PA-3 |
 
-*Laporan detail interaktif tersedia di [notebooks/02_scrub.ipynb](../notebooks/02_scrub.ipynb) dan [notebooks/03_explore.ipynb](../notebooks/03_explore.ipynb).*  
-*Seluruh visualisasi tersimpan di [reports/figures/](figures/).*
+---
+
+## 9. M-Model [IMPLEMENTASI SELESAI] — Aziz
+
+> **File kerja:** `notebooks/04_model.ipynb`  
+> **Semua artefak model tersedia di:** `reports/models/`
+
+### Model yang Dibangun
+
+| Model | Dataset | Algoritma | Metrik Utama | Nilai | PA |
+|-------|---------|-----------|--------------|-------|----|
+| Klasifikasi Priority | DS1 | Random Forest | Accuracy | 0.6493 | PA-1, PA-4 |
+| Klasifikasi Priority | DS1 | Random Forest | Weighted F1 | 0.6534 | PA-1, PA-4 |
+| Klasifikasi Priority | DS1 | Random Forest | Macro F1 | 0.5809 | PA-1, PA-4 |
+| Klasifikasi Priority | DS1 | Decision Tree | Accuracy | 0.6504 | PA-1, PA-4 |
+| Klasifikasi Priority | DS1 | Decision Tree | Weighted F1 | 0.6536 | PA-1, PA-4 |
+| Clustering Tiket | DS2 | K-Means (k=5) | Silhouette Score | 0.5903 | PA-2, PA-5 |
+| NLP Topic Modeling | DS2 Utterances | LDA (6 topik) | Distribusi topik | 6 topik teridentifikasi | PA-3 |
+
+### Temuan Utama M-Model
+
+| No | Temuan | Model | PA |
+|----|--------|-------|----|
+| 1 | `isHighPriority` adalah fitur paling dominan (importance=0.7556) — jauh melampaui `severityLevel` (0.0234) | RF DS1 | PA-1, PA-4 |
+| 2 | Top-3 fitur: `isHighPriority` (75.56%) → `seniorityLevel` (15.34%) → `resolutionDurationDays` (5.15%) | RF DS1 | PA-1 |
+| 3 | `severityLevel` hanya 2.3% importance → konfirmasi inkonsistensi priority-severity (hanya 53% `priorityVerified`) | RF DS1 | PA-4 |
+| 4 | RF dan DT hampir identik (<0.003 perbedaan) — pola DS1 cukup linear | Klasifikasi DS1 | PA-1 |
+| 5 | K-Means k=5 silhouette=0.5903 — struktur cluster cukup kuat (>0.5) | K-Means DS2 | PA-2, PA-5 |
+| 6 | Cluster 1: paling berisiko SLA (100% slow, avg 59.559 jam, 17.998 tiket) | K-Means DS2 | PA-2 |
+| 7 | Cluster 2: performa terbaik (1% slow, avg 865 jam, 5.69 steps, 10.729 tiket) | K-Means DS2 | PA-5 |
+| 8 | Cluster 4: `wfe_reopened` tertinggi (avg 1.12) → kualitas resolusi buruk, perlu perbaikan SOP | K-Means DS2 | PA-4 |
+| 9 | LDA 6 topik — topik 'access/login' dan 'password' dominan → konsisten dengan temuan viz6 | LDA DS2 | PA-3 |
+
+### Profil 5 Cluster DS2 (K-Means k=5)
+
+| Cluster | Jumlah Tiket | Avg Durasi (jam) | Avg Steps | % SLA Slow | Karakteristik |
+|---------|-------------|-----------------|-----------|-----------|---------------|
+| 0 | 34.317 | 2.723 | 3.13 | 9% | Tiket standar — volume terbesar, durasi sedang |
+| **1** | 17.998 | **59.559** | 1.00 | **100%** | Tiket sangat lambat — semua melanggar SLA |
+| **2** | 10.729 | 865 | 5.69 | **1%** | Performa terbaik — kompleks tapi cepat |
+| 3 | 752 | 14.271 | 8.52 | 22% | Tiket kompleks banyak langkah |
+| 4 | 2.041 | 14.161 | 7.43 | 26% | Paling sering di-reopen (avg 1.12×) |
+
+### Artefak Model (untuk 05_interpret.ipynb)
+
+| Artefak | Lokasi |
+|---------|--------|
+| Model RF | `reports/models/rf_priority_ds1.pkl` |
+| Model DT | `reports/models/dt_priority_ds1.pkl` |
+| LabelEncoder target | `reports/models/le_target_ds1.pkl` |
+| LabelEncoder FiledAgainst | `reports/models/le_filed_ds1.pkl` |
+| LabelEncoder TicketType | `reports/models/le_ticket_ds1.pkl` |
+| Model K-Means (k=5) | `reports/models/kmeans_ds2.pkl` |
+| StandardScaler DS2 | `reports/models/scaler_ds2.pkl` |
+| DS2 + kolom cluster | `reports/models/ds2_with_clusters.csv` |
+| Model LDA | `reports/models/lda_utterances_ds2.pkl` |
+| TF-IDF Vectorizer | `reports/models/tfidf_utterances_ds2.pkl` |
+
+---
+
+*Laporan detail interaktif tersedia di [notebooks/02_scrub.ipynb](../notebooks/02_scrub.ipynb), [notebooks/03_explore.ipynb](../notebooks/03_explore.ipynb), dan [notebooks/04_model.ipynb](../notebooks/04_model.ipynb).*  
+*Seluruh visualisasi tersimpan di [reports/figures/](figures/).*  
+*Seluruh artefak model tersimpan di [reports/models/](models/).*

@@ -12,8 +12,8 @@
 | S - Scrub | Ghazy | [SELESAI] output di `data/processed/` |
 | E - Explore (Statistik + Viz dasar) | Ghazy | [SELESAI] 5 visualisasi di `reports/figures/` |
 | E - Explore (Viz lanjutan + Interpretasi) | **Aziz** | [SELESAI] 5 visualisasi (Viz 5–9) + interpretasi markdown di `03_explore.ipynb` |
-| M - Model | Daffa | [BELUM DIMULAI] |
-| N - iNterpret | Aziz + Daffa + Adam | [MENUNGGU Model selesai] |
+| M - Model | **Aziz** | [SELESAI - IMPLEMENTASI] — `04_model.ipynb` sudah diisi lengkap, jalankan Kernel → Restart & Run All |
+| N - iNterpret | Aziz + Adam | [MENUNGGU Model selesai] |
 
 ---
 
@@ -25,8 +25,8 @@
 | S - Scrub | Ghazy | [SELESAI] Clean dataset, preprocessing notebook, fitur baru |
 | E - Explore (awal) | Ghazy | [SELESAI] Statistik deskriptif, 5 visualisasi dasar, temuan awal |
 | E - Explore (lanjutan) | Aziz | [SELESAI] 5 visualisasi tambahan (Viz 5–9) + interpretasi markdown dikaitkan PA-1 s/d PA-5 |
-| M - Model | Daffa (Analyst/Modeler) | Model NLP, clustering, evaluasi |
-| N - iNterpret | Aziz + Daffa + Adam | Visualisasi hasil model, insight, rekomendasi, laporan |
+| M - Model | Aziz (Analyst/Modeler) | Model klasifikasi, clustering, evaluasi |
+| N - iNterpret | Aziz + Adam | Visualisasi hasil model, insight, rekomendasi, laporan |
 
 ---
 
@@ -476,13 +476,13 @@ Format markdown untuk Bab 4 laporan dan slide presentasi.
 
 ---
 
-## Handoff ke Modeler (Daffa) - Update setelah Aziz selesai Viz
+## Handoff ke Modeler (Aziz) - Update setelah Aziz selesai Viz
 
 Dokumentasikan di akhir `03_explore.ipynb`:
 
 - [x] DS1 Severity imbalanced (normal 90.9%) -> belum di-resample (sampling hanya saat training)
 - [x] DS2 Priority "unknown" dominan 50.9% -> gunakan `priorityNormalized`
-- [x] Tidak ada file sampled -> SMOTE dilakukan Daffa hanya pada `X_train`
+- [x] Tidak ada file sampled -> SMOTE dilakukan Aziz hanya pada `X_train`
 - [x] Threshold `isComplex`: `wfe_reopened > 0` OR `issue_contr_count > median`
 - [x] Kolom NLP: `messageClean` di `ds2UtterancesClean.csv`
 - [x] DS1 `priority` - `priorityVerified` = 53% -> ada inkonsistensi, pertimbangkan drop `priorityLevel`
@@ -502,6 +502,7 @@ Dokumentasikan di akhir `03_explore.ipynb`:
 | Dataset bersih (5 file) | CSV | [SELESAI] Ghazy - di `data/processed/` |
 | Notebook pipeline | .ipynb reproducible | [SELESAI] Ghazy (`02_scrub.ipynb`) |
 | Notebook explore | .ipynb reproducible | [SELESAI] Ghazy + Aziz (`03_explore.ipynb`) |
+| Notebook model | .ipynb reproducible | [SELESAI] Aziz (`04_model.ipynb`) — lengkap dengan nilai aktual |
 | Laporan akhir | PDF, struktur OSEMN | [BELUM] Adam |
 | Slide presentasi | PPT/PDF, alur OSEMN | [BELUM] Adam |
 | Video presentasi/demo | Link YouTube / file | [BELUM] Semua |
@@ -539,3 +540,181 @@ Dokumentasikan di akhir `03_explore.ipynb`:
 - [x] Rekomendasi slide diisi di sel penutup 03_explore.ipynb (Aziz)
 - [x] Tabel temuan eksploratif No. 7-11 diisi dengan nilai aktual dari data (Aziz - SELESAI)
 - [x] Semua nama file PNG diubah ke format sequential viz1_ s/d viz9_ di `reports/figures/`
+
+---
+
+## FASE 9 - M-Model [SELESAI - IMPLEMENTASI] (Aziz)
+
+> **PIC:** M Azizdzaki Khrisnanurmuflih (18223128)  
+> **File kerja:** `notebooks/04_model.ipynb`  
+> **Referensi rubrik:** M-Model skor 4 — minimal 2 model berbeda, preprocessing fitur lengkap, evaluasi dengan metrik yang tepat (accuracy/F1/silhouette), interpretasi hasil dikaitkan ke pertanyaan analitik
+
+### Path Dataset (PERBAIKI dari versi lama notebook)
+
+```python
+# Path yang benar — gunakan ini, bukan clean_primary.csv / clean_supporting.csv
+DS1_PATH    = '../data/processed/ds1Clean.csv'
+DS2_PATH    = '../data/processed/ds2IssuesClean.csv'
+UTT_PATH    = '../data/processed/ds2UtterancesClean.csv'
+SCORED_PATH = '../data/processed/ds2ScoredClean.csv'
+FIGURES_DIR = '../reports/figures/'
+```
+
+> ✅ **Path sudah diperbaiki di `04_model.ipynb`** — notebook menggunakan path di atas dan sudah berjalan tanpa error.
+
+### Ringkasan Fitur Tersedia per Dataset
+
+**DS1 — `ds1Clean.csv` (100.000 baris, 22 kolom)**
+
+| Fitur | Tipe | Catatan |
+|-------|------|---------|
+| `severityLevel` | ordinal int | 0–4, imbalanced (normal 90.9%) |
+| `priorityLevel` | ordinal int | lebih balanced — cocok sebagai target |
+| `priorityLabel` | kategorikal | **Target klasifikasi** (high/medium/low/unassigned) |
+| `seniorityLevel` | ordinal int | 1–5, korelasi lemah ke durasi |
+| `satisfactionLevel` | ordinal int | 1–5, KPI kepuasan |
+| `resolutionDurationDays` | float | proxy durasi (= daysOpen) |
+| `isLongTicket` | bool | flag durasi > P95 |
+| `isHighPriority` | bool | flag prioritas tertinggi |
+| `priorityVerified` | bool | konsistensi severity-priority (53% True) |
+| `FiledAgainst` | kategorikal | encode sebelum dipakai sebagai fitur |
+| `TicketType` | kategorikal | encode sebelum dipakai sebagai fitur |
+
+**DS2 — `ds2IssuesClean.csv` (66.691 baris, 57 kolom)**
+
+| Fitur | Tipe | Catatan |
+|-------|------|---------|
+| `resolutionDurationHours` | float | KPI utama SLA — **jangan gunakan totalTimeHours (redundan, r≈1.0)** |
+| `processing_steps` | int | 0–13 |
+| `issue_comments_count` | int | proxy intensitas komunikasi |
+| `isComplex` | bool | flag kompleksitas (wfe_reopened>0 OR contr>median) |
+| `timePerStepHours` | float | efisiensi per langkah |
+| `resolutionSpeedCategory` | kategorikal | fast/medium/slow — bisa jadi target atau fitur |
+| `priorityNormalized` | kategorikal | lebih bersih dari priority asli (50.9% unknown) |
+| `issue_type` | kategorikal | encode untuk clustering/klasifikasi |
+| `wfe_reopened` | int | jumlah re-open — terkait PA-4 |
+| `isResolved` | bool | 99% True |
+
+### 9A. Model 1 — Klasifikasi Prioritas Tiket DS1 [SELESAI] (Aziz)
+
+**Tujuan:** Menjawab PA-1 dan PA-4 — faktor apa yang paling mempengaruhi prioritas tiket, dan apakah severity konsisten dengan priority yang ditetapkan?
+
+**Langkah pengerjaan:**
+
+```
+1. Load ds1Clean.csv
+2. Pilih fitur: severityLevel, seniorityLevel, resolutionDurationDays, isLongTicket,
+               isHighPriority, FiledAgainst (encoded), TicketType (encoded)
+3. Target: priorityLabel (encode: high=3, medium=2, low=1, unassigned=0)
+4. Split: train_test_split(X, y, test_size=0.2, random_state=42, stratify=y)
+5. Handle imbalance: SMOTE hanya pada X_train, y_train — BUKAN seluruh dataset
+6. Train minimal 2 model: misal Random Forest + Decision Tree
+7. Evaluasi: classification_report per kelas, confusion matrix
+8. Feature importance: tampilkan top-10 fitur paling berpengaruh
+9. Simpan: viz10_confusion_matrix_ds1.png, viz11_feature_importance_ds1.png
+```
+
+**Metrik wajib:**
+- Accuracy keseluruhan
+- Precision, Recall, F1-score per kelas (lihat classification_report)
+- Confusion matrix (heatmap)
+
+**Interpretasi yang harus ditulis di markdown cell:**
+- Fitur apa yang paling berpengaruh terhadap prioritas tiket? (PA-1)
+- Apakah severityLevel menjadi prediktor kuat? Jika tidak, konfirmasi temuan EDA bahwa severity-priority tidak konsisten (PA-4)
+
+### 9B. Model 2 — Clustering Tiket DS2 [SELESAI] (Aziz)
+
+**Tujuan:** Menjawab PA-2 dan PA-5 — identifikasi segmen tiket berdasarkan pola durasi dan kompleksitas, temukan cluster mana yang paling berisiko SLA.
+
+**Langkah pengerjaan:**
+
+```
+1. Load ds2IssuesClean.csv
+2. Pilih fitur: resolutionDurationHours, processing_steps, issue_comments_count,
+               isComplex, timePerStepHours, wfe_reopened
+3. Drop baris dengan NaN pada fitur tersebut
+4. Scaling: StandardScaler — WAJIB sebelum K-Means
+5. Elbow method: coba k=2 sampai k=8, plot inertia
+6. Pilih k optimal dari elbow + silhouette score
+7. Train K-Means dengan k optimal
+8. Tambah kolom 'cluster' ke dataframe
+9. Interpretasi tiap cluster: avg resolutionDurationHours, avg isComplex,
+   dominant issue_type, % SLA violation per cluster
+10. Simpan: viz12_elbow_cluster.png, viz13_cluster_profile_ds2.png
+```
+
+**Metrik wajib:**
+- Silhouette score (semakin mendekati 1.0 semakin baik)
+- Tabel profil tiap cluster (mean fitur per cluster)
+- Distribusi issue_type per cluster
+
+**Interpretasi yang harus ditulis di markdown cell:**
+- Cluster mana yang paling berisiko SLA? (PA-2)
+- Cluster mana yang menunjukkan performa terbaik vs terburuk? (PA-5)
+- Apakah `isComplex` atau `wfe_reopened` menjadi pembeda cluster? (PA-4)
+
+### 9C. Model 3 — NLP Topic Modeling DS2 Utterances [OPSIONAL] (Aziz)
+
+**Tujuan:** Mengidentifikasi topik/pola permintaan dari teks percakapan — nilai lebih untuk rubrik.
+
+**Langkah pengerjaan:**
+
+```
+1. Load ds2UtterancesClean.csv
+2. Kolom teks: messageClean (sudah bersih dari pipe scrub)
+3. Vectorize: TfidfVectorizer(max_features=5000, ngram_range=(1,2))
+4. LDA: LatentDirichletAllocation(n_components=5–10, random_state=42)
+5. Tampilkan top-10 kata per topik
+6. Assign dominant topic per utterance
+7. Plot: distribusi topik per issue_type
+8. Simpan: viz14_topic_distribution_nlp.png
+```
+
+### 9D. Evaluasi & Perbandingan Model [SELESAI] (Aziz)
+
+| Model | Dataset | Algoritma | Metrik Utama | Nilai | Pertanyaan Analitik |
+|-------|---------|-----------|--------------|-------|---------------------|
+| Klasifikasi Priority | DS1 | Random Forest | Accuracy | 0.6493 | PA-1, PA-4 |
+| Klasifikasi Priority | DS1 | Random Forest | Weighted F1 | 0.6534 | PA-1, PA-4 |
+| Klasifikasi Priority | DS1 | Random Forest | Macro F1 | 0.5809 | PA-1, PA-4 |
+| Klasifikasi Priority | DS1 | Decision Tree | Accuracy | 0.6504 | PA-1, PA-4 |
+| Klasifikasi Priority | DS1 | Decision Tree | Weighted F1 | 0.6536 | PA-1, PA-4 |
+| Klasifikasi Priority | DS1 | Decision Tree | Macro F1 | 0.5841 | PA-1, PA-4 |
+| Clustering Tiket | DS2 | K-Means (k=5) | Silhouette Score | 0.5903 | PA-2, PA-5 |
+| NLP Topic Modeling | DS2 Utterances | LDA (6 topik) | Distribusi topik | 6 topik teridentifikasi | PA-3 |
+
+**Model terpilih:** Random Forest (klasifikasi DS1) + K-Means k=5 (clustering DS2)  
+**Feature importance top-3:** `isHighPriority` (75.56%) → `seniorityLevel` (15.34%) → `resolutionDurationDays` (5.15%)
+
+### 9E. Laporan Sementara M-Model [SELESAI] (Aziz → Adam)
+
+Tersedia lengkap di sel markdown terakhir `04_model.ipynb` dengan:
+- 7 temuan utama dengan nilai aktual
+- Tabel profil 5 cluster (Cluster 0–4)
+- Rekomendasi spesifik untuk iNterpret (Cluster 1 = 100% slow, Cluster 2 = benchmark terbaik)
+- Tabel handoff lengkap semua artefak model beserta lokasi file
+
+---
+
+## Checklist Rubrik M - Model (15 poin) [SELESAI] (Aziz)
+
+> Referensi: skor 4 = minimal 2 model berbeda + preprocessing lengkap + evaluasi metrik yang tepat + interpretasi dikaitkan ke pertanyaan analitik
+
+- [x] Path dataset diperbaiki ke `ds1Clean.csv` dan `ds2IssuesClean.csv`
+- [x] Preprocessing fitur: encoding kategorikal (LabelEncoder), scaling numerik (StandardScaler)
+- [x] SMOTE hanya pada `X_train` — bukan seluruh dataset
+- [x] Model 1: klasifikasi prioritas DS1 — 2 algoritma dibandingkan (Random Forest + Decision Tree)
+- [x] Model 1: evaluasi classification_report (precision/recall/F1 per kelas)
+- [x] Model 1: confusion matrix divisualisasikan → `viz10_confusion_matrix_ds1.png`
+- [x] Model 1: feature importance → `viz11_feature_importance_ds1.png`
+- [x] Model 2: clustering DS2 — elbow method + silhouette score (k=2 sampai k=8)
+- [x] Model 2: profil tiap cluster (rata-rata fitur, % SLA violated per cluster)
+- [x] Model 2: visualisasi cluster → `viz12_elbow_cluster.png`, `viz13_cluster_profile_ds2.png`
+- [x] Tabel perbandingan semua model dengan nilai aktual (bukan placeholder)
+- [x] Interpretasi setiap model dikaitkan ke PA-1 s/d PA-5
+- [x] Laporan Sementara M-Model di akhir notebook (7 temuan + profil cluster + rekomendasi)
+- [x] Model 3 NLP — LDA topic modeling → `viz14_topic_distribution_nlp.png`
+- [x] Semua model disimpan sebagai PKL di `reports/models/` (RF, DT, K-Means, LDA, encoder, scaler)
+- [x] `ds2_with_clusters.csv` tersimpan untuk digunakan di `05_interpret.ipynb`
+- [ ] Notebook reproducible diverifikasi: Kernel → Restart & Run All tidak error (jalankan sendiri — Aziz)
