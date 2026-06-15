@@ -10,7 +10,7 @@ TEAL   = "#1D9E75"
 CORAL  = "#D85A30"
 ORANGE = "#E89B2A"
 
-SLA_THRESHOLD_H = 24
+SLA_THRESHOLD_H = 72  # konsisten dengan threshold 72h di notebook 03_explore.ipynb (viz3)
 
 @st.cache_data
 def load_ds1():
